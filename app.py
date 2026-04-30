@@ -71,9 +71,9 @@ def spots():
         ]
     )
 
-@app.route("/spots/<name>")
-def spot_detail(name):
-    return f"{name}の詳細" 
+# @app.route("/spots/<name>")
+# def spot_detail(name):
+#     return f"{name}の詳細" 
     # 上はテスト用本番は下を使用
     # return render_template("spot_detail.html", name=name)
 
@@ -122,9 +122,9 @@ def foods():
         ]
     )
 
-@app.route("/foods/<name>")
-def food_detail(name):
-    return f"{name}の詳細" 
+# @app.route("/foods/<name>")
+# def food_detail(name):
+#     return f"{name}の詳細" 
     # 上はテスト用本番は下を使用
     # return render_template("spot_detail.html", name=name)
 
@@ -227,4 +227,4 @@ def privacy():
 # ================
 if __name__ == '__main__':
     # freezer.freeze()
-    app.run(debug=True, port=5001)
+    app.run(debug=True, port=5000)
