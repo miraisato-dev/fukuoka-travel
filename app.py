@@ -14,8 +14,10 @@ import os
 # インスタンス生成
 # ================
 app = Flask(__name__)
+
 # flozen-flask
 # freezer = Freezer(app)
+
 app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY')
 
 # ================
@@ -50,15 +52,15 @@ def spots():
     ]
 
     spots_gallery = [
-        {"image": "spot/dontaku.jpg", "alt": "スポット2"},
-        {"image": "spot/jazz.jpg", "alt": "スポット3"},
-        {"image": "spot/kushdajinjya.jpg", "alt": "スポット4"},
-        {"image": "spot/maidurukouen.jpg", "alt": "スポット5"},
-        {"image": "spot/marineworld.jpg", "alt": "スポット6"},
-        {"image": "spot/nakasu.jpg", "alt": "スポット7"},
-        {"image": "spot/nemophila.jpg", "alt": "スポット8"},
-        {"image": "spot/nishinakasu.jpg", "alt": "スポット9"},
-        {"image": "spot/tenjinNishikouoen.jpg", "alt": "スポット10"}
+        {"image": "images/spot/dontaku.jpg", "alt": "博多どんたく", "title": "博多どんたく"},
+        {"image": "images/spot/jazz.jpg", "alt": "ジャズ", "title": "中州ジャズフェスティバル"},
+        {"image": "images/spot/kushdajinjya.jpg", "alt": "櫛田神社", "title": "櫛田神社"},
+        {"image": "images/spot/maidurukouen.jpg", "alt": "舞鶴公園", "title": "舞鶴公園"},
+        {"image": "images/spot/marineworld.jpg", "alt": "マリンワールド", "title": "マリンワールド"},
+        {"image": "images/spot/nakasu.jpg", "alt": "中洲", "title": "中洲"},
+        {"image": "images/spot/nemophila.jpg", "alt": "ネモフィラ", "title": "海の中道公園ネモフィラ"},
+        {"image": "images/spot/nishinakasu.jpg", "alt": "西中洲", "title": "西中洲"},
+        {"image": "images/spot/tenjinNishikouoen.jpg", "alt": "天神西公園", "title": "天神公園"}
     ]
 
     return render_template(
@@ -70,12 +72,6 @@ def spots():
             {"label": "スポット"}
         ]
     )
-
-# @app.route("/spots/<name>")
-# def spot_detail(name):
-#     return f"{name}の詳細" 
-    # 上はテスト用本番は下を使用
-    # return render_template("spot_detail.html", name=name)
 
 @app.route("/foods")
 def foods():
@@ -101,15 +97,15 @@ def foods():
     ]
 
     foods_gallery = [
-        {"image": "food/ramen02.jpg", "alt": "グルメ2"},
-        {"image": "food/ramen03.jpg", "alt": "グルメ3"},
-        {"image": "food/ramen5000yen.jpg", "alt": "グルメ4"},
-        {"image": "food/motsunabe02.jpg", "alt": "グルメ5"},
-        {"image": "food/motsunabe03.jpg", "alt": "グルメ6"},
-        {"image": "food/motsunabe04.jpg", "alt": "グルメ7"},
-        {"image": "food/mentai02.jpg", "alt": "グルメ8"},
-        {"image": "food/mentai03.jpg", "alt": "グルメ9"},
-        {"image": "food/mentai04.jpg", "alt": "グルメ10"}
+        {"image": "images/food/ramen02.jpg", "alt": "グルメ2", "title": "屋台ラーメン"},
+        {"image": "images/food/ramen03.jpg", "alt": "グルメ3", "title": "ラーメン"},
+        {"image": "images/food/ramen5000yen.jpg", "alt": "グルメ4", "title": "おしゃれラーメン"},
+        {"image": "images/food/motsunabe02.jpg", "alt": "グルメ5", "title": "もつ鍋（具材）"},
+        {"image": "images/food/motsunabe03.jpg", "alt": "グルメ6", "title": "もつ鍋（スープ）"},
+        {"image": "images/food/motsunabe04.jpg", "alt": "グルメ7", "title": "もつ鍋完成"},
+        {"image": "images/food/mentai02.jpg", "alt": "グルメ8", "title": "明太子パスタ"},
+        {"image": "images/food/mentai03.jpg", "alt": "グルメ9", "title": "明太子フランス"},
+        {"image": "images/food/mentai04.jpg", "alt": "グルメ10", "title": "じゃが明太"}
     ]
 
     return render_template(
@@ -128,7 +124,7 @@ def foods():
     # 上はテスト用本番は下を使用
     # return render_template("spot_detail.html", name=name)
 
-@app.route("/course")
+@app.route("/course/")
 def course():
     return render_template("" \
     "course.html",
