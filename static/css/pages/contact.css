@@ -130,7 +130,7 @@ select {
 }
 
 /* フォーカス */
-input:focus,
+.contact-container input:focus,
 textarea:focus,
 select:focus {
     border-color: var(--color-main);
@@ -144,7 +144,7 @@ textarea {
 }
 
 /* ボタン */
-input[type="submit"],
+.contact-container input[type="submit"],
 button[type="submit"] {
     /* margin-top: 30px; */
     padding: 12px;
@@ -184,7 +184,7 @@ button[type="submit"] {
     margin-top: 5px;
 }
 
-input[type="checkbox"] {
+.contact-container input[type="checkbox"] {
     /* accent-color: #1e90ff;
     width: auto;
     margin-right: 8px; */
@@ -196,13 +196,13 @@ input[type="checkbox"] {
     cursor: pointer;
 }
 
-input[type="checkbox"]:checked {
+.contact-container input[type="checkbox"]:checked {
     background: none;
     border-color: none;
 }
 
 /* チェックマーク */
-input[type="checkbox"]:checked::after {
+.contact-container input[type="checkbox"]:checked::after {
     content: "";
     position: absolute;
     top: 1px;
@@ -300,7 +300,8 @@ input[type="checkbox"]:checked::after {
     /* もし残ってたら消す */
 }
 
-form {
+/* 0502変更 */
+.contact-container form {
     width: 90%;
     max-width: 600px;
     margin: 0 auto;
@@ -396,7 +397,8 @@ form {
     display: none;
 }
 
-input[type="hidden"] {
+/* 0502変更 */
+.contact-container input[type="hidden"] {
     display: none !important;
     background: transparent !important;
     color: transparent !important;
@@ -465,16 +467,18 @@ input[type="hidden"] {
         padding: 20px;
     }
 
+    /* 0502変更 */
     /* フォーム幅調整 */
-    form {
+    .contact-container form {
         max-width: 600px;
         margin: 0 auto;
         padding: 0 15px;
     }
 
+    /* 0502変更 */
     /* 入力欄をスマホで押しやすく */
-    input[type="text"],
-    input[type="email"],
+    .contact-container input[type="text"],
+    .contact-container input[type="email"],
     textarea,
     select {
         font-size: 16px;
@@ -483,8 +487,9 @@ input[type="hidden"] {
         border-radius: 6px;
     }
 
+    /* 0502変更 */
     /* ボタン大きく */
-    input[type="submit"] {
+    .contact-container input[type="submit"] {
         font-size: 16px;
         padding: 14px;
     }
@@ -509,7 +514,8 @@ input[type="hidden"] {
             font-size: 15px;
         }
 
-        input,
+        /* 0502変更 */
+        .contact-container input,
         textarea,
         select {
             font-size: 16px;
