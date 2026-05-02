@@ -38,7 +38,7 @@
 .pankz a,
 .box01 a,
 .box02 a,
-.box03 a{
+.box03 a {
     background: none;
     padding: 0;
     border: none;
@@ -55,7 +55,9 @@
     /* もし残ってたら消す */
 }
 
-.box01 h1,.box03 h1,.box04 h1 {
+.box01 h1,
+.box03 h1,
+.box04 h1 {
     text-align: center;
     background-color: rgb(245, 245, 245);
     padding: 10px 12px;
@@ -64,8 +66,9 @@
     letter-spacing: 10px;
 }
 
-.box01 h1, .box04 h1 {
-    color:var(--color-main);
+.box01 h1,
+.box04 h1 {
+    color: var(--color-main);
 }
 
 .box02 {
@@ -109,10 +112,17 @@ textarea {
     border-radius: 10px;
     background: #fff;
     padding: 10px 12px;
-    width: 100%;
+    /* width: 100%; */
     box-sizing: border-box;
     outline: none;
     margin-top: 5px;
+}
+
+.contact-container input[type="text"],
+.contact-container input[type="email"],
+.contact-container input[type="tel"],
+.contact-container textarea {
+    width: 100%;
 }
 
 select {
@@ -161,7 +171,7 @@ button[type="submit"] {
     color: #fff;
     cursor: not-allowed;
     opacity: 0.7;
-    border:none;
+    border: none;
 }
 
 /* チェック後（押せる状態） */
@@ -496,24 +506,25 @@ input[type="hidden"] {
         font-size: 16px;
     }
 
-@media screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
 
-    body {
-        font-size: 13px;
-    }
+        body {
+            font-size: 13px;
+        }
 
-    h3 {
-        font-size: 15px;
-    }
+        h3 {
+            font-size: 15px;
+        }
 
-    input,
-    textarea,
-    select {
-        font-size: 16px;
-        /* ここは維持（ズーム防止） */
-    }
+        input,
+        textarea,
+        select {
+            font-size: 16px;
+            /* ここは維持（ズーム防止） */
+        }
 
-    .detail-table th {
-    width: 30%;
+        .detail-table th {
+            width: 30%;
+        }
     }
-}}
+}
