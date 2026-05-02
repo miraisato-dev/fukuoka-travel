@@ -391,11 +391,12 @@ footer {
     z-index: 3;
 }
 
-/* ４月２４日iphoneX表示用に追記 */
+/* ４月２４日iphoneX表示用に追記
+5/1に480pxから760px以下に変更 */
 /* ==========================================
     iPhoneXなどスマホ最適化（追加のみ）
    ========================================== */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 760px) {
 
     /* ▼ 横並び → 縦並び（ここが最重要） */
     .add-bg-history .row {
