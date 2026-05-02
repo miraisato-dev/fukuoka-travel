@@ -1,10 +1,11 @@
-<!-- templates/spots.html  安増さんが天気を追加してくれた -->
+<!-- templates/spots.html -->
 {% extends "base.html" %}
 
 {% set title = "福岡の観光スポット" %}
 
 {% block page_css %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/pages/foods.css') }}">
+<!-- 0502追記 -->
 <link rel="stylesheet" href="{{ url_for('static', filename='css/weather.css') }}">
 {% endblock %}
 
@@ -33,6 +34,7 @@
             <div class="col-md-7">
                 <h4>{{ spot.title }}
                     <span id="{{ spot.weather_id }}"></span>
+                    <!-- 0502追記 -->
                 </h4>
                 <p>{{ spot.text }}</p>
             </div>
@@ -48,6 +50,7 @@
             <div class="col-md-7">
                 <h4>{{ spot.title }}
                     <span id="{{ spot.weather_id }}"></span>
+                    <!-- 0502追記 -->
                 </h4>
                 <p>{{ spot.text }}</p>
             </div>
@@ -58,6 +61,7 @@
 </section>
 
 <!-- ギャラリー・観光 -->
+
 <section class="gallery">
     <div class="gallery-image">
         <img id="main-image" class="spot-img">
@@ -70,12 +74,10 @@
         <ul class="gallery-thumbnails">
             {% for g in gallery %}
             <li>
-                <img src="{{ url_for('static', filename=g.image) }}" alt="{{ g.alt }}" class="spot-img"
-                    data-title="{{ g.title }}">
+                <img src="{{ url_for('static', filename=g.image) }}" class="spot-img" data-title="{{ g.title }}">
             </li>
             {% endfor %}
         </ul>
-
     </div>
 </section>
 
@@ -85,13 +87,15 @@
 {% block scripts %}
 <!-- superでmain.jsを継承 -->
 {{ super() }}
+
 <script>
-    window.API_KEY = "{{ API_KEY }}";
+    window.API_KEY = "{{ API_KEY }}";  // 0502追記
 </script>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="{{ url_for('static', filename='js/food.js') }}"></script>
-<!-- <script>
+
+<script> // 0502 追記
     const spots = {{ spots | tojson }};
-</script> -->
+</script>
 {% endblock %}

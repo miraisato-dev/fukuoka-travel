@@ -31,8 +31,13 @@
 /* ===================
     Weather Icon用のJS 開始
 =================== */
-const API_KEY = "7e61ea741a419369742bac830ec6bc60";
+
 const CITY = "Fukuoka";
+const API_KEY = window.API_KEY;
+
+if (!API_KEY) {
+    console.error("API_KEYが設定されていません");
+}
 
 // ======================
 // ① ヘッダー用（都市）
@@ -88,18 +93,20 @@ async function getPlaceWeather(place, elementId) {
 // 起動
 // ======================
 document.addEventListener("DOMContentLoaded", () => {
-    getCityWeather();
+    // ヘッダー天気    
+    getCityWeather(); 
 
-    getPlaceWeather(
-        { lat: 33.5902, lon: 130.4017 },
-        "tenjin-weather"
-    );
-
-    getPlaceWeather(
-        { lat: 33.5898, lon: 130.4207 },
-        "hakata-weather"
-    );
+    // スポット天気
+    if (typeof spots !== "undefined") {
+        spots.forEach(spot => {
+            getPlaceWeather(
+                { lat: spot.lat, lon: spot.lon },
+                spot.weather_id
+            );
+        });
+    }
 });
+
 /* ===================
     Weather Icon用のJS 終了
 =================== */

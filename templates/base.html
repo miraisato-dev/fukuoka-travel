@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}{% endblock %}</title>
+    <title>{{ title }}</title>
 
     <!-- favicon -->
     <link rel="icon" href="{{ url_for('static', filename='icon/fav_ramen.svg') }}"> <!-- Web Fonts -->
@@ -52,6 +52,9 @@
 
     <!-- JS（最後に） -->
     {% block scripts %}
+    <script>
+        window.API_KEY = "{{ config.API_KEY or '' }}";
+    </script>
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
     {% endblock %}
 </body>

@@ -1,0 +1,1727 @@
+2026-05-02 19:49:29,150 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.2:5000
+2026-05-02 19:49:29,150 [INFO] [33mPress CTRL+C to quit[0m
+2026-05-02 19:49:39,234 [INFO] 192.0.0.2 - - [02/May/2026 19:49:39] "GET / HTTP/1.1" 200 -
+2026-05-02 19:49:39,257 [INFO] 192.0.0.2 - - [02/May/2026 19:49:39] "GET /static/css/components.css HTTP/1.1" 200 -
+2026-05-02 19:49:39,257 [INFO] 192.0.0.2 - - [02/May/2026 19:49:39] "GET /static/css/layout.css HTTP/1.1" 200 -
+2026-05-02 19:49:39,257 [INFO] 192.0.0.2 - - [02/May/2026 19:49:39] "GET /static/css/base/reset.css HTTP/1.1" 200 -
+2026-05-02 19:49:39,257 [INFO] 192.0.0.2 - - [02/May/2026 19:49:39] "GET /static/css/base/variables.css HTTP/1.1" 200 -
+2026-05-02 19:49:39,257 [INFO] 192.0.0.2 - - [02/May/2026 19:49:39] "GET /static/css/base/style.css HTTP/1.1" 200 -
+2026-05-02 19:49:39,258 [INFO] 192.0.0.2 - - [02/May/2026 19:49:39] "GET /static/css/pages/top.css HTTP/1.1" 200 -
+2026-05-02 19:49:39,260 [INFO] 192.0.0.2 - - [02/May/2026 19:49:39] "GET /static/js/top.js HTTP/1.1" 200 -
+2026-05-02 19:49:39,261 [INFO] 192.0.0.2 - - [02/May/2026 19:49:39] "GET /static/images/logo/logo-re.png HTTP/1.1" 200 -
+2026-05-02 19:49:39,261 [INFO] 192.0.0.2 - - [02/May/2026 19:49:39] "GET /static/images/top/fukuoka.jpg HTTP/1.1" 200 -
+2026-05-02 19:49:39,265 [INFO] 192.0.0.2 - - [02/May/2026 19:49:39] "GET /static/images/top/momochihama.jpg HTTP/1.1" 200 -
+2026-05-02 19:49:39,268 [INFO] 192.0.0.2 - - [02/May/2026 19:49:39] "GET /static/images/top/nakasu.jpg HTTP/1.1" 200 -
+2026-05-02 19:49:39,271 [INFO] 192.0.0.2 - - [02/May/2026 19:49:39] "GET /static/images/top/maizuru_park.jpg HTTP/1.1" 200 -
+2026-05-02 19:49:39,275 [INFO] 192.0.0.2 - - [02/May/2026 19:49:39] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-05-02 19:49:39,277 [INFO] 192.0.0.2 - - [02/May/2026 19:49:39] "GET /static/images/top/dontaku.jpg HTTP/1.1" 200 -
+2026-05-02 19:49:39,281 [INFO] 192.0.0.2 - - [02/May/2026 19:49:39] "GET /static/images/logo/title_logo.png HTTP/1.1" 200 -
+2026-05-02 19:49:39,281 [INFO] 192.0.0.2 - - [02/May/2026 19:49:39] "GET /static/icon/airplane_top.svg HTTP/1.1" 200 -
+2026-05-02 19:49:39,283 [INFO] 192.0.0.2 - - [02/May/2026 19:49:39] "GET /static/icon2/fukuoka.png HTTP/1.1" 200 -
+2026-05-02 19:49:39,283 [INFO] 192.0.0.2 - - [02/May/2026 19:49:39] "GET /static/icon2/folk.svg HTTP/1.1" 200 -
+2026-05-02 19:49:39,284 [INFO] 192.0.0.2 - - [02/May/2026 19:49:39] "GET /static/icon2/couple.svg HTTP/1.1" 200 -
+2026-05-02 19:49:39,285 [INFO] 192.0.0.2 - - [02/May/2026 19:49:39] "GET /static/icon2/car.svg HTTP/1.1" 200 -
+2026-05-02 19:49:39,285 [INFO] 192.0.0.2 - - [02/May/2026 19:49:39] "GET /static/icon2/mail.svg HTTP/1.1" 200 -
+2026-05-02 19:49:39,286 [INFO] 192.0.0.2 - - [02/May/2026 19:49:39] "GET /static/images/top/pick.png HTTP/1.1" 200 -
+2026-05-02 19:49:39,286 [INFO] 192.0.0.2 - - [02/May/2026 19:49:39] "GET /static/images/top/couple.jpg HTTP/1.1" 200 -
+2026-05-02 19:49:39,289 [INFO] 192.0.0.2 - - [02/May/2026 19:49:39] "GET /static/images/top/yata.jpg HTTP/1.1" 200 -
+2026-05-02 19:49:43,235 [INFO] 192.0.0.2 - - [02/May/2026 19:49:43] "GET /static/icon/fav_ramen.svg HTTP/1.1" 200 -
+2026-05-02 19:49:49,299 [INFO] 192.0.0.2 - - [02/May/2026 19:49:49] "GET /spots HTTP/1.1" 200 -
+2026-05-02 19:49:49,306 [INFO] 192.0.0.2 - - [02/May/2026 19:49:49] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 19:49:49,312 [INFO] 192.0.0.2 - - [02/May/2026 19:49:49] "[33mGET /static/css/weather.css HTTP/1.1[0m" 404 -
+2026-05-02 19:49:49,313 [INFO] 192.0.0.2 - - [02/May/2026 19:49:49] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 19:49:49,313 [INFO] 192.0.0.2 - - [02/May/2026 19:49:49] "GET /static/css/pages/foods.css HTTP/1.1" 200 -
+2026-05-02 19:49:49,314 [INFO] 192.0.0.2 - - [02/May/2026 19:49:49] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 19:49:49,316 [INFO] 192.0.0.2 - - [02/May/2026 19:49:49] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 19:49:49,317 [INFO] 192.0.0.2 - - [02/May/2026 19:49:49] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 19:49:49,317 [INFO] 192.0.0.2 - - [02/May/2026 19:49:49] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 19:49:49,322 [INFO] 192.0.0.2 - - [02/May/2026 19:49:49] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 19:49:49,322 [INFO] 192.0.0.2 - - [02/May/2026 19:49:49] "GET /static/js/food.js HTTP/1.1" 200 -
+2026-05-02 19:49:49,345 [INFO] 192.0.0.2 - - [02/May/2026 19:49:49] "GET /static/images/spot/dazaifutenmangu.jpg HTTP/1.1" 200 -
+2026-05-02 19:49:49,346 [INFO] 192.0.0.2 - - [02/May/2026 19:49:49] "GET /static/images/spot/ohorikouen.jpg HTTP/1.1" 200 -
+2026-05-02 19:49:49,348 [INFO] 192.0.0.2 - - [02/May/2026 19:49:49] "[33mGET /static/images/images/spot/dontaku.jpg HTTP/1.1[0m" 404 -
+2026-05-02 19:49:49,349 [INFO] 192.0.0.2 - - [02/May/2026 19:49:49] "GET /static/images/spot/momochihama.jpg HTTP/1.1" 200 -
+2026-05-02 19:49:49,349 [INFO] 192.0.0.2 - - [02/May/2026 19:49:49] "GET /static/images/spot/dontaku.jpg HTTP/1.1" 200 -
+2026-05-02 19:49:49,349 [INFO] 192.0.0.2 - - [02/May/2026 19:49:49] "[33mGET /static/images/images/spot/jazz.jpg HTTP/1.1[0m" 404 -
+2026-05-02 19:49:50,223 [INFO] 192.0.0.2 - - [02/May/2026 19:49:50] "[33mGET /static/images/images/spot/marineworld.jpg HTTP/1.1[0m" 404 -
+2026-05-02 19:49:50,223 [INFO] 192.0.0.2 - - [02/May/2026 19:49:50] "[33mGET /static/images/images/spot/kushdajinjya.jpg HTTP/1.1[0m" 404 -
+2026-05-02 19:49:50,223 [INFO] 192.0.0.2 - - [02/May/2026 19:49:50] "[33mGET /static/images/images/spot/maidurukouen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 19:49:50,224 [INFO] 192.0.0.2 - - [02/May/2026 19:49:50] "[33mGET /static/images/images/spot/nakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 19:49:50,225 [INFO] 192.0.0.2 - - [02/May/2026 19:49:50] "[33mGET /static/images/images/spot/nemophila.jpg HTTP/1.1[0m" 404 -
+2026-05-02 19:49:50,228 [INFO] 192.0.0.2 - - [02/May/2026 19:49:50] "[33mGET /static/images/images/spot/tenjinNishikouoen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 19:49:50,227 [INFO] 192.0.0.2 - - [02/May/2026 19:49:50] "[33mGET /static/images/images/spot/nishinakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 19:49:50,229 [INFO] 192.0.0.2 - - [02/May/2026 19:49:50] "[33mGET /static/images/images/spot/dontaku.jpg HTTP/1.1[0m" 404 -
+2026-05-02 19:49:53,023 [INFO] 192.0.0.2 - - [02/May/2026 19:49:53] "[33mGET /static/images/images/spot/dontaku.jpg HTTP/1.1[0m" 404 -
+2026-05-02 19:49:53,056 [INFO] 192.0.0.2 - - [02/May/2026 19:49:53] "[33mGET /static/images/images/spot/jazz.jpg HTTP/1.1[0m" 404 -
+2026-05-02 19:49:55,679 [INFO] 192.0.0.2 - - [02/May/2026 19:49:55] "GET /foods HTTP/1.1" 200 -
+2026-05-02 19:49:56,006 [INFO] 192.0.0.2 - - [02/May/2026 19:49:56] "[33mGET /static/images/images/spot/maidurukouen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 19:49:56,228 [INFO] 192.0.0.2 - - [02/May/2026 19:49:56] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 19:49:56,229 [INFO] 192.0.0.2 - - [02/May/2026 19:49:56] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 19:49:56,229 [INFO] 192.0.0.2 - - [02/May/2026 19:49:56] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 19:49:56,231 [INFO] 192.0.0.2 - - [02/May/2026 19:49:56] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 19:49:56,232 [INFO] 192.0.0.2 - - [02/May/2026 19:49:56] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 19:49:56,233 [INFO] 192.0.0.2 - - [02/May/2026 19:49:56] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 19:49:56,233 [INFO] 192.0.0.2 - - [02/May/2026 19:49:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 19:49:56,237 [INFO] 192.0.0.2 - - [02/May/2026 19:49:56] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 19:49:56,239 [INFO] 192.0.0.2 - - [02/May/2026 19:49:56] "GET /static/images/food/ramen02.jpg HTTP/1.1" 200 -
+2026-05-02 19:49:56,239 [INFO] 192.0.0.2 - - [02/May/2026 19:49:56] "GET /static/images/food/ramen03.jpg HTTP/1.1" 200 -
+2026-05-02 19:49:56,240 [INFO] 192.0.0.2 - - [02/May/2026 19:49:56] "[36mGET /static/js/food.js HTTP/1.1[0m" 304 -
+2026-05-02 19:49:56,240 [INFO] 192.0.0.2 - - [02/May/2026 19:49:56] "GET /static/images/food/motsunabe02.jpg HTTP/1.1" 200 -
+2026-05-02 19:49:56,239 [INFO] 192.0.0.2 - - [02/May/2026 19:49:56] "GET /static/images/food/ramen5000yen.jpg HTTP/1.1" 200 -
+2026-05-02 19:49:56,244 [INFO] 192.0.0.2 - - [02/May/2026 19:49:56] "GET /static/images/food/motsunabe03.jpg HTTP/1.1" 200 -
+2026-05-02 19:49:56,245 [INFO] 192.0.0.2 - - [02/May/2026 19:49:56] "GET /static/images/food/motsunabe04.jpg HTTP/1.1" 200 -
+2026-05-02 19:49:56,249 [INFO] 192.0.0.2 - - [02/May/2026 19:49:56] "GET /static/images/food/mentai02.jpg HTTP/1.1" 200 -
+2026-05-02 19:49:56,252 [INFO] 192.0.0.2 - - [02/May/2026 19:49:56] "GET /static/images/food/mentai03.jpg HTTP/1.1" 200 -
+2026-05-02 19:49:56,252 [INFO] 192.0.0.2 - - [02/May/2026 19:49:56] "GET /static/images/food/mentai04.jpg HTTP/1.1" 200 -
+2026-05-02 19:49:56,272 [INFO] 192.0.0.2 - - [02/May/2026 19:49:56] "GET /static/images/food/ramen01.jpg HTTP/1.1" 200 -
+2026-05-02 19:49:56,274 [INFO] 192.0.0.2 - - [02/May/2026 19:49:56] "GET /static/images/food/motsunabe01.jpg HTTP/1.1" 200 -
+2026-05-02 19:49:56,275 [INFO] 192.0.0.2 - - [02/May/2026 19:49:56] "GET /static/images/food/mentai01.jpg HTTP/1.1" 200 -
+2026-05-02 19:50:01,161 [INFO] 192.0.0.2 - - [02/May/2026 19:50:01] "GET /course/ HTTP/1.1" 200 -
+2026-05-02 19:50:01,173 [INFO] 192.0.0.2 - - [02/May/2026 19:50:01] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 19:50:01,177 [INFO] 192.0.0.2 - - [02/May/2026 19:50:01] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 19:50:01,177 [INFO] 192.0.0.2 - - [02/May/2026 19:50:01] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 19:50:01,177 [INFO] 192.0.0.2 - - [02/May/2026 19:50:01] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 19:50:01,179 [INFO] 192.0.0.2 - - [02/May/2026 19:50:01] "GET /static/css/pages/course.css HTTP/1.1" 200 -
+2026-05-02 19:50:01,180 [INFO] 192.0.0.2 - - [02/May/2026 19:50:01] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 19:50:01,180 [INFO] 192.0.0.2 - - [02/May/2026 19:50:01] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 19:50:01,181 [INFO] 192.0.0.2 - - [02/May/2026 19:50:01] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 19:50:01,235 [INFO] 192.0.0.2 - - [02/May/2026 19:50:01] "GET /static/images/course/date1.png HTTP/1.1" 200 -
+2026-05-02 19:50:01,235 [INFO] 192.0.0.2 - - [02/May/2026 19:50:01] "GET /static/images/course/date2.png HTTP/1.1" 200 -
+2026-05-02 19:50:01,236 [INFO] 192.0.0.2 - - [02/May/2026 19:50:01] "GET /static/images/course/date3.png HTTP/1.1" 200 -
+2026-05-02 19:50:01,238 [INFO] 192.0.0.2 - - [02/May/2026 19:50:01] "GET /static/images/course/date4.png HTTP/1.1" 200 -
+2026-05-02 19:50:01,239 [INFO] 192.0.0.2 - - [02/May/2026 19:50:01] "GET /static/images/course/date5.png HTTP/1.1" 200 -
+2026-05-02 19:50:07,964 [INFO] 192.0.0.2 - - [02/May/2026 19:50:07] "GET /access HTTP/1.1" 200 -
+2026-05-02 19:50:07,971 [INFO] 192.0.0.2 - - [02/May/2026 19:50:07] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 19:50:07,972 [INFO] 192.0.0.2 - - [02/May/2026 19:50:07] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 19:50:07,974 [INFO] 192.0.0.2 - - [02/May/2026 19:50:07] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 19:50:07,976 [INFO] 192.0.0.2 - - [02/May/2026 19:50:07] "GET /static/css/pages/access.css HTTP/1.1" 200 -
+2026-05-02 19:50:07,977 [INFO] 192.0.0.2 - - [02/May/2026 19:50:07] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 19:50:07,978 [INFO] 192.0.0.2 - - [02/May/2026 19:50:07] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 19:50:07,979 [INFO] 192.0.0.2 - - [02/May/2026 19:50:07] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 19:50:07,981 [INFO] 192.0.0.2 - - [02/May/2026 19:50:07] "GET /static/icon/airplane.svg HTTP/1.1" 200 -
+2026-05-02 19:50:07,982 [INFO] 192.0.0.2 - - [02/May/2026 19:50:07] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 19:50:07,982 [INFO] 192.0.0.2 - - [02/May/2026 19:50:07] "GET /static/icon/train.svg HTTP/1.1" 200 -
+2026-05-02 19:50:07,983 [INFO] 192.0.0.2 - - [02/May/2026 19:50:07] "GET /static/icon/subway.svg HTTP/1.1" 200 -
+2026-05-02 19:50:07,983 [INFO] 192.0.0.2 - - [02/May/2026 19:50:07] "GET /static/icon/bus.svg HTTP/1.1" 200 -
+2026-05-02 19:50:07,985 [INFO] 192.0.0.2 - - [02/May/2026 19:50:07] "GET /static/icon/car.svg HTTP/1.1" 200 -
+2026-05-02 19:50:07,985 [INFO] 192.0.0.2 - - [02/May/2026 19:50:07] "GET /static/icon/tori.svg HTTP/1.1" 200 -
+2026-05-02 19:50:07,986 [INFO] 192.0.0.2 - - [02/May/2026 19:50:07] "GET /static/icon/tower.svg HTTP/1.1" 200 -
+2026-05-02 19:50:07,986 [INFO] 192.0.0.2 - - [02/May/2026 19:50:07] "GET /static/icon/ramen.svg HTTP/1.1" 200 -
+2026-05-02 19:50:07,986 [INFO] 192.0.0.2 - - [02/May/2026 19:50:07] "GET /static/icon/cake.svg HTTP/1.1" 200 -
+2026-05-02 19:50:07,988 [INFO] 192.0.0.2 - - [02/May/2026 19:50:07] "GET /static/icon/wine.svg HTTP/1.1" 200 -
+2026-05-02 19:50:07,988 [INFO] 192.0.0.2 - - [02/May/2026 19:50:07] "GET /static/icon/pasta.svg HTTP/1.1" 200 -
+2026-05-02 19:50:07,988 [INFO] 192.0.0.2 - - [02/May/2026 19:50:07] "GET /static/icon/nabe.svg HTTP/1.1" 200 -
+2026-05-02 19:50:08,017 [INFO] 192.0.0.2 - - [02/May/2026 19:50:08] "GET /static/images/access/fukuoka.jpg HTTP/1.1" 200 -
+2026-05-02 19:50:12,748 [INFO] 192.0.0.2 - - [02/May/2026 19:50:12] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 19:50:12,748 [INFO] 192.0.0.2 - - [02/May/2026 19:50:12] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 19:50:12,749 [INFO] 192.0.0.2 - - [02/May/2026 19:50:12] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 19:50:12,750 [INFO] 192.0.0.2 - - [02/May/2026 19:50:12] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 19:50:12,752 [INFO] 192.0.0.2 - - [02/May/2026 19:50:12] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 19:50:12,752 [INFO] 192.0.0.2 - - [02/May/2026 19:50:12] "[36mGET /static/css/pages/access.css HTTP/1.1[0m" 304 -
+2026-05-02 19:53:57,844 [INFO] 192.0.0.2 - - [02/May/2026 19:53:57] "GET /access HTTP/1.1" 200 -
+2026-05-02 19:53:57,862 [INFO] 192.0.0.2 - - [02/May/2026 19:53:57] "GET /static/css/base/reset.css HTTP/1.1" 200 -
+2026-05-02 19:53:57,865 [INFO] 192.0.0.2 - - [02/May/2026 19:53:57] "GET /static/css/base/variables.css HTTP/1.1" 200 -
+2026-05-02 19:53:57,866 [INFO] 192.0.0.2 - - [02/May/2026 19:53:57] "GET /static/css/layout.css HTTP/1.1" 200 -
+2026-05-02 19:53:57,883 [INFO] 192.0.0.2 - - [02/May/2026 19:53:57] "GET /static/css/components.css HTTP/1.1" 200 -
+2026-05-02 19:53:57,884 [INFO] 192.0.0.2 - - [02/May/2026 19:53:57] "GET /static/css/base/style.css HTTP/1.1" 200 -
+2026-05-02 19:53:57,894 [INFO] 192.0.0.2 - - [02/May/2026 19:53:57] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-05-02 19:53:57,894 [INFO] 192.0.0.2 - - [02/May/2026 19:53:57] "GET /static/css/pages/access.css HTTP/1.1" 200 -
+2026-05-02 19:53:57,898 [INFO] 192.0.0.2 - - [02/May/2026 19:53:57] "GET /static/images/logo/logo-re.png HTTP/1.1" 200 -
+2026-05-02 19:53:57,902 [INFO] 192.0.0.2 - - [02/May/2026 19:53:57] "GET /static/icon/airplane.svg HTTP/1.1" 200 -
+2026-05-02 19:53:57,902 [INFO] 192.0.0.2 - - [02/May/2026 19:53:57] "GET /static/icon/train.svg HTTP/1.1" 200 -
+2026-05-02 19:53:57,906 [INFO] 192.0.0.2 - - [02/May/2026 19:53:57] "GET /static/icon/subway.svg HTTP/1.1" 200 -
+2026-05-02 19:53:57,906 [INFO] 192.0.0.2 - - [02/May/2026 19:53:57] "GET /static/icon/bus.svg HTTP/1.1" 200 -
+2026-05-02 19:53:57,908 [INFO] 192.0.0.2 - - [02/May/2026 19:53:57] "GET /static/icon/tori.svg HTTP/1.1" 200 -
+2026-05-02 19:53:57,909 [INFO] 192.0.0.2 - - [02/May/2026 19:53:57] "GET /static/icon/car.svg HTTP/1.1" 200 -
+2026-05-02 19:53:57,911 [INFO] 192.0.0.2 - - [02/May/2026 19:53:57] "GET /static/icon/tower.svg HTTP/1.1" 200 -
+2026-05-02 19:53:57,911 [INFO] 192.0.0.2 - - [02/May/2026 19:53:57] "GET /static/icon/ramen.svg HTTP/1.1" 200 -
+2026-05-02 19:53:57,915 [INFO] 192.0.0.2 - - [02/May/2026 19:53:57] "GET /static/icon/cake.svg HTTP/1.1" 200 -
+2026-05-02 19:53:57,917 [INFO] 192.0.0.2 - - [02/May/2026 19:53:57] "GET /static/icon/nabe.svg HTTP/1.1" 200 -
+2026-05-02 19:53:57,917 [INFO] 192.0.0.2 - - [02/May/2026 19:53:57] "GET /static/icon/pasta.svg HTTP/1.1" 200 -
+2026-05-02 19:53:57,919 [INFO] 192.0.0.2 - - [02/May/2026 19:53:57] "GET /static/icon/wine.svg HTTP/1.1" 200 -
+2026-05-02 19:54:01,536 [INFO] 192.0.0.2 - - [02/May/2026 19:54:01] "GET /static/icon/fav_ramen.svg HTTP/1.1" 200 -
+2026-05-02 19:55:44,626 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.2:5000
+2026-05-02 19:55:44,626 [INFO] [33mPress CTRL+C to quit[0m
+2026-05-02 19:59:13,775 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.2:5000
+2026-05-02 19:59:13,775 [INFO] [33mPress CTRL+C to quit[0m
+2026-05-02 19:59:47,937 [INFO] 127.0.0.1 - - [02/May/2026 19:59:47] "GET / HTTP/1.1" 200 -
+2026-05-02 19:59:47,949 [INFO] 127.0.0.1 - - [02/May/2026 19:59:47] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 19:59:47,949 [INFO] 127.0.0.1 - - [02/May/2026 19:59:47] "GET /static/css/components.css HTTP/1.1" 200 -
+2026-05-02 19:59:47,949 [INFO] 127.0.0.1 - - [02/May/2026 19:59:47] "[36mGET /static/css/pages/top.css HTTP/1.1[0m" 304 -
+2026-05-02 19:59:47,949 [INFO] 127.0.0.1 - - [02/May/2026 19:59:47] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 19:59:47,951 [INFO] 127.0.0.1 - - [02/May/2026 19:59:47] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 19:59:47,952 [INFO] 127.0.0.1 - - [02/May/2026 19:59:47] "[36mGET /static/js/top.js HTTP/1.1[0m" 304 -
+2026-05-02 19:59:47,954 [INFO] 127.0.0.1 - - [02/May/2026 19:59:47] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 19:59:47,955 [INFO] 127.0.0.1 - - [02/May/2026 19:59:47] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 19:59:47,956 [INFO] 127.0.0.1 - - [02/May/2026 19:59:47] "[36mGET /static/images/top/fukuoka.jpg HTTP/1.1[0m" 304 -
+2026-05-02 19:59:47,957 [INFO] 127.0.0.1 - - [02/May/2026 19:59:47] "[36mGET /static/images/top/nakasu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 19:59:47,958 [INFO] 127.0.0.1 - - [02/May/2026 19:59:47] "[36mGET /static/images/top/momochihama.jpg HTTP/1.1[0m" 304 -
+2026-05-02 19:59:47,959 [INFO] 127.0.0.1 - - [02/May/2026 19:59:47] "[36mGET /static/images/top/maizuru_park.jpg HTTP/1.1[0m" 304 -
+2026-05-02 19:59:47,961 [INFO] 127.0.0.1 - - [02/May/2026 19:59:47] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-05-02 19:59:47,961 [INFO] 127.0.0.1 - - [02/May/2026 19:59:47] "[36mGET /static/images/top/dontaku.jpg HTTP/1.1[0m" 304 -
+2026-05-02 19:59:47,964 [INFO] 127.0.0.1 - - [02/May/2026 19:59:47] "[36mGET /static/images/logo/title_logo.png HTTP/1.1[0m" 304 -
+2026-05-02 19:59:47,964 [INFO] 127.0.0.1 - - [02/May/2026 19:59:47] "[36mGET /static/icon/airplane_top.svg HTTP/1.1[0m" 304 -
+2026-05-02 19:59:47,966 [INFO] 127.0.0.1 - - [02/May/2026 19:59:47] "[36mGET /static/icon2/fukuoka.png HTTP/1.1[0m" 304 -
+2026-05-02 19:59:47,966 [INFO] 127.0.0.1 - - [02/May/2026 19:59:47] "[36mGET /static/icon2/folk.svg HTTP/1.1[0m" 304 -
+2026-05-02 19:59:47,966 [INFO] 127.0.0.1 - - [02/May/2026 19:59:47] "[36mGET /static/icon2/couple.svg HTTP/1.1[0m" 304 -
+2026-05-02 19:59:47,969 [INFO] 127.0.0.1 - - [02/May/2026 19:59:47] "[36mGET /static/icon2/mail.svg HTTP/1.1[0m" 304 -
+2026-05-02 19:59:47,969 [INFO] 127.0.0.1 - - [02/May/2026 19:59:47] "[36mGET /static/icon2/car.svg HTTP/1.1[0m" 304 -
+2026-05-02 19:59:47,970 [INFO] 127.0.0.1 - - [02/May/2026 19:59:47] "[36mGET /static/images/top/pick.png HTTP/1.1[0m" 304 -
+2026-05-02 19:59:47,973 [INFO] 127.0.0.1 - - [02/May/2026 19:59:47] "[36mGET /static/images/top/couple.jpg HTTP/1.1[0m" 304 -
+2026-05-02 19:59:47,974 [INFO] 127.0.0.1 - - [02/May/2026 19:59:47] "[36mGET /static/images/top/yata.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:00:02,592 [INFO] 127.0.0.1 - - [02/May/2026 20:00:02] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:00:02,592 [INFO] 127.0.0.1 - - [02/May/2026 20:00:02] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:00:02,595 [INFO] 127.0.0.1 - - [02/May/2026 20:00:02] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:00:02,596 [INFO] 127.0.0.1 - - [02/May/2026 20:00:02] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:00:02,597 [INFO] 127.0.0.1 - - [02/May/2026 20:00:02] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:00:02,598 [INFO] 127.0.0.1 - - [02/May/2026 20:00:02] "[36mGET /static/css/pages/top.css HTTP/1.1[0m" 304 -
+2026-05-02 20:00:02,600 [INFO] 127.0.0.1 - - [02/May/2026 20:00:02] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-05-02 20:02:02,176 [INFO] 192.0.0.2 - - [02/May/2026 20:02:02] "GET /access HTTP/1.1" 200 -
+2026-05-02 20:02:02,193 [INFO] 192.0.0.2 - - [02/May/2026 20:02:02] "GET /static/css/base/reset.css HTTP/1.1" 200 -
+2026-05-02 20:02:02,197 [INFO] 192.0.0.2 - - [02/May/2026 20:02:02] "GET /static/css/layout.css HTTP/1.1" 200 -
+2026-05-02 20:02:02,197 [INFO] 192.0.0.2 - - [02/May/2026 20:02:02] "GET /static/css/base/variables.css HTTP/1.1" 200 -
+2026-05-02 20:02:02,199 [INFO] 192.0.0.2 - - [02/May/2026 20:02:02] "GET /static/css/base/style.css HTTP/1.1" 200 -
+2026-05-02 20:02:02,199 [INFO] 192.0.0.2 - - [02/May/2026 20:02:02] "GET /static/css/components.css HTTP/1.1" 200 -
+2026-05-02 20:02:02,200 [INFO] 192.0.0.2 - - [02/May/2026 20:02:02] "GET /static/css/pages/access.css HTTP/1.1" 200 -
+2026-05-02 20:02:02,207 [INFO] 192.0.0.2 - - [02/May/2026 20:02:02] "GET /static/icon/airplane.svg HTTP/1.1" 200 -
+2026-05-02 20:02:02,208 [INFO] 192.0.0.2 - - [02/May/2026 20:02:02] "GET /static/images/logo/logo-re.png HTTP/1.1" 200 -
+2026-05-02 20:02:02,211 [INFO] 192.0.0.2 - - [02/May/2026 20:02:02] "GET /static/icon/subway.svg HTTP/1.1" 200 -
+2026-05-02 20:02:02,214 [INFO] 192.0.0.2 - - [02/May/2026 20:02:02] "GET /static/icon/train.svg HTTP/1.1" 200 -
+2026-05-02 20:02:02,214 [INFO] 192.0.0.2 - - [02/May/2026 20:02:02] "GET /static/icon/wine.svg HTTP/1.1" 200 -
+2026-05-02 20:02:02,218 [INFO] 192.0.0.2 - - [02/May/2026 20:02:02] "GET /static/icon/bus.svg HTTP/1.1" 200 -
+2026-05-02 20:02:02,218 [INFO] 192.0.0.2 - - [02/May/2026 20:02:02] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-05-02 20:02:02,223 [INFO] 192.0.0.2 - - [02/May/2026 20:02:02] "GET /static/icon/car.svg HTTP/1.1" 200 -
+2026-05-02 20:02:02,223 [INFO] 192.0.0.2 - - [02/May/2026 20:02:02] "GET /static/icon/tori.svg HTTP/1.1" 200 -
+2026-05-02 20:02:02,226 [INFO] 192.0.0.2 - - [02/May/2026 20:02:02] "GET /static/icon/tower.svg HTTP/1.1" 200 -
+2026-05-02 20:02:02,226 [INFO] 192.0.0.2 - - [02/May/2026 20:02:02] "GET /static/icon/ramen.svg HTTP/1.1" 200 -
+2026-05-02 20:02:02,229 [INFO] 192.0.0.2 - - [02/May/2026 20:02:02] "GET /static/icon/cake.svg HTTP/1.1" 200 -
+2026-05-02 20:02:02,229 [INFO] 192.0.0.2 - - [02/May/2026 20:02:02] "GET /static/icon/nabe.svg HTTP/1.1" 200 -
+2026-05-02 20:02:02,231 [INFO] 192.0.0.2 - - [02/May/2026 20:02:02] "GET /static/icon/pasta.svg HTTP/1.1" 200 -
+2026-05-02 20:02:04,840 [INFO] 192.0.0.2 - - [02/May/2026 20:02:04] "GET /static/icon/fav_ramen.svg HTTP/1.1" 200 -
+2026-05-02 20:02:15,345 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.2:5000
+2026-05-02 20:02:15,345 [INFO] [33mPress CTRL+C to quit[0m
+2026-05-02 20:02:21,950 [INFO] 192.0.0.2 - - [02/May/2026 20:02:21] "GET / HTTP/1.1" 200 -
+2026-05-02 20:02:21,960 [INFO] 192.0.0.2 - - [02/May/2026 20:02:21] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:02:21,963 [INFO] 192.0.0.2 - - [02/May/2026 20:02:21] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:02:21,964 [INFO] 192.0.0.2 - - [02/May/2026 20:02:21] "[36mGET /static/css/pages/top.css HTTP/1.1[0m" 304 -
+2026-05-02 20:02:21,965 [INFO] 192.0.0.2 - - [02/May/2026 20:02:21] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:02:21,965 [INFO] 192.0.0.2 - - [02/May/2026 20:02:21] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:02:21,965 [INFO] 192.0.0.2 - - [02/May/2026 20:02:21] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:02:21,966 [INFO] 192.0.0.2 - - [02/May/2026 20:02:21] "[36mGET /static/js/top.js HTTP/1.1[0m" 304 -
+2026-05-02 20:02:21,969 [INFO] 192.0.0.2 - - [02/May/2026 20:02:21] "[36mGET /static/images/top/fukuoka.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:02:21,970 [INFO] 192.0.0.2 - - [02/May/2026 20:02:21] "[36mGET /static/images/top/momochihama.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:02:21,971 [INFO] 192.0.0.2 - - [02/May/2026 20:02:21] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:02:21,975 [INFO] 192.0.0.2 - - [02/May/2026 20:02:21] "[36mGET /static/images/top/maizuru_park.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:02:21,976 [INFO] 192.0.0.2 - - [02/May/2026 20:02:21] "[36mGET /static/images/top/nakasu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:02:21,977 [INFO] 192.0.0.2 - - [02/May/2026 20:02:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:02:21,979 [INFO] 192.0.0.2 - - [02/May/2026 20:02:21] "[36mGET /static/images/top/dontaku.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:02:21,980 [INFO] 192.0.0.2 - - [02/May/2026 20:02:21] "[36mGET /static/images/logo/title_logo.png HTTP/1.1[0m" 304 -
+2026-05-02 20:02:21,980 [INFO] 192.0.0.2 - - [02/May/2026 20:02:21] "[36mGET /static/icon/airplane_top.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:02:21,981 [INFO] 192.0.0.2 - - [02/May/2026 20:02:21] "[36mGET /static/icon2/fukuoka.png HTTP/1.1[0m" 304 -
+2026-05-02 20:02:21,982 [INFO] 192.0.0.2 - - [02/May/2026 20:02:21] "[36mGET /static/icon2/folk.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:02:21,983 [INFO] 192.0.0.2 - - [02/May/2026 20:02:21] "[36mGET /static/icon2/couple.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:02:21,983 [INFO] 192.0.0.2 - - [02/May/2026 20:02:21] "[36mGET /static/icon2/car.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:02:21,984 [INFO] 192.0.0.2 - - [02/May/2026 20:02:21] "[36mGET /static/icon2/mail.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:02:21,984 [INFO] 192.0.0.2 - - [02/May/2026 20:02:21] "[36mGET /static/images/top/pick.png HTTP/1.1[0m" 304 -
+2026-05-02 20:02:21,984 [INFO] 192.0.0.2 - - [02/May/2026 20:02:21] "[36mGET /static/images/top/couple.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:02:21,985 [INFO] 192.0.0.2 - - [02/May/2026 20:02:21] "[36mGET /static/images/top/yata.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:02:24,049 [INFO] 192.0.0.2 - - [02/May/2026 20:02:24] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:02:24,050 [INFO] 192.0.0.2 - - [02/May/2026 20:02:24] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:02:24,053 [INFO] 192.0.0.2 - - [02/May/2026 20:02:24] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:02:24,054 [INFO] 192.0.0.2 - - [02/May/2026 20:02:24] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:02:24,055 [INFO] 192.0.0.2 - - [02/May/2026 20:02:24] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:02:24,057 [INFO] 192.0.0.2 - - [02/May/2026 20:02:24] "[36mGET /static/css/pages/top.css HTTP/1.1[0m" 304 -
+2026-05-02 20:02:33,303 [ERROR] Exception on /contact [GET]
+Traceback (most recent call last):
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/miraisato/Desktop/fukuoka-travel/app.py", line 195, in contact
+    form = UserInfoForm()
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/wtforms/form.py", line 209, in __call__
+    return type.__call__(cls, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask_wtf/form.py", line 73, in __init__
+    super().__init__(formdata=formdata, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/wtforms/form.py", line 287, in __init__
+    self.process(formdata, obj, data=data, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/wtforms/form.py", line 128, in process
+    field.process(formdata, data, extra_filters=field_extra_filters)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/wtforms/csrf/core.py", line 44, in process
+    self.current_token = self.csrf_impl.generate_csrf_token(self)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask_wtf/csrf.py", line 147, in generate_csrf_token
+    return generate_csrf(
+        secret_key=self.meta.csrf_secret, token_key=self.meta.csrf_field_name
+    )
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask_wtf/csrf.py", line 36, in generate_csrf
+    secret_key = _get_config(
+        secret_key,
+    ...<2 lines>...
+        message="A secret key is required to use CSRF.",
+    )
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask_wtf/csrf.py", line 136, in _get_config
+    raise RuntimeError(message)
+RuntimeError: A secret key is required to use CSRF.
+2026-05-02 20:02:33,309 [INFO] 192.0.0.2 - - [02/May/2026 20:02:33] "[35m[1mGET /contact HTTP/1.1[0m" 500 -
+2026-05-02 20:02:33,323 [INFO] 192.0.0.2 - - [02/May/2026 20:02:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-02 20:02:37,804 [ERROR] Exception on /contact [GET]
+Traceback (most recent call last):
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/miraisato/Desktop/fukuoka-travel/app.py", line 195, in contact
+    form = UserInfoForm()
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/wtforms/form.py", line 209, in __call__
+    return type.__call__(cls, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask_wtf/form.py", line 73, in __init__
+    super().__init__(formdata=formdata, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/wtforms/form.py", line 287, in __init__
+    self.process(formdata, obj, data=data, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/wtforms/form.py", line 128, in process
+    field.process(formdata, data, extra_filters=field_extra_filters)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/wtforms/csrf/core.py", line 44, in process
+    self.current_token = self.csrf_impl.generate_csrf_token(self)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask_wtf/csrf.py", line 147, in generate_csrf_token
+    return generate_csrf(
+        secret_key=self.meta.csrf_secret, token_key=self.meta.csrf_field_name
+    )
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask_wtf/csrf.py", line 36, in generate_csrf
+    secret_key = _get_config(
+        secret_key,
+    ...<2 lines>...
+        message="A secret key is required to use CSRF.",
+    )
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask_wtf/csrf.py", line 136, in _get_config
+    raise RuntimeError(message)
+RuntimeError: A secret key is required to use CSRF.
+2026-05-02 20:02:37,807 [INFO] 192.0.0.2 - - [02/May/2026 20:02:37] "[35m[1mGET /contact HTTP/1.1[0m" 500 -
+2026-05-02 20:02:47,238 [INFO] 192.0.0.2 - - [02/May/2026 20:02:47] "GET /access HTTP/1.1" 200 -
+2026-05-02 20:02:47,250 [INFO] 192.0.0.2 - - [02/May/2026 20:02:47] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:02:47,251 [INFO] 192.0.0.2 - - [02/May/2026 20:02:47] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:02:47,253 [INFO] 192.0.0.2 - - [02/May/2026 20:02:47] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:02:47,254 [INFO] 192.0.0.2 - - [02/May/2026 20:02:47] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:02:47,255 [INFO] 192.0.0.2 - - [02/May/2026 20:02:47] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:02:47,257 [INFO] 192.0.0.2 - - [02/May/2026 20:02:47] "[36mGET /static/css/pages/access.css HTTP/1.1[0m" 304 -
+2026-05-02 20:02:47,258 [INFO] 192.0.0.2 - - [02/May/2026 20:02:47] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:02:47,259 [INFO] 192.0.0.2 - - [02/May/2026 20:02:47] "[36mGET /static/icon/airplane.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:02:47,260 [INFO] 192.0.0.2 - - [02/May/2026 20:02:47] "[36mGET /static/icon/train.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:02:47,260 [INFO] 192.0.0.2 - - [02/May/2026 20:02:47] "[36mGET /static/icon/subway.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:02:47,261 [INFO] 192.0.0.2 - - [02/May/2026 20:02:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:02:47,263 [INFO] 192.0.0.2 - - [02/May/2026 20:02:47] "[36mGET /static/icon/bus.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:02:47,263 [INFO] 192.0.0.2 - - [02/May/2026 20:02:47] "[36mGET /static/icon/car.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:02:47,264 [INFO] 192.0.0.2 - - [02/May/2026 20:02:47] "[36mGET /static/icon/tori.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:02:47,267 [INFO] 192.0.0.2 - - [02/May/2026 20:02:47] "[36mGET /static/icon/tower.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:02:47,267 [INFO] 192.0.0.2 - - [02/May/2026 20:02:47] "[36mGET /static/icon/ramen.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:02:47,268 [INFO] 192.0.0.2 - - [02/May/2026 20:02:47] "[36mGET /static/icon/cake.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:02:47,268 [INFO] 192.0.0.2 - - [02/May/2026 20:02:47] "[36mGET /static/icon/nabe.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:02:47,270 [INFO] 192.0.0.2 - - [02/May/2026 20:02:47] "[36mGET /static/icon/pasta.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:02:47,278 [INFO] 192.0.0.2 - - [02/May/2026 20:02:47] "[36mGET /static/icon/wine.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:02:47,295 [INFO] 192.0.0.2 - - [02/May/2026 20:02:47] "[36mGET /static/images/access/fukuoka.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:02:55,481 [INFO] 192.0.0.2 - - [02/May/2026 20:02:55] "GET /spots HTTP/1.1" 200 -
+2026-05-02 20:02:55,492 [INFO] 192.0.0.2 - - [02/May/2026 20:02:55] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:02:55,495 [INFO] 192.0.0.2 - - [02/May/2026 20:02:55] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:02:55,496 [INFO] 192.0.0.2 - - [02/May/2026 20:02:55] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:02:55,498 [INFO] 192.0.0.2 - - [02/May/2026 20:02:55] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:02:55,499 [INFO] 192.0.0.2 - - [02/May/2026 20:02:55] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:02:55,501 [INFO] 192.0.0.2 - - [02/May/2026 20:02:55] "[33mGET /static/css/weather.css HTTP/1.1[0m" 404 -
+2026-05-02 20:02:55,502 [INFO] 192.0.0.2 - - [02/May/2026 20:02:55] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 20:02:55,506 [INFO] 192.0.0.2 - - [02/May/2026 20:02:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:02:55,506 [INFO] 192.0.0.2 - - [02/May/2026 20:02:55] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:02:55,507 [INFO] 192.0.0.2 - - [02/May/2026 20:02:55] "[36mGET /static/images/spot/ohorikouen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:02:55,508 [INFO] 192.0.0.2 - - [02/May/2026 20:02:55] "[36mGET /static/js/food.js HTTP/1.1[0m" 304 -
+2026-05-02 20:02:56,126 [INFO] 192.0.0.2 - - [02/May/2026 20:02:56] "[36mGET /static/images/spot/dazaifutenmangu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:02:56,127 [INFO] 192.0.0.2 - - [02/May/2026 20:02:56] "[36mGET /static/images/spot/momochihama.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:02:56,131 [INFO] 192.0.0.2 - - [02/May/2026 20:02:56] "[33mGET /static/images/images/spot/dontaku.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:02:56,135 [INFO] 192.0.0.2 - - [02/May/2026 20:02:56] "[33mGET /static/images/images/spot/jazz.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:02:56,138 [INFO] 192.0.0.2 - - [02/May/2026 20:02:56] "[33mGET /static/images/images/spot/kushdajinjya.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:02:56,142 [INFO] 192.0.0.2 - - [02/May/2026 20:02:56] "[33mGET /static/images/images/spot/maidurukouen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:02:56,144 [INFO] 192.0.0.2 - - [02/May/2026 20:02:56] "[33mGET /static/images/images/spot/marineworld.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:02:56,146 [INFO] 192.0.0.2 - - [02/May/2026 20:02:56] "[33mGET /static/images/images/spot/nakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:02:56,146 [INFO] 192.0.0.2 - - [02/May/2026 20:02:56] "[33mGET /static/images/images/spot/nemophila.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:02:56,148 [INFO] 192.0.0.2 - - [02/May/2026 20:02:56] "[33mGET /static/images/images/spot/nishinakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:02:56,148 [INFO] 192.0.0.2 - - [02/May/2026 20:02:56] "[33mGET /static/images/images/spot/tenjinNishikouoen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:02:59,756 [INFO] 192.0.0.2 - - [02/May/2026 20:02:59] "[33mGET /static/images/images/spot/jazz.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:03:00,622 [INFO] 192.0.0.2 - - [02/May/2026 20:03:00] "[33mGET /static/images/images/spot/marineworld.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:03:01,006 [INFO] 192.0.0.2 - - [02/May/2026 20:03:01] "[33mGET /static/images/images/spot/nishinakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:03:01,990 [INFO] 192.0.0.2 - - [02/May/2026 20:03:01] "[33mGET /static/images/images/spot/nishinakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:03:02,356 [INFO] 192.0.0.2 - - [02/May/2026 20:03:02] "[33mGET /static/images/images/spot/marineworld.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:03:02,473 [INFO] 192.0.0.2 - - [02/May/2026 20:03:02] "[33mGET /static/images/images/spot/maidurukouen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:03:03,722 [INFO] 192.0.0.2 - - [02/May/2026 20:03:03] "GET /spots HTTP/1.1" 200 -
+2026-05-02 20:03:03,736 [INFO] 192.0.0.2 - - [02/May/2026 20:03:03] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:03:03,737 [INFO] 192.0.0.2 - - [02/May/2026 20:03:03] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:03:03,738 [INFO] 192.0.0.2 - - [02/May/2026 20:03:03] "[33mGET /static/css/weather.css HTTP/1.1[0m" 404 -
+2026-05-02 20:03:03,739 [INFO] 192.0.0.2 - - [02/May/2026 20:03:03] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:03:03,740 [INFO] 192.0.0.2 - - [02/May/2026 20:03:03] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:03:03,741 [INFO] 192.0.0.2 - - [02/May/2026 20:03:03] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:03:03,743 [INFO] 192.0.0.2 - - [02/May/2026 20:03:03] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 20:03:03,744 [INFO] 192.0.0.2 - - [02/May/2026 20:03:03] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:03:03,746 [INFO] 192.0.0.2 - - [02/May/2026 20:03:03] "[36mGET /static/images/spot/ohorikouen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:03:03,748 [INFO] 192.0.0.2 - - [02/May/2026 20:03:03] "[36mGET /static/js/food.js HTTP/1.1[0m" 304 -
+2026-05-02 20:03:03,749 [INFO] 192.0.0.2 - - [02/May/2026 20:03:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:03:03,749 [INFO] 192.0.0.2 - - [02/May/2026 20:03:03] "[36mGET /static/images/spot/momochihama.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:03:03,750 [INFO] 192.0.0.2 - - [02/May/2026 20:03:03] "[36mGET /static/images/spot/dazaifutenmangu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:03:03,788 [INFO] 192.0.0.2 - - [02/May/2026 20:03:03] "[36mGET /static/icon/fav_ramen.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:03:04,210 [INFO] 192.0.0.2 - - [02/May/2026 20:03:04] "[33mGET /static/images/images/spot/dontaku.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:03:04,211 [INFO] 192.0.0.2 - - [02/May/2026 20:03:04] "[33mGET /static/images/images/spot/jazz.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:03:04,214 [INFO] 192.0.0.2 - - [02/May/2026 20:03:04] "[33mGET /static/images/images/spot/kushdajinjya.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:03:04,215 [INFO] 192.0.0.2 - - [02/May/2026 20:03:04] "[33mGET /static/images/images/spot/maidurukouen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:03:04,220 [INFO] 192.0.0.2 - - [02/May/2026 20:03:04] "[33mGET /static/images/images/spot/marineworld.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:03:04,220 [INFO] 192.0.0.2 - - [02/May/2026 20:03:04] "[33mGET /static/images/images/spot/nakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:03:04,223 [INFO] 192.0.0.2 - - [02/May/2026 20:03:04] "[33mGET /static/images/images/spot/nemophila.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:03:04,224 [INFO] 192.0.0.2 - - [02/May/2026 20:03:04] "[33mGET /static/images/images/spot/nishinakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:03:04,225 [INFO] 192.0.0.2 - - [02/May/2026 20:03:04] "[33mGET /static/images/images/spot/tenjinNishikouoen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:03:05,643 [INFO] 192.0.0.2 - - [02/May/2026 20:03:05] "[33mGET /static/images/images/spot/nemophila.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:03:07,309 [INFO] 192.0.0.2 - - [02/May/2026 20:03:07] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:03:07,311 [INFO] 192.0.0.2 - - [02/May/2026 20:03:07] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:03:07,312 [INFO] 192.0.0.2 - - [02/May/2026 20:03:07] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:03:07,313 [INFO] 192.0.0.2 - - [02/May/2026 20:03:07] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:03:07,316 [INFO] 192.0.0.2 - - [02/May/2026 20:03:07] "[33mGET /static/css/weather.css HTTP/1.1[0m" 404 -
+2026-05-02 20:03:07,318 [INFO] 192.0.0.2 - - [02/May/2026 20:03:07] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:03:07,320 [INFO] 192.0.0.2 - - [02/May/2026 20:03:07] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 20:04:36,188 [INFO] 192.0.0.2 - - [02/May/2026 20:04:36] "GET /spots HTTP/1.1" 200 -
+2026-05-02 20:04:36,203 [INFO] 192.0.0.2 - - [02/May/2026 20:04:36] "GET /static/css/base/variables.css HTTP/1.1" 200 -
+2026-05-02 20:04:36,204 [INFO] 192.0.0.2 - - [02/May/2026 20:04:36] "GET /static/css/layout.css HTTP/1.1" 200 -
+2026-05-02 20:04:36,205 [INFO] 192.0.0.2 - - [02/May/2026 20:04:36] "GET /static/css/base/reset.css HTTP/1.1" 200 -
+2026-05-02 20:04:36,207 [INFO] 192.0.0.2 - - [02/May/2026 20:04:36] "GET /static/css/base/style.css HTTP/1.1" 200 -
+2026-05-02 20:04:36,206 [INFO] 192.0.0.2 - - [02/May/2026 20:04:36] "GET /static/css/components.css HTTP/1.1" 200 -
+2026-05-02 20:04:36,208 [INFO] 192.0.0.2 - - [02/May/2026 20:04:36] "[33mGET /static/css/weather.css HTTP/1.1[0m" 404 -
+2026-05-02 20:04:36,209 [INFO] 192.0.0.2 - - [02/May/2026 20:04:36] "GET /static/css/pages/foods.css HTTP/1.1" 200 -
+2026-05-02 20:04:36,212 [INFO] 192.0.0.2 - - [02/May/2026 20:04:36] "GET /static/images/logo/logo-re.png HTTP/1.1" 200 -
+2026-05-02 20:04:36,212 [INFO] 192.0.0.2 - - [02/May/2026 20:04:36] "GET /static/images/spot/ohorikouen.jpg HTTP/1.1" 200 -
+2026-05-02 20:04:36,217 [INFO] 192.0.0.2 - - [02/May/2026 20:04:36] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-05-02 20:04:37,338 [INFO] 192.0.0.2 - - [02/May/2026 20:04:37] "GET /static/js/food.js HTTP/1.1" 200 -
+2026-05-02 20:04:37,356 [INFO] 192.0.0.2 - - [02/May/2026 20:04:37] "[33mGET /static/images/images/spot/dontaku.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:04:37,356 [INFO] 192.0.0.2 - - [02/May/2026 20:04:37] "[33mGET /static/images/images/spot/jazz.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:04:37,357 [INFO] 192.0.0.2 - - [02/May/2026 20:04:37] "GET /static/images/spot/momochihama.jpg HTTP/1.1" 200 -
+2026-05-02 20:04:37,359 [INFO] 192.0.0.2 - - [02/May/2026 20:04:37] "GET /static/images/spot/dazaifutenmangu.jpg HTTP/1.1" 200 -
+2026-05-02 20:04:37,360 [INFO] 192.0.0.2 - - [02/May/2026 20:04:37] "GET /static/images/spot/dontaku.jpg HTTP/1.1" 200 -
+2026-05-02 20:04:37,360 [INFO] 192.0.0.2 - - [02/May/2026 20:04:37] "GET /static/images/spot/ohorikouen.jpg HTTP/1.1" 200 -
+2026-05-02 20:04:37,363 [INFO] 192.0.0.2 - - [02/May/2026 20:04:37] "[33mGET /static/images/images/spot/kushdajinjya.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:04:37,363 [INFO] 192.0.0.2 - - [02/May/2026 20:04:37] "[33mGET /static/images/images/spot/maidurukouen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:04:37,368 [INFO] 192.0.0.2 - - [02/May/2026 20:04:37] "[33mGET /static/images/images/spot/marineworld.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:04:37,371 [INFO] 192.0.0.2 - - [02/May/2026 20:04:37] "[33mGET /static/images/images/spot/nakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:04:37,373 [INFO] 192.0.0.2 - - [02/May/2026 20:04:37] "[33mGET /static/images/images/spot/nemophila.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:04:37,374 [INFO] 192.0.0.2 - - [02/May/2026 20:04:37] "[33mGET /static/images/images/spot/nishinakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:04:37,375 [INFO] 192.0.0.2 - - [02/May/2026 20:04:37] "[33mGET /static/images/images/spot/tenjinNishikouoen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:04:46,290 [INFO] 192.0.0.2 - - [02/May/2026 20:04:46] "GET /spots HTTP/1.1" 200 -
+2026-05-02 20:04:46,304 [INFO] 192.0.0.2 - - [02/May/2026 20:04:46] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:04:46,305 [INFO] 192.0.0.2 - - [02/May/2026 20:04:46] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:04:46,306 [INFO] 192.0.0.2 - - [02/May/2026 20:04:46] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:04:46,306 [INFO] 192.0.0.2 - - [02/May/2026 20:04:46] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:04:46,308 [INFO] 192.0.0.2 - - [02/May/2026 20:04:46] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:04:46,307 [INFO] 192.0.0.2 - - [02/May/2026 20:04:46] "[33mGET /static/css/weather.css HTTP/1.1[0m" 404 -
+2026-05-02 20:04:46,309 [INFO] 192.0.0.2 - - [02/May/2026 20:04:46] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 20:04:46,311 [INFO] 192.0.0.2 - - [02/May/2026 20:04:46] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:04:46,312 [INFO] 192.0.0.2 - - [02/May/2026 20:04:46] "[36mGET /static/images/spot/ohorikouen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:04:46,313 [INFO] 192.0.0.2 - - [02/May/2026 20:04:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:04:46,664 [INFO] 192.0.0.2 - - [02/May/2026 20:04:46] "GET /static/js/food.js HTTP/1.1" 200 -
+2026-05-02 20:04:46,664 [INFO] 192.0.0.2 - - [02/May/2026 20:04:46] "[36mGET /static/images/spot/momochihama.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:04:46,665 [INFO] 192.0.0.2 - - [02/May/2026 20:04:46] "[36mGET /static/images/spot/dazaifutenmangu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:04:46,668 [INFO] 192.0.0.2 - - [02/May/2026 20:04:46] "[36mGET /static/images/spot/dontaku.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:04:47,331 [INFO] 192.0.0.2 - - [02/May/2026 20:04:47] "[33mGET /static/images/images/spot/kushdajinjya.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:04:47,332 [INFO] 192.0.0.2 - - [02/May/2026 20:04:47] "[33mGET /static/images/images/spot/jazz.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:04:47,332 [INFO] 192.0.0.2 - - [02/May/2026 20:04:47] "[33mGET /static/images/images/spot/dontaku.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:04:47,334 [INFO] 192.0.0.2 - - [02/May/2026 20:04:47] "[33mGET /static/images/images/spot/marineworld.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:04:47,334 [INFO] 192.0.0.2 - - [02/May/2026 20:04:47] "[33mGET /static/images/images/spot/maidurukouen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:04:47,335 [INFO] 192.0.0.2 - - [02/May/2026 20:04:47] "[33mGET /static/images/images/spot/nakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:04:47,337 [INFO] 192.0.0.2 - - [02/May/2026 20:04:47] "[33mGET /static/images/images/spot/tenjinNishikouoen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:04:47,336 [INFO] 192.0.0.2 - - [02/May/2026 20:04:47] "[33mGET /static/images/images/spot/nemophila.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:04:47,337 [INFO] 192.0.0.2 - - [02/May/2026 20:04:47] "[33mGET /static/images/images/spot/nishinakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:04:47,684 [INFO] 192.0.0.2 - - [02/May/2026 20:04:47] "[33mGET /static/images/images/spot/dontaku.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:04:47,691 [INFO] 192.0.0.2 - - [02/May/2026 20:04:47] "[36mGET /static/icon/fav_ramen.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:05:00,489 [INFO] 192.0.0.2 - - [02/May/2026 20:05:00] "[33mGET /static/images/images/spot/jazz.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:05:00,605 [INFO] 192.0.0.2 - - [02/May/2026 20:05:00] "[33mGET /static/images/images/spot/maidurukouen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:05:00,672 [INFO] 192.0.0.2 - - [02/May/2026 20:05:00] "[33mGET /static/images/images/spot/nemophila.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:05:02,761 [INFO] 192.0.0.2 - - [02/May/2026 20:05:02] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:05:02,764 [INFO] 192.0.0.2 - - [02/May/2026 20:05:02] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:05:02,765 [INFO] 192.0.0.2 - - [02/May/2026 20:05:02] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:05:02,768 [INFO] 192.0.0.2 - - [02/May/2026 20:05:02] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:05:02,769 [INFO] 192.0.0.2 - - [02/May/2026 20:05:02] "[33mGET /static/css/weather.css HTTP/1.1[0m" 404 -
+2026-05-02 20:05:02,768 [INFO] 192.0.0.2 - - [02/May/2026 20:05:02] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:05:02,771 [INFO] 192.0.0.2 - - [02/May/2026 20:05:02] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 20:07:48,980 [INFO] 192.0.0.2 - - [02/May/2026 20:07:48] "GET /spots HTTP/1.1" 200 -
+2026-05-02 20:07:48,997 [INFO] 192.0.0.2 - - [02/May/2026 20:07:48] "GET /static/css/base/reset.css HTTP/1.1" 200 -
+2026-05-02 20:07:48,998 [INFO] 192.0.0.2 - - [02/May/2026 20:07:48] "GET /static/css/layout.css HTTP/1.1" 200 -
+2026-05-02 20:07:48,999 [INFO] 192.0.0.2 - - [02/May/2026 20:07:48] "GET /static/css/base/variables.css HTTP/1.1" 200 -
+2026-05-02 20:07:49,000 [INFO] 192.0.0.2 - - [02/May/2026 20:07:49] "GET /static/css/components.css HTTP/1.1" 200 -
+2026-05-02 20:07:49,001 [INFO] 192.0.0.2 - - [02/May/2026 20:07:49] "GET /static/css/base/style.css HTTP/1.1" 200 -
+2026-05-02 20:07:49,002 [INFO] 192.0.0.2 - - [02/May/2026 20:07:49] "[33mGET /static/css/weather.css HTTP/1.1[0m" 404 -
+2026-05-02 20:07:49,002 [INFO] 192.0.0.2 - - [02/May/2026 20:07:49] "GET /static/css/pages/foods.css HTTP/1.1" 200 -
+2026-05-02 20:07:49,006 [INFO] 192.0.0.2 - - [02/May/2026 20:07:49] "GET /static/images/logo/logo-re.png HTTP/1.1" 200 -
+2026-05-02 20:07:49,006 [INFO] 192.0.0.2 - - [02/May/2026 20:07:49] "GET /static/images/spot/ohorikouen.jpg HTTP/1.1" 200 -
+2026-05-02 20:07:49,015 [INFO] 192.0.0.2 - - [02/May/2026 20:07:49] "GET /static/images/spot/dontaku.jpg HTTP/1.1" 200 -
+2026-05-02 20:07:49,015 [INFO] 192.0.0.2 - - [02/May/2026 20:07:49] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-05-02 20:07:50,344 [INFO] 192.0.0.2 - - [02/May/2026 20:07:50] "GET /static/js/food.js HTTP/1.1" 200 -
+2026-05-02 20:07:50,824 [INFO] 192.0.0.2 - - [02/May/2026 20:07:50] "[33mGET /static/images/images/spot/nemophila.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:07:50,825 [INFO] 192.0.0.2 - - [02/May/2026 20:07:50] "[33mGET /static/images/images/spot/maidurukouen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:07:50,826 [INFO] 192.0.0.2 - - [02/May/2026 20:07:50] "[33mGET /static/images/images/spot/tenjinNishikouoen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:07:50,826 [INFO] 192.0.0.2 - - [02/May/2026 20:07:50] "[33mGET /static/images/images/spot/marineworld.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:07:50,827 [INFO] 192.0.0.2 - - [02/May/2026 20:07:50] "[33mGET /static/images/images/spot/nishinakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:07:50,827 [INFO] 192.0.0.2 - - [02/May/2026 20:07:50] "[33mGET /static/images/images/spot/nakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:07:52,584 [INFO] 192.0.0.2 - - [02/May/2026 20:07:52] "[33mGET /static/images/images/spot/dontaku.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:07:52,586 [INFO] 192.0.0.2 - - [02/May/2026 20:07:52] "[33mGET /static/images/images/spot/jazz.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:07:52,586 [INFO] 192.0.0.2 - - [02/May/2026 20:07:52] "[33mGET /static/images/images/spot/kushdajinjya.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:07:57,456 [INFO] 192.0.0.2 - - [02/May/2026 20:07:57] "GET /static/images/spot/momochihama.jpg HTTP/1.1" 200 -
+2026-05-02 20:07:57,457 [INFO] 192.0.0.2 - - [02/May/2026 20:07:57] "GET /static/images/spot/dazaifutenmangu.jpg HTTP/1.1" 200 -
+2026-05-02 20:07:57,982 [INFO] 192.0.0.2 - - [02/May/2026 20:07:57] "GET /static/icon/fav_ramen.svg HTTP/1.1" 200 -
+2026-05-02 20:08:43,889 [INFO] 192.0.0.2 - - [02/May/2026 20:08:43] "GET /spots HTTP/1.1" 200 -
+2026-05-02 20:08:43,904 [INFO] 192.0.0.2 - - [02/May/2026 20:08:43] "GET /static/css/base/reset.css HTTP/1.1" 200 -
+2026-05-02 20:08:43,908 [INFO] 192.0.0.2 - - [02/May/2026 20:08:43] "GET /static/css/layout.css HTTP/1.1" 200 -
+2026-05-02 20:08:43,909 [INFO] 192.0.0.2 - - [02/May/2026 20:08:43] "GET /static/css/base/style.css HTTP/1.1" 200 -
+2026-05-02 20:08:43,909 [INFO] 192.0.0.2 - - [02/May/2026 20:08:43] "GET /static/css/base/variables.css HTTP/1.1" 200 -
+2026-05-02 20:08:43,908 [INFO] 192.0.0.2 - - [02/May/2026 20:08:43] "GET /static/css/components.css HTTP/1.1" 200 -
+2026-05-02 20:08:43,911 [INFO] 192.0.0.2 - - [02/May/2026 20:08:43] "GET /static/css/pages/foods.css HTTP/1.1" 200 -
+2026-05-02 20:08:43,911 [INFO] 192.0.0.2 - - [02/May/2026 20:08:43] "[33mGET /static/css/weather.css HTTP/1.1[0m" 404 -
+2026-05-02 20:08:43,915 [INFO] 192.0.0.2 - - [02/May/2026 20:08:43] "GET /static/images/logo/logo-re.png HTTP/1.1" 200 -
+2026-05-02 20:08:43,916 [INFO] 192.0.0.2 - - [02/May/2026 20:08:43] "GET /static/images/spot/ohorikouen.jpg HTTP/1.1" 200 -
+2026-05-02 20:08:43,919 [INFO] 192.0.0.2 - - [02/May/2026 20:08:43] "GET /static/images/spot/dontaku.jpg HTTP/1.1" 200 -
+2026-05-02 20:08:43,920 [INFO] 192.0.0.2 - - [02/May/2026 20:08:43] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-05-02 20:08:44,768 [INFO] 192.0.0.2 - - [02/May/2026 20:08:44] "GET /static/js/food.js HTTP/1.1" 200 -
+2026-05-02 20:08:46,194 [INFO] 192.0.0.2 - - [02/May/2026 20:08:46] "[33mGET /static/images/images/spot/nemophila.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:08:46,194 [INFO] 192.0.0.2 - - [02/May/2026 20:08:46] "[33mGET /static/images/images/spot/tenjinNishikouoen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:08:46,194 [INFO] 192.0.0.2 - - [02/May/2026 20:08:46] "[33mGET /static/images/images/spot/nishinakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:08:46,210 [INFO] 192.0.0.2 - - [02/May/2026 20:08:46] "[33mGET /static/images/images/spot/maidurukouen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:08:46,210 [INFO] 192.0.0.2 - - [02/May/2026 20:08:46] "[33mGET /static/images/images/spot/marineworld.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:08:46,210 [INFO] 192.0.0.2 - - [02/May/2026 20:08:46] "[33mGET /static/images/images/spot/nakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:08:46,241 [INFO] 192.0.0.2 - - [02/May/2026 20:08:46] "[33mGET /static/images/images/spot/jazz.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:08:46,243 [INFO] 192.0.0.2 - - [02/May/2026 20:08:46] "[33mGET /static/images/images/spot/dontaku.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:08:46,244 [INFO] 192.0.0.2 - - [02/May/2026 20:08:46] "[33mGET /static/images/images/spot/kushdajinjya.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:08:47,455 [INFO] 192.0.0.2 - - [02/May/2026 20:08:47] "GET /static/images/spot/momochihama.jpg HTTP/1.1" 200 -
+2026-05-02 20:08:47,455 [INFO] 192.0.0.2 - - [02/May/2026 20:08:47] "GET /static/images/spot/dazaifutenmangu.jpg HTTP/1.1" 200 -
+2026-05-02 20:08:47,938 [INFO] 192.0.0.2 - - [02/May/2026 20:08:47] "GET /static/icon/fav_ramen.svg HTTP/1.1" 200 -
+2026-05-02 20:10:55,625 [INFO] 192.0.0.2 - - [02/May/2026 20:10:55] "GET /spots HTTP/1.1" 200 -
+2026-05-02 20:10:55,637 [INFO] 192.0.0.2 - - [02/May/2026 20:10:55] "GET /static/css/base/reset.css HTTP/1.1" 200 -
+2026-05-02 20:10:55,640 [INFO] 192.0.0.2 - - [02/May/2026 20:10:55] "GET /static/css/base/variables.css HTTP/1.1" 200 -
+2026-05-02 20:10:55,641 [INFO] 192.0.0.2 - - [02/May/2026 20:10:55] "GET /static/css/layout.css HTTP/1.1" 200 -
+2026-05-02 20:10:55,641 [INFO] 192.0.0.2 - - [02/May/2026 20:10:55] "GET /static/css/components.css HTTP/1.1" 200 -
+2026-05-02 20:10:55,644 [INFO] 192.0.0.2 - - [02/May/2026 20:10:55] "[33mGET /static/css/weather.css HTTP/1.1[0m" 404 -
+2026-05-02 20:10:55,644 [INFO] 192.0.0.2 - - [02/May/2026 20:10:55] "GET /static/css/pages/foods.css HTTP/1.1" 200 -
+2026-05-02 20:10:55,644 [INFO] 192.0.0.2 - - [02/May/2026 20:10:55] "GET /static/css/base/style.css HTTP/1.1" 200 -
+2026-05-02 20:10:55,648 [INFO] 192.0.0.2 - - [02/May/2026 20:10:55] "GET /static/images/logo/logo-re.png HTTP/1.1" 200 -
+2026-05-02 20:10:55,649 [INFO] 192.0.0.2 - - [02/May/2026 20:10:55] "GET /static/images/spot/ohorikouen.jpg HTTP/1.1" 200 -
+2026-05-02 20:10:55,652 [INFO] 192.0.0.2 - - [02/May/2026 20:10:55] "GET /static/images/spot/dontaku.jpg HTTP/1.1" 200 -
+2026-05-02 20:10:55,653 [INFO] 192.0.0.2 - - [02/May/2026 20:10:55] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-05-02 20:10:56,092 [INFO] 192.0.0.2 - - [02/May/2026 20:10:56] "GET /static/js/food.js HTTP/1.1" 200 -
+2026-05-02 20:10:57,376 [INFO] 192.0.0.2 - - [02/May/2026 20:10:57] "[33mGET /static/images/images/spot/jazz.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:10:57,377 [INFO] 192.0.0.2 - - [02/May/2026 20:10:57] "[33mGET /static/images/images/spot/kushdajinjya.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:10:57,377 [INFO] 192.0.0.2 - - [02/May/2026 20:10:57] "[33mGET /static/images/images/spot/dontaku.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:10:59,260 [INFO] 192.0.0.2 - - [02/May/2026 20:10:59] "[33mGET /static/images/images/spot/maidurukouen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:10:59,260 [INFO] 192.0.0.2 - - [02/May/2026 20:10:59] "[33mGET /static/images/images/spot/nakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:10:59,261 [INFO] 192.0.0.2 - - [02/May/2026 20:10:59] "[33mGET /static/images/images/spot/marineworld.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:10:59,677 [INFO] 192.0.0.2 - - [02/May/2026 20:10:59] "[33mGET /static/images/images/spot/tenjinNishikouoen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:10:59,677 [INFO] 192.0.0.2 - - [02/May/2026 20:10:59] "[33mGET /static/images/images/spot/nemophila.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:10:59,688 [INFO] 192.0.0.2 - - [02/May/2026 20:10:59] "[33mGET /static/images/images/spot/nishinakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:11:03,551 [INFO] 192.0.0.2 - - [02/May/2026 20:11:03] "GET /static/images/spot/dazaifutenmangu.jpg HTTP/1.1" 200 -
+2026-05-02 20:11:03,551 [INFO] 192.0.0.2 - - [02/May/2026 20:11:03] "GET /static/images/spot/momochihama.jpg HTTP/1.1" 200 -
+2026-05-02 20:11:04,085 [INFO] 192.0.0.2 - - [02/May/2026 20:11:04] "GET /static/icon/fav_ramen.svg HTTP/1.1" 200 -
+2026-05-02 20:11:07,795 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.2:5000
+2026-05-02 20:11:07,795 [INFO] [33mPress CTRL+C to quit[0m
+2026-05-02 20:11:19,542 [INFO] 127.0.0.1 - - [02/May/2026 20:11:19] "GET / HTTP/1.1" 200 -
+2026-05-02 20:11:19,553 [INFO] 127.0.0.1 - - [02/May/2026 20:11:19] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:11:19,554 [INFO] 127.0.0.1 - - [02/May/2026 20:11:19] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:11:19,557 [INFO] 127.0.0.1 - - [02/May/2026 20:11:19] "[36mGET /static/css/pages/top.css HTTP/1.1[0m" 304 -
+2026-05-02 20:11:19,558 [INFO] 127.0.0.1 - - [02/May/2026 20:11:19] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:11:19,559 [INFO] 127.0.0.1 - - [02/May/2026 20:11:19] "[36mGET /static/js/top.js HTTP/1.1[0m" 304 -
+2026-05-02 20:11:19,559 [INFO] 127.0.0.1 - - [02/May/2026 20:11:19] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:11:19,561 [INFO] 127.0.0.1 - - [02/May/2026 20:11:19] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:11:19,564 [INFO] 127.0.0.1 - - [02/May/2026 20:11:19] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:11:19,564 [INFO] 127.0.0.1 - - [02/May/2026 20:11:19] "[36mGET /static/images/top/fukuoka.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:19,564 [INFO] 127.0.0.1 - - [02/May/2026 20:11:19] "[36mGET /static/images/top/maizuru_park.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:19,565 [INFO] 127.0.0.1 - - [02/May/2026 20:11:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:11:19,567 [INFO] 127.0.0.1 - - [02/May/2026 20:11:19] "[36mGET /static/images/top/momochihama.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:19,567 [INFO] 127.0.0.1 - - [02/May/2026 20:11:19] "[36mGET /static/images/top/nakasu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:19,570 [INFO] 127.0.0.1 - - [02/May/2026 20:11:19] "[36mGET /static/images/top/dontaku.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:19,571 [INFO] 127.0.0.1 - - [02/May/2026 20:11:19] "[36mGET /static/images/logo/title_logo.png HTTP/1.1[0m" 304 -
+2026-05-02 20:11:19,572 [INFO] 127.0.0.1 - - [02/May/2026 20:11:19] "[36mGET /static/icon/airplane_top.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:19,574 [INFO] 127.0.0.1 - - [02/May/2026 20:11:19] "[36mGET /static/icon2/fukuoka.png HTTP/1.1[0m" 304 -
+2026-05-02 20:11:19,574 [INFO] 127.0.0.1 - - [02/May/2026 20:11:19] "[36mGET /static/icon2/folk.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:19,575 [INFO] 127.0.0.1 - - [02/May/2026 20:11:19] "[36mGET /static/icon2/couple.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:19,576 [INFO] 127.0.0.1 - - [02/May/2026 20:11:19] "[36mGET /static/icon2/mail.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:19,576 [INFO] 127.0.0.1 - - [02/May/2026 20:11:19] "[36mGET /static/icon2/car.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:19,577 [INFO] 127.0.0.1 - - [02/May/2026 20:11:19] "[36mGET /static/images/top/pick.png HTTP/1.1[0m" 304 -
+2026-05-02 20:11:19,577 [INFO] 127.0.0.1 - - [02/May/2026 20:11:19] "[36mGET /static/images/top/couple.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:19,580 [INFO] 127.0.0.1 - - [02/May/2026 20:11:19] "[36mGET /static/images/top/yata.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:26,482 [ERROR] Exception on /spots [GET]
+Traceback (most recent call last):
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/miraisato/Desktop/fukuoka-travel/app.py", line 115, in spots
+    return render_template(
+        "spots.html",
+    ...<6 lines>...
+        ]
+    )
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/templating.py", line 132, in _render
+    rv = template.render(context)
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/miraisato/Desktop/fukuoka-travel/templates/spots.html", line 4, in top-level template code
+    {% set title = "福岡の観光スポット" %}
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/miraisato/Desktop/fukuoka-travel/templates/base.html", line 48, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^
+  File "/Users/miraisato/Desktop/fukuoka-travel/templates/spots.html", line 70, in block 'content'
+    <img src="{{ url_for('static', filename=spot.image) }}" alt="{{ spot.alt }}" class="spot-img">
+    ^^^^^^^^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/jinja2/environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'spot' is undefined
+2026-05-02 20:11:26,487 [INFO] 127.0.0.1 - - [02/May/2026 20:11:26] "[35m[1mGET /spots HTTP/1.1[0m" 500 -
+2026-05-02 20:11:26,501 [INFO] 127.0.0.1 - - [02/May/2026 20:11:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-02 20:11:37,234 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.2:5000
+2026-05-02 20:11:37,234 [INFO] [33mPress CTRL+C to quit[0m
+2026-05-02 20:11:42,895 [INFO] 192.0.0.2 - - [02/May/2026 20:11:42] "GET / HTTP/1.1" 200 -
+2026-05-02 20:11:42,906 [INFO] 192.0.0.2 - - [02/May/2026 20:11:42] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:11:42,906 [INFO] 192.0.0.2 - - [02/May/2026 20:11:42] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:11:42,906 [INFO] 192.0.0.2 - - [02/May/2026 20:11:42] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:11:42,906 [INFO] 192.0.0.2 - - [02/May/2026 20:11:42] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:11:42,907 [INFO] 192.0.0.2 - - [02/May/2026 20:11:42] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:11:42,909 [INFO] 192.0.0.2 - - [02/May/2026 20:11:42] "[36mGET /static/css/pages/top.css HTTP/1.1[0m" 304 -
+2026-05-02 20:11:42,909 [INFO] 192.0.0.2 - - [02/May/2026 20:11:42] "[36mGET /static/js/top.js HTTP/1.1[0m" 304 -
+2026-05-02 20:11:42,910 [INFO] 192.0.0.2 - - [02/May/2026 20:11:42] "[36mGET /static/images/top/fukuoka.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:42,911 [INFO] 192.0.0.2 - - [02/May/2026 20:11:42] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:11:42,912 [INFO] 192.0.0.2 - - [02/May/2026 20:11:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:11:42,913 [INFO] 192.0.0.2 - - [02/May/2026 20:11:42] "[36mGET /static/images/top/maizuru_park.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:42,913 [INFO] 192.0.0.2 - - [02/May/2026 20:11:42] "[36mGET /static/images/top/momochihama.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:42,912 [INFO] 192.0.0.2 - - [02/May/2026 20:11:42] "[36mGET /static/images/top/nakasu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:42,915 [INFO] 192.0.0.2 - - [02/May/2026 20:11:42] "[36mGET /static/images/top/dontaku.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:42,916 [INFO] 192.0.0.2 - - [02/May/2026 20:11:42] "[36mGET /static/icon/airplane_top.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:42,917 [INFO] 192.0.0.2 - - [02/May/2026 20:11:42] "[36mGET /static/images/logo/title_logo.png HTTP/1.1[0m" 304 -
+2026-05-02 20:11:42,923 [INFO] 192.0.0.2 - - [02/May/2026 20:11:42] "[36mGET /static/icon2/folk.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:42,925 [INFO] 192.0.0.2 - - [02/May/2026 20:11:42] "[36mGET /static/icon2/fukuoka.png HTTP/1.1[0m" 304 -
+2026-05-02 20:11:42,926 [INFO] 192.0.0.2 - - [02/May/2026 20:11:42] "[36mGET /static/icon2/couple.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:42,939 [INFO] 192.0.0.2 - - [02/May/2026 20:11:42] "[36mGET /static/icon2/car.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:42,941 [INFO] 192.0.0.2 - - [02/May/2026 20:11:42] "[36mGET /static/icon2/mail.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:42,941 [INFO] 192.0.0.2 - - [02/May/2026 20:11:42] "[36mGET /static/images/top/pick.png HTTP/1.1[0m" 304 -
+2026-05-02 20:11:42,942 [INFO] 192.0.0.2 - - [02/May/2026 20:11:42] "[36mGET /static/images/top/couple.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:42,942 [INFO] 192.0.0.2 - - [02/May/2026 20:11:42] "[36mGET /static/images/top/yata.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:47,772 [INFO] 192.0.0.2 - - [02/May/2026 20:11:47] "GET /access HTTP/1.1" 200 -
+2026-05-02 20:11:47,783 [INFO] 192.0.0.2 - - [02/May/2026 20:11:47] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:11:47,785 [INFO] 192.0.0.2 - - [02/May/2026 20:11:47] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:11:47,787 [INFO] 192.0.0.2 - - [02/May/2026 20:11:47] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:11:47,789 [INFO] 192.0.0.2 - - [02/May/2026 20:11:47] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:11:47,789 [INFO] 192.0.0.2 - - [02/May/2026 20:11:47] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:11:47,792 [INFO] 192.0.0.2 - - [02/May/2026 20:11:47] "[36mGET /static/css/pages/access.css HTTP/1.1[0m" 304 -
+2026-05-02 20:11:47,795 [INFO] 192.0.0.2 - - [02/May/2026 20:11:47] "[36mGET /static/icon/airplane.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:47,795 [INFO] 192.0.0.2 - - [02/May/2026 20:11:47] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:11:47,797 [INFO] 192.0.0.2 - - [02/May/2026 20:11:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:11:47,798 [INFO] 192.0.0.2 - - [02/May/2026 20:11:47] "[36mGET /static/icon/train.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:47,799 [INFO] 192.0.0.2 - - [02/May/2026 20:11:47] "[36mGET /static/icon/subway.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:47,801 [INFO] 192.0.0.2 - - [02/May/2026 20:11:47] "[36mGET /static/icon/bus.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:47,802 [INFO] 192.0.0.2 - - [02/May/2026 20:11:47] "[36mGET /static/icon/tori.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:47,805 [INFO] 192.0.0.2 - - [02/May/2026 20:11:47] "[36mGET /static/icon/tower.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:47,804 [INFO] 192.0.0.2 - - [02/May/2026 20:11:47] "[36mGET /static/icon/car.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:47,806 [INFO] 192.0.0.2 - - [02/May/2026 20:11:47] "[36mGET /static/icon/ramen.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:47,808 [INFO] 192.0.0.2 - - [02/May/2026 20:11:47] "[36mGET /static/icon/cake.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:47,809 [INFO] 192.0.0.2 - - [02/May/2026 20:11:47] "[36mGET /static/icon/nabe.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:47,809 [INFO] 192.0.0.2 - - [02/May/2026 20:11:47] "[36mGET /static/icon/pasta.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:47,810 [INFO] 192.0.0.2 - - [02/May/2026 20:11:47] "[36mGET /static/icon/wine.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:47,842 [INFO] 192.0.0.2 - - [02/May/2026 20:11:47] "[36mGET /static/images/access/fukuoka.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:11:49,998 [ERROR] Exception on /spots [GET]
+Traceback (most recent call last):
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/miraisato/Desktop/fukuoka-travel/app.py", line 115, in spots
+    return render_template(
+        "spots.html",
+    ...<6 lines>...
+        ]
+    )
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/templating.py", line 132, in _render
+    rv = template.render(context)
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/miraisato/Desktop/fukuoka-travel/templates/spots.html", line 4, in top-level template code
+    {% set title = "福岡の観光スポット" %}
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/miraisato/Desktop/fukuoka-travel/templates/base.html", line 48, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^
+  File "/Users/miraisato/Desktop/fukuoka-travel/templates/spots.html", line 70, in block 'content'
+    <img src="{{ url_for('static', filename=spot.image) }}" alt="{{ spot.alt }}" class="spot-img">
+    ^^^^^^^^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/jinja2/environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'spot' is undefined
+2026-05-02 20:11:50,003 [INFO] 192.0.0.2 - - [02/May/2026 20:11:50] "[35m[1mGET /spots HTTP/1.1[0m" 500 -
+2026-05-02 20:13:43,160 [ERROR] Exception on /spots [GET]
+Traceback (most recent call last):
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/miraisato/Desktop/fukuoka-travel/app.py", line 115, in spots
+    return render_template(
+        "spots.html",
+    ...<6 lines>...
+        ]
+    )
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/templating.py", line 132, in _render
+    rv = template.render(context)
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/miraisato/Desktop/fukuoka-travel/templates/spots.html", line 4, in top-level template code
+    {% set title = "福岡の観光スポット" %}
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/miraisato/Desktop/fukuoka-travel/templates/base.html", line 48, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^
+  File "/Users/miraisato/Desktop/fukuoka-travel/templates/spots.html", line 70, in block 'content'
+    <img src="{{ url_for('static', filename=g.image) }}" alt="{{ g.alt }}" class="spot-img">
+    ^^^^^^^^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/jinja2/environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'spot' is undefined
+2026-05-02 20:13:43,163 [INFO] 192.0.0.2 - - [02/May/2026 20:13:43] "[35m[1mGET /spots HTTP/1.1[0m" 500 -
+2026-05-02 20:13:44,638 [ERROR] Exception on /spots [GET]
+Traceback (most recent call last):
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/miraisato/Desktop/fukuoka-travel/app.py", line 115, in spots
+    return render_template(
+        "spots.html",
+    ...<6 lines>...
+        ]
+    )
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/templating.py", line 132, in _render
+    rv = template.render(context)
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/miraisato/Desktop/fukuoka-travel/templates/spots.html", line 4, in top-level template code
+    {% set title = "福岡の観光スポット" %}
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/miraisato/Desktop/fukuoka-travel/templates/base.html", line 48, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^
+  File "/Users/miraisato/Desktop/fukuoka-travel/templates/spots.html", line 70, in block 'content'
+    <img src="{{ url_for('static', filename=g.image) }}" alt="{{ g.alt }}" class="spot-img">
+    ^^^^^^^^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/jinja2/environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'spot' is undefined
+2026-05-02 20:13:44,640 [INFO] 192.0.0.2 - - [02/May/2026 20:13:44] "[35m[1mGET /spots HTTP/1.1[0m" 500 -
+2026-05-02 20:13:44,953 [ERROR] Exception on /spots [GET]
+Traceback (most recent call last):
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/miraisato/Desktop/fukuoka-travel/app.py", line 115, in spots
+    return render_template(
+        "spots.html",
+    ...<6 lines>...
+        ]
+    )
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/templating.py", line 132, in _render
+    rv = template.render(context)
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/miraisato/Desktop/fukuoka-travel/templates/spots.html", line 4, in top-level template code
+    {% set title = "福岡の観光スポット" %}
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/miraisato/Desktop/fukuoka-travel/templates/base.html", line 48, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^
+  File "/Users/miraisato/Desktop/fukuoka-travel/templates/spots.html", line 70, in block 'content'
+    <img src="{{ url_for('static', filename=g.image) }}" alt="{{ g.alt }}" class="spot-img">
+    ^^^^^^^^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/jinja2/environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'spot' is undefined
+2026-05-02 20:13:44,955 [INFO] 192.0.0.2 - - [02/May/2026 20:13:44] "[35m[1mGET /spots HTTP/1.1[0m" 500 -
+2026-05-02 20:13:45,372 [ERROR] Exception on /spots [GET]
+Traceback (most recent call last):
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/miraisato/Desktop/fukuoka-travel/app.py", line 115, in spots
+    return render_template(
+        "spots.html",
+    ...<6 lines>...
+        ]
+    )
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/templating.py", line 132, in _render
+    rv = template.render(context)
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/miraisato/Desktop/fukuoka-travel/templates/spots.html", line 4, in top-level template code
+    {% set title = "福岡の観光スポット" %}
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/miraisato/Desktop/fukuoka-travel/templates/base.html", line 48, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^
+  File "/Users/miraisato/Desktop/fukuoka-travel/templates/spots.html", line 70, in block 'content'
+    <img src="{{ url_for('static', filename=g.image) }}" alt="{{ g.alt }}" class="spot-img">
+    ^^^^^^^^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/jinja2/environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'spot' is undefined
+2026-05-02 20:13:45,375 [INFO] 192.0.0.2 - - [02/May/2026 20:13:45] "[35m[1mGET /spots HTTP/1.1[0m" 500 -
+2026-05-02 20:13:45,618 [ERROR] Exception on /spots [GET]
+Traceback (most recent call last):
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/miraisato/Desktop/fukuoka-travel/app.py", line 115, in spots
+    return render_template(
+        "spots.html",
+    ...<6 lines>...
+        ]
+    )
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/templating.py", line 132, in _render
+    rv = template.render(context)
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/miraisato/Desktop/fukuoka-travel/templates/spots.html", line 4, in top-level template code
+    {% set title = "福岡の観光スポット" %}
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/miraisato/Desktop/fukuoka-travel/templates/base.html", line 48, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^
+  File "/Users/miraisato/Desktop/fukuoka-travel/templates/spots.html", line 70, in block 'content'
+    <img src="{{ url_for('static', filename=g.image) }}" alt="{{ g.alt }}" class="spot-img">
+    ^^^^^^^^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/jinja2/environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'spot' is undefined
+2026-05-02 20:13:45,620 [INFO] 192.0.0.2 - - [02/May/2026 20:13:45] "[35m[1mGET /spots HTTP/1.1[0m" 500 -
+2026-05-02 20:13:59,341 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.2:5000
+2026-05-02 20:13:59,341 [INFO] [33mPress CTRL+C to quit[0m
+2026-05-02 20:14:06,112 [INFO] 192.0.0.2 - - [02/May/2026 20:14:06] "GET / HTTP/1.1" 200 -
+2026-05-02 20:14:06,125 [INFO] 192.0.0.2 - - [02/May/2026 20:14:06] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:06,125 [INFO] 192.0.0.2 - - [02/May/2026 20:14:06] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:06,126 [INFO] 192.0.0.2 - - [02/May/2026 20:14:06] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:06,127 [INFO] 192.0.0.2 - - [02/May/2026 20:14:06] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:06,128 [INFO] 192.0.0.2 - - [02/May/2026 20:14:06] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:06,128 [INFO] 192.0.0.2 - - [02/May/2026 20:14:06] "[36mGET /static/css/pages/top.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:06,132 [INFO] 192.0.0.2 - - [02/May/2026 20:14:06] "[36mGET /static/js/top.js HTTP/1.1[0m" 304 -
+2026-05-02 20:14:06,134 [INFO] 192.0.0.2 - - [02/May/2026 20:14:06] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:14:06,136 [INFO] 192.0.0.2 - - [02/May/2026 20:14:06] "[36mGET /static/images/top/fukuoka.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:06,137 [INFO] 192.0.0.2 - - [02/May/2026 20:14:06] "[36mGET /static/images/top/momochihama.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:06,140 [INFO] 192.0.0.2 - - [02/May/2026 20:14:06] "[36mGET /static/images/top/nakasu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:06,141 [INFO] 192.0.0.2 - - [02/May/2026 20:14:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:14:06,141 [INFO] 192.0.0.2 - - [02/May/2026 20:14:06] "[36mGET /static/images/top/maizuru_park.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:06,142 [INFO] 192.0.0.2 - - [02/May/2026 20:14:06] "[36mGET /static/images/top/dontaku.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:06,143 [INFO] 192.0.0.2 - - [02/May/2026 20:14:06] "[36mGET /static/icon/airplane_top.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:06,144 [INFO] 192.0.0.2 - - [02/May/2026 20:14:06] "[36mGET /static/images/logo/title_logo.png HTTP/1.1[0m" 304 -
+2026-05-02 20:14:06,146 [INFO] 192.0.0.2 - - [02/May/2026 20:14:06] "[36mGET /static/icon2/folk.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:06,146 [INFO] 192.0.0.2 - - [02/May/2026 20:14:06] "[36mGET /static/icon2/fukuoka.png HTTP/1.1[0m" 304 -
+2026-05-02 20:14:06,147 [INFO] 192.0.0.2 - - [02/May/2026 20:14:06] "[36mGET /static/icon2/couple.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:06,148 [INFO] 192.0.0.2 - - [02/May/2026 20:14:06] "[36mGET /static/icon2/car.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:06,150 [INFO] 192.0.0.2 - - [02/May/2026 20:14:06] "[36mGET /static/icon2/mail.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:06,152 [INFO] 192.0.0.2 - - [02/May/2026 20:14:06] "[36mGET /static/images/top/pick.png HTTP/1.1[0m" 304 -
+2026-05-02 20:14:06,153 [INFO] 192.0.0.2 - - [02/May/2026 20:14:06] "[36mGET /static/images/top/couple.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:06,156 [INFO] 192.0.0.2 - - [02/May/2026 20:14:06] "[36mGET /static/images/top/yata.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:11,266 [INFO] 192.0.0.2 - - [02/May/2026 20:14:11] "GET /spots HTTP/1.1" 200 -
+2026-05-02 20:14:11,282 [INFO] 192.0.0.2 - - [02/May/2026 20:14:11] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:11,283 [INFO] 192.0.0.2 - - [02/May/2026 20:14:11] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:11,284 [INFO] 192.0.0.2 - - [02/May/2026 20:14:11] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:11,286 [INFO] 192.0.0.2 - - [02/May/2026 20:14:11] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:11,286 [INFO] 192.0.0.2 - - [02/May/2026 20:14:11] "[33mGET /static/css/weather.css HTTP/1.1[0m" 404 -
+2026-05-02 20:14:11,290 [INFO] 192.0.0.2 - - [02/May/2026 20:14:11] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:11,291 [INFO] 192.0.0.2 - - [02/May/2026 20:14:11] "[33mGET /static/ HTTP/1.1[0m" 404 -
+2026-05-02 20:14:11,292 [INFO] 192.0.0.2 - - [02/May/2026 20:14:11] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:14:11,292 [INFO] 192.0.0.2 - - [02/May/2026 20:14:11] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:11,294 [INFO] 192.0.0.2 - - [02/May/2026 20:14:11] "[36mGET /static/images/spot/dontaku.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:11,298 [INFO] 192.0.0.2 - - [02/May/2026 20:14:11] "[36mGET /static/js/food.js HTTP/1.1[0m" 304 -
+2026-05-02 20:14:11,299 [INFO] 192.0.0.2 - - [02/May/2026 20:14:11] "[33mGET /static/spot/dontaku.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:11,300 [INFO] 192.0.0.2 - - [02/May/2026 20:14:11] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:14:11,301 [INFO] 192.0.0.2 - - [02/May/2026 20:14:11] "[33mGET /static/spot/jazz.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:11,304 [INFO] 192.0.0.2 - - [02/May/2026 20:14:11] "[33mGET /static/spot/kushdajinjya.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:11,306 [INFO] 192.0.0.2 - - [02/May/2026 20:14:11] "[33mGET /static/spot/maidurukouen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:11,307 [INFO] 192.0.0.2 - - [02/May/2026 20:14:11] "[33mGET /static/spot/marineworld.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:11,308 [INFO] 192.0.0.2 - - [02/May/2026 20:14:11] "[33mGET /static/spot/nemophila.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:11,308 [INFO] 192.0.0.2 - - [02/May/2026 20:14:11] "[33mGET /static/spot/nakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:11,308 [INFO] 192.0.0.2 - - [02/May/2026 20:14:11] "[33mGET /static/spot/nishinakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:11,309 [INFO] 192.0.0.2 - - [02/May/2026 20:14:11] "[33mGET /static/spot/tenjinNishikouoen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:11,330 [INFO] 192.0.0.2 - - [02/May/2026 20:14:11] "[33mGET /static/spot/dontaku.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:15,289 [INFO] 192.0.0.2 - - [02/May/2026 20:14:15] "[33mGET /static/spot/maidurukouen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:15,638 [INFO] 192.0.0.2 - - [02/May/2026 20:14:15] "[33mGET /static/spot/nemophila.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:38,319 [INFO] 192.0.0.2 - - [02/May/2026 20:14:38] "GET /spots HTTP/1.1" 200 -
+2026-05-02 20:14:38,327 [INFO] 192.0.0.2 - - [02/May/2026 20:14:38] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:38,329 [INFO] 192.0.0.2 - - [02/May/2026 20:14:38] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:38,327 [INFO] 192.0.0.2 - - [02/May/2026 20:14:38] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:38,330 [INFO] 192.0.0.2 - - [02/May/2026 20:14:38] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:38,331 [INFO] 192.0.0.2 - - [02/May/2026 20:14:38] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:38,333 [INFO] 192.0.0.2 - - [02/May/2026 20:14:38] "[33mGET /static/css/weather.css HTTP/1.1[0m" 404 -
+2026-05-02 20:14:38,333 [INFO] 192.0.0.2 - - [02/May/2026 20:14:38] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:38,334 [INFO] 192.0.0.2 - - [02/May/2026 20:14:38] "[33mGET /static/ HTTP/1.1[0m" 404 -
+2026-05-02 20:14:38,335 [INFO] 192.0.0.2 - - [02/May/2026 20:14:38] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:14:38,338 [INFO] 192.0.0.2 - - [02/May/2026 20:14:38] "[33mGET /static/spot/jazz.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:38,339 [INFO] 192.0.0.2 - - [02/May/2026 20:14:38] "[33mGET /static/spot/dontaku.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:38,339 [INFO] 192.0.0.2 - - [02/May/2026 20:14:38] "[36mGET /static/images/spot/dontaku.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:38,340 [INFO] 192.0.0.2 - - [02/May/2026 20:14:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:14:38,340 [INFO] 192.0.0.2 - - [02/May/2026 20:14:38] "[36mGET /static/js/food.js HTTP/1.1[0m" 304 -
+2026-05-02 20:14:38,341 [INFO] 192.0.0.2 - - [02/May/2026 20:14:38] "[33mGET /static/spot/kushdajinjya.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:38,342 [INFO] 192.0.0.2 - - [02/May/2026 20:14:38] "[33mGET /static/spot/maidurukouen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:38,343 [INFO] 192.0.0.2 - - [02/May/2026 20:14:38] "[33mGET /static/spot/marineworld.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:38,344 [INFO] 192.0.0.2 - - [02/May/2026 20:14:38] "[33mGET /static/spot/nakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:38,346 [INFO] 192.0.0.2 - - [02/May/2026 20:14:38] "[33mGET /static/spot/nemophila.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:38,347 [INFO] 192.0.0.2 - - [02/May/2026 20:14:38] "[33mGET /static/spot/nishinakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:38,347 [INFO] 192.0.0.2 - - [02/May/2026 20:14:38] "[33mGET /static/spot/tenjinNishikouoen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:38,371 [INFO] 192.0.0.2 - - [02/May/2026 20:14:38] "[33mGET /static/spot/dontaku.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:38,373 [INFO] 192.0.0.2 - - [02/May/2026 20:14:38] "[36mGET /static/icon/fav_ramen.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:39,172 [INFO] 192.0.0.2 - - [02/May/2026 20:14:39] "GET /spots HTTP/1.1" 200 -
+2026-05-02 20:14:39,183 [INFO] 192.0.0.2 - - [02/May/2026 20:14:39] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:39,183 [INFO] 192.0.0.2 - - [02/May/2026 20:14:39] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:39,184 [INFO] 192.0.0.2 - - [02/May/2026 20:14:39] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:39,186 [INFO] 192.0.0.2 - - [02/May/2026 20:14:39] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:39,187 [INFO] 192.0.0.2 - - [02/May/2026 20:14:39] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:39,188 [INFO] 192.0.0.2 - - [02/May/2026 20:14:39] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:39,188 [INFO] 192.0.0.2 - - [02/May/2026 20:14:39] "[33mGET /static/css/weather.css HTTP/1.1[0m" 404 -
+2026-05-02 20:14:39,191 [INFO] 192.0.0.2 - - [02/May/2026 20:14:39] "[33mGET /static/ HTTP/1.1[0m" 404 -
+2026-05-02 20:14:39,193 [INFO] 192.0.0.2 - - [02/May/2026 20:14:39] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:14:39,194 [INFO] 192.0.0.2 - - [02/May/2026 20:14:39] "[36mGET /static/images/spot/dontaku.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:39,196 [INFO] 192.0.0.2 - - [02/May/2026 20:14:39] "[33mGET /static/spot/dontaku.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:39,196 [INFO] 192.0.0.2 - - [02/May/2026 20:14:39] "[36mGET /static/js/food.js HTTP/1.1[0m" 304 -
+2026-05-02 20:14:39,196 [INFO] 192.0.0.2 - - [02/May/2026 20:14:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:14:39,197 [INFO] 192.0.0.2 - - [02/May/2026 20:14:39] "[33mGET /static/spot/jazz.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:39,199 [INFO] 192.0.0.2 - - [02/May/2026 20:14:39] "[33mGET /static/spot/kushdajinjya.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:39,200 [INFO] 192.0.0.2 - - [02/May/2026 20:14:39] "[33mGET /static/spot/maidurukouen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:39,201 [INFO] 192.0.0.2 - - [02/May/2026 20:14:39] "[33mGET /static/spot/marineworld.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:39,204 [INFO] 192.0.0.2 - - [02/May/2026 20:14:39] "[33mGET /static/spot/nakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:39,206 [INFO] 192.0.0.2 - - [02/May/2026 20:14:39] "[33mGET /static/spot/nemophila.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:39,208 [INFO] 192.0.0.2 - - [02/May/2026 20:14:39] "[33mGET /static/spot/nishinakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:39,208 [INFO] 192.0.0.2 - - [02/May/2026 20:14:39] "[33mGET /static/spot/tenjinNishikouoen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:39,236 [INFO] 192.0.0.2 - - [02/May/2026 20:14:39] "[33mGET /static/spot/dontaku.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:39,241 [INFO] 192.0.0.2 - - [02/May/2026 20:14:39] "[36mGET /static/icon/fav_ramen.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:51,254 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.2:5000
+2026-05-02 20:14:51,254 [INFO] [33mPress CTRL+C to quit[0m
+2026-05-02 20:14:56,431 [INFO] 127.0.0.1 - - [02/May/2026 20:14:56] "GET / HTTP/1.1" 200 -
+2026-05-02 20:14:56,448 [INFO] 127.0.0.1 - - [02/May/2026 20:14:56] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:56,449 [INFO] 127.0.0.1 - - [02/May/2026 20:14:56] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:56,449 [INFO] 127.0.0.1 - - [02/May/2026 20:14:56] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:56,448 [INFO] 127.0.0.1 - - [02/May/2026 20:14:56] "[36mGET /static/css/pages/top.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:56,449 [INFO] 127.0.0.1 - - [02/May/2026 20:14:56] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:56,451 [INFO] 127.0.0.1 - - [02/May/2026 20:14:56] "[36mGET /static/js/top.js HTTP/1.1[0m" 304 -
+2026-05-02 20:14:56,449 [INFO] 127.0.0.1 - - [02/May/2026 20:14:56] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:56,456 [INFO] 127.0.0.1 - - [02/May/2026 20:14:56] "[36mGET /static/images/top/fukuoka.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:56,457 [INFO] 127.0.0.1 - - [02/May/2026 20:14:56] "[36mGET /static/images/top/nakasu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:56,457 [INFO] 127.0.0.1 - - [02/May/2026 20:14:56] "[36mGET /static/images/top/momochihama.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:56,457 [INFO] 127.0.0.1 - - [02/May/2026 20:14:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:14:56,457 [INFO] 127.0.0.1 - - [02/May/2026 20:14:56] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:14:56,456 [INFO] 127.0.0.1 - - [02/May/2026 20:14:56] "[36mGET /static/images/top/maizuru_park.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:56,460 [INFO] 127.0.0.1 - - [02/May/2026 20:14:56] "[36mGET /static/images/top/dontaku.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:56,463 [INFO] 127.0.0.1 - - [02/May/2026 20:14:56] "[36mGET /static/images/logo/title_logo.png HTTP/1.1[0m" 304 -
+2026-05-02 20:14:56,463 [INFO] 127.0.0.1 - - [02/May/2026 20:14:56] "[36mGET /static/icon/airplane_top.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:56,463 [INFO] 127.0.0.1 - - [02/May/2026 20:14:56] "[36mGET /static/icon2/fukuoka.png HTTP/1.1[0m" 304 -
+2026-05-02 20:14:56,465 [INFO] 127.0.0.1 - - [02/May/2026 20:14:56] "[36mGET /static/icon2/folk.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:56,465 [INFO] 127.0.0.1 - - [02/May/2026 20:14:56] "[36mGET /static/icon2/couple.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:56,465 [INFO] 127.0.0.1 - - [02/May/2026 20:14:56] "[36mGET /static/icon2/car.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:56,467 [INFO] 127.0.0.1 - - [02/May/2026 20:14:56] "[36mGET /static/icon2/mail.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:56,467 [INFO] 127.0.0.1 - - [02/May/2026 20:14:56] "[36mGET /static/images/top/couple.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:56,467 [INFO] 127.0.0.1 - - [02/May/2026 20:14:56] "[36mGET /static/images/top/yata.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:56,467 [INFO] 127.0.0.1 - - [02/May/2026 20:14:56] "[36mGET /static/images/top/pick.png HTTP/1.1[0m" 304 -
+2026-05-02 20:14:59,215 [INFO] 127.0.0.1 - - [02/May/2026 20:14:59] "GET /spots HTTP/1.1" 200 -
+2026-05-02 20:14:59,223 [INFO] 127.0.0.1 - - [02/May/2026 20:14:59] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:59,225 [INFO] 127.0.0.1 - - [02/May/2026 20:14:59] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:59,227 [INFO] 127.0.0.1 - - [02/May/2026 20:14:59] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:59,230 [INFO] 127.0.0.1 - - [02/May/2026 20:14:59] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:59,231 [INFO] 127.0.0.1 - - [02/May/2026 20:14:59] "[33mGET /static/css/weather.css HTTP/1.1[0m" 404 -
+2026-05-02 20:14:59,230 [INFO] 127.0.0.1 - - [02/May/2026 20:14:59] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:59,232 [INFO] 127.0.0.1 - - [02/May/2026 20:14:59] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 20:14:59,233 [INFO] 127.0.0.1 - - [02/May/2026 20:14:59] "[33mGET /static/spot/dontaku.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:59,235 [INFO] 127.0.0.1 - - [02/May/2026 20:14:59] "[33mGET /static/spot/jazz.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:59,236 [INFO] 127.0.0.1 - - [02/May/2026 20:14:59] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:14:59,239 [INFO] 127.0.0.1 - - [02/May/2026 20:14:59] "[33mGET /static/spot/kushdajinjya.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:59,240 [INFO] 127.0.0.1 - - [02/May/2026 20:14:59] "[33mGET /static/spot/maidurukouen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:59,241 [INFO] 127.0.0.1 - - [02/May/2026 20:14:59] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:14:59,241 [INFO] 127.0.0.1 - - [02/May/2026 20:14:59] "[36mGET /static/js/food.js HTTP/1.1[0m" 304 -
+2026-05-02 20:14:59,241 [INFO] 127.0.0.1 - - [02/May/2026 20:14:59] "[33mGET /static/spot/marineworld.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:59,242 [INFO] 127.0.0.1 - - [02/May/2026 20:14:59] "[33mGET /static/spot/nakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:59,244 [INFO] 127.0.0.1 - - [02/May/2026 20:14:59] "[33mGET /static/spot/nishinakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:59,246 [INFO] 127.0.0.1 - - [02/May/2026 20:14:59] "[33mGET /static/spot/nemophila.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:59,248 [INFO] 127.0.0.1 - - [02/May/2026 20:14:59] "[33mGET /static/spot/tenjinNishikouoen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:14:59,262 [INFO] 127.0.0.1 - - [02/May/2026 20:14:59] "[36mGET /static/images/spot/ohorikouen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:59,263 [INFO] 127.0.0.1 - - [02/May/2026 20:14:59] "[36mGET /static/images/spot/dontaku.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:59,262 [INFO] 127.0.0.1 - - [02/May/2026 20:14:59] "[36mGET /static/images/spot/momochihama.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:59,264 [INFO] 127.0.0.1 - - [02/May/2026 20:14:59] "[36mGET /static/images/spot/dazaifutenmangu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:14:59,278 [INFO] 127.0.0.1 - - [02/May/2026 20:14:59] "[33mGET /static/spot/dontaku.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:15:07,497 [INFO] 127.0.0.1 - - [02/May/2026 20:15:07] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:15:07,499 [INFO] 127.0.0.1 - - [02/May/2026 20:15:07] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:15:07,500 [INFO] 127.0.0.1 - - [02/May/2026 20:15:07] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:15:07,502 [INFO] 127.0.0.1 - - [02/May/2026 20:15:07] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:15:07,504 [INFO] 127.0.0.1 - - [02/May/2026 20:15:07] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:15:07,505 [INFO] 127.0.0.1 - - [02/May/2026 20:15:07] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 20:15:07,506 [INFO] 127.0.0.1 - - [02/May/2026 20:15:07] "[33mGET /static/css/weather.css HTTP/1.1[0m" 404 -
+2026-05-02 20:15:07,507 [INFO] 127.0.0.1 - - [02/May/2026 20:15:07] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-05-02 20:18:08,911 [INFO] 127.0.0.1 - - [02/May/2026 20:18:08] "GET /spots HTTP/1.1" 200 -
+2026-05-02 20:18:08,922 [INFO] 127.0.0.1 - - [02/May/2026 20:18:08] "GET /static/css/base/reset.css HTTP/1.1" 200 -
+2026-05-02 20:18:08,925 [INFO] 127.0.0.1 - - [02/May/2026 20:18:08] "GET /static/css/base/variables.css HTTP/1.1" 200 -
+2026-05-02 20:18:08,927 [INFO] 127.0.0.1 - - [02/May/2026 20:18:08] "GET /static/css/base/style.css HTTP/1.1" 200 -
+2026-05-02 20:18:08,928 [INFO] 127.0.0.1 - - [02/May/2026 20:18:08] "GET /static/css/components.css HTTP/1.1" 200 -
+2026-05-02 20:18:08,929 [INFO] 127.0.0.1 - - [02/May/2026 20:18:08] "GET /static/css/layout.css HTTP/1.1" 200 -
+2026-05-02 20:18:08,930 [INFO] 127.0.0.1 - - [02/May/2026 20:18:08] "GET /static/css/pages/foods.css HTTP/1.1" 200 -
+2026-05-02 20:18:08,931 [INFO] 127.0.0.1 - - [02/May/2026 20:18:08] "[33mGET /static/css/weather.css HTTP/1.1[0m" 404 -
+2026-05-02 20:18:08,932 [INFO] 127.0.0.1 - - [02/May/2026 20:18:08] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-05-02 20:18:08,937 [INFO] 127.0.0.1 - - [02/May/2026 20:18:08] "[33mGET /static/spot/dontaku.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:18:08,938 [INFO] 127.0.0.1 - - [02/May/2026 20:18:08] "GET /static/images/logo/logo-re.png HTTP/1.1" 200 -
+2026-05-02 20:18:08,941 [INFO] 127.0.0.1 - - [02/May/2026 20:18:08] "[33mGET /static/spot/jazz.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:18:08,941 [INFO] 127.0.0.1 - - [02/May/2026 20:18:08] "[33mGET /static/spot/kushdajinjya.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:18:08,944 [INFO] 127.0.0.1 - - [02/May/2026 20:18:08] "[33mGET /static/spot/maidurukouen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:18:08,946 [INFO] 127.0.0.1 - - [02/May/2026 20:18:08] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-05-02 20:18:09,590 [INFO] 127.0.0.1 - - [02/May/2026 20:18:09] "GET /static/js/food.js HTTP/1.1" 200 -
+2026-05-02 20:18:09,593 [INFO] 127.0.0.1 - - [02/May/2026 20:18:09] "[33mGET /static/spot/marineworld.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:18:09,596 [INFO] 127.0.0.1 - - [02/May/2026 20:18:09] "[33mGET /static/spot/nakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:18:09,600 [INFO] 127.0.0.1 - - [02/May/2026 20:18:09] "[33mGET /static/spot/nemophila.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:18:09,605 [INFO] 127.0.0.1 - - [02/May/2026 20:18:09] "[33mGET /static/spot/nishinakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:18:09,608 [INFO] 127.0.0.1 - - [02/May/2026 20:18:09] "[33mGET /static/spot/tenjinNishikouoen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:18:10,791 [INFO] 127.0.0.1 - - [02/May/2026 20:18:10] "GET /spots HTTP/1.1" 200 -
+2026-05-02 20:18:10,811 [INFO] 127.0.0.1 - - [02/May/2026 20:18:10] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-05-02 20:18:10,813 [INFO] 127.0.0.1 - - [02/May/2026 20:18:10] "GET /static/css/base/reset.css HTTP/1.1" 200 -
+2026-05-02 20:18:10,815 [INFO] 127.0.0.1 - - [02/May/2026 20:18:10] "GET /static/css/base/variables.css HTTP/1.1" 200 -
+2026-05-02 20:18:10,815 [INFO] 127.0.0.1 - - [02/May/2026 20:18:10] "GET /static/css/layout.css HTTP/1.1" 200 -
+2026-05-02 20:18:10,816 [INFO] 127.0.0.1 - - [02/May/2026 20:18:10] "GET /static/css/base/style.css HTTP/1.1" 200 -
+2026-05-02 20:18:10,817 [INFO] 127.0.0.1 - - [02/May/2026 20:18:10] "GET /static/css/components.css HTTP/1.1" 200 -
+2026-05-02 20:18:10,819 [INFO] 127.0.0.1 - - [02/May/2026 20:18:10] "GET /static/css/pages/foods.css HTTP/1.1" 200 -
+2026-05-02 20:18:10,820 [INFO] 127.0.0.1 - - [02/May/2026 20:18:10] "[33mGET /static/css/weather.css HTTP/1.1[0m" 404 -
+2026-05-02 20:18:10,824 [INFO] 127.0.0.1 - - [02/May/2026 20:18:10] "[33mGET /static/spot/dontaku.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:18:10,825 [INFO] 127.0.0.1 - - [02/May/2026 20:18:10] "GET /static/images/logo/logo-re.png HTTP/1.1" 200 -
+2026-05-02 20:18:10,828 [INFO] 127.0.0.1 - - [02/May/2026 20:18:10] "[33mGET /static/spot/jazz.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:18:10,829 [INFO] 127.0.0.1 - - [02/May/2026 20:18:10] "[33mGET /static/spot/kushdajinjya.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:18:10,830 [INFO] 127.0.0.1 - - [02/May/2026 20:18:10] "[33mGET /static/spot/maidurukouen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:18:10,832 [INFO] 127.0.0.1 - - [02/May/2026 20:18:10] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-05-02 20:18:11,312 [INFO] 127.0.0.1 - - [02/May/2026 20:18:11] "[33mGET /static/spot/nemophila.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:18:11,313 [INFO] 127.0.0.1 - - [02/May/2026 20:18:11] "[33mGET /static/spot/marineworld.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:18:11,314 [INFO] 127.0.0.1 - - [02/May/2026 20:18:11] "[33mGET /static/spot/nakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:18:11,315 [INFO] 127.0.0.1 - - [02/May/2026 20:18:11] "[33mGET /static/spot/nishinakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:18:11,316 [INFO] 127.0.0.1 - - [02/May/2026 20:18:11] "[33mGET /static/spot/tenjinNishikouoen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:18:11,320 [INFO] 127.0.0.1 - - [02/May/2026 20:18:11] "GET /static/images/spot/dazaifutenmangu.jpg HTTP/1.1" 200 -
+2026-05-02 20:18:11,320 [INFO] 127.0.0.1 - - [02/May/2026 20:18:11] "GET /static/images/spot/momochihama.jpg HTTP/1.1" 200 -
+2026-05-02 20:18:11,321 [INFO] 127.0.0.1 - - [02/May/2026 20:18:11] "GET /static/images/spot/dontaku.jpg HTTP/1.1" 200 -
+2026-05-02 20:18:11,321 [INFO] 127.0.0.1 - - [02/May/2026 20:18:11] "GET /static/images/spot/ohorikouen.jpg HTTP/1.1" 200 -
+2026-05-02 20:18:22,511 [INFO] 127.0.0.1 - - [02/May/2026 20:18:22] "GET /spots HTTP/1.1" 200 -
+2026-05-02 20:18:22,526 [INFO] 127.0.0.1 - - [02/May/2026 20:18:22] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:18:22,527 [INFO] 127.0.0.1 - - [02/May/2026 20:18:22] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:18:22,526 [INFO] 127.0.0.1 - - [02/May/2026 20:18:22] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:18:22,529 [INFO] 127.0.0.1 - - [02/May/2026 20:18:22] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:18:22,530 [INFO] 127.0.0.1 - - [02/May/2026 20:18:22] "[33mGET /static/css/weather.css HTTP/1.1[0m" 404 -
+2026-05-02 20:18:22,531 [INFO] 127.0.0.1 - - [02/May/2026 20:18:22] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:18:22,533 [INFO] 127.0.0.1 - - [02/May/2026 20:18:22] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 20:18:22,535 [INFO] 127.0.0.1 - - [02/May/2026 20:18:22] "[33mGET /static/spot/dontaku.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:18:22,536 [INFO] 127.0.0.1 - - [02/May/2026 20:18:22] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:18:22,538 [INFO] 127.0.0.1 - - [02/May/2026 20:18:22] "[33mGET /static/spot/jazz.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:18:22,539 [INFO] 127.0.0.1 - - [02/May/2026 20:18:22] "[33mGET /static/spot/kushdajinjya.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:18:22,541 [INFO] 127.0.0.1 - - [02/May/2026 20:18:22] "[33mGET /static/spot/maidurukouen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:18:22,543 [INFO] 127.0.0.1 - - [02/May/2026 20:18:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:18:22,928 [INFO] 127.0.0.1 - - [02/May/2026 20:18:22] "GET /static/js/food.js HTTP/1.1" 200 -
+2026-05-02 20:18:22,931 [INFO] 127.0.0.1 - - [02/May/2026 20:18:22] "[33mGET /static/spot/marineworld.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:18:22,934 [INFO] 127.0.0.1 - - [02/May/2026 20:18:22] "[33mGET /static/spot/nakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:18:22,936 [INFO] 127.0.0.1 - - [02/May/2026 20:18:22] "[33mGET /static/spot/nemophila.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:18:22,939 [INFO] 127.0.0.1 - - [02/May/2026 20:18:22] "[33mGET /static/spot/nishinakasu.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:18:22,942 [INFO] 127.0.0.1 - - [02/May/2026 20:18:22] "[33mGET /static/spot/tenjinNishikouoen.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:18:22,944 [INFO] 127.0.0.1 - - [02/May/2026 20:18:22] "[36mGET /static/images/spot/ohorikouen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:18:22,947 [INFO] 127.0.0.1 - - [02/May/2026 20:18:22] "[36mGET /static/images/spot/momochihama.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:18:22,951 [INFO] 127.0.0.1 - - [02/May/2026 20:18:22] "[36mGET /static/images/spot/dazaifutenmangu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:18:22,953 [INFO] 127.0.0.1 - - [02/May/2026 20:18:22] "[36mGET /static/images/spot/dontaku.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:18:24,813 [INFO] 127.0.0.1 - - [02/May/2026 20:18:24] "[33mGET /static/spot/dontaku.jpg HTTP/1.1[0m" 404 -
+2026-05-02 20:18:24,841 [INFO] 127.0.0.1 - - [02/May/2026 20:18:24] "[36mGET /static/icon/fav_ramen.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:18:28,498 [INFO] 127.0.0.1 - - [02/May/2026 20:18:28] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:18:28,502 [INFO] 127.0.0.1 - - [02/May/2026 20:18:28] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:18:28,504 [INFO] 127.0.0.1 - - [02/May/2026 20:18:28] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:18:28,505 [INFO] 127.0.0.1 - - [02/May/2026 20:18:28] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:18:28,506 [INFO] 127.0.0.1 - - [02/May/2026 20:18:28] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:18:28,509 [INFO] 127.0.0.1 - - [02/May/2026 20:18:28] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 20:18:28,510 [INFO] 127.0.0.1 - - [02/May/2026 20:18:28] "[33mGET /static/css/weather.css HTTP/1.1[0m" 404 -
+2026-05-02 20:18:28,511 [INFO] 127.0.0.1 - - [02/May/2026 20:18:28] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-05-02 20:19:44,290 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.2:5000
+2026-05-02 20:19:44,290 [INFO] [33mPress CTRL+C to quit[0m
+2026-05-02 20:19:50,340 [INFO] 192.0.0.2 - - [02/May/2026 20:19:50] "GET / HTTP/1.1" 200 -
+2026-05-02 20:19:50,369 [INFO] 192.0.0.2 - - [02/May/2026 20:19:50] "GET /static/css/base/style.css HTTP/1.1" 200 -
+2026-05-02 20:19:50,370 [INFO] 192.0.0.2 - - [02/May/2026 20:19:50] "GET /static/css/pages/top.css HTTP/1.1" 200 -
+2026-05-02 20:19:50,369 [INFO] 192.0.0.2 - - [02/May/2026 20:19:50] "GET /static/css/layout.css HTTP/1.1" 200 -
+2026-05-02 20:19:50,369 [INFO] 192.0.0.2 - - [02/May/2026 20:19:50] "GET /static/css/components.css HTTP/1.1" 200 -
+2026-05-02 20:19:50,370 [INFO] 192.0.0.2 - - [02/May/2026 20:19:50] "GET /static/css/base/reset.css HTTP/1.1" 200 -
+2026-05-02 20:19:50,369 [INFO] 192.0.0.2 - - [02/May/2026 20:19:50] "GET /static/css/base/variables.css HTTP/1.1" 200 -
+2026-05-02 20:19:50,375 [INFO] 192.0.0.2 - - [02/May/2026 20:19:50] "GET /static/js/top.js HTTP/1.1" 200 -
+2026-05-02 20:19:50,378 [INFO] 192.0.0.2 - - [02/May/2026 20:19:50] "GET /static/images/logo/logo-re.png HTTP/1.1" 200 -
+2026-05-02 20:19:50,378 [INFO] 192.0.0.2 - - [02/May/2026 20:19:50] "GET /static/images/top/fukuoka.jpg HTTP/1.1" 200 -
+2026-05-02 20:19:50,382 [INFO] 192.0.0.2 - - [02/May/2026 20:19:50] "GET /static/images/top/momochihama.jpg HTTP/1.1" 200 -
+2026-05-02 20:19:50,390 [INFO] 192.0.0.2 - - [02/May/2026 20:19:50] "GET /static/images/top/nakasu.jpg HTTP/1.1" 200 -
+2026-05-02 20:19:50,394 [INFO] 192.0.0.2 - - [02/May/2026 20:19:50] "GET /static/images/top/maizuru_park.jpg HTTP/1.1" 200 -
+2026-05-02 20:19:50,397 [INFO] 192.0.0.2 - - [02/May/2026 20:19:50] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-05-02 20:19:50,399 [INFO] 192.0.0.2 - - [02/May/2026 20:19:50] "GET /static/images/top/dontaku.jpg HTTP/1.1" 200 -
+2026-05-02 20:19:50,406 [INFO] 192.0.0.2 - - [02/May/2026 20:19:50] "GET /static/icon/airplane_top.svg HTTP/1.1" 200 -
+2026-05-02 20:19:50,407 [INFO] 192.0.0.2 - - [02/May/2026 20:19:50] "GET /static/images/logo/title_logo.png HTTP/1.1" 200 -
+2026-05-02 20:19:50,409 [INFO] 192.0.0.2 - - [02/May/2026 20:19:50] "GET /static/icon2/fukuoka.png HTTP/1.1" 200 -
+2026-05-02 20:19:50,410 [INFO] 192.0.0.2 - - [02/May/2026 20:19:50] "GET /static/icon2/folk.svg HTTP/1.1" 200 -
+2026-05-02 20:19:50,411 [INFO] 192.0.0.2 - - [02/May/2026 20:19:50] "GET /static/icon2/couple.svg HTTP/1.1" 200 -
+2026-05-02 20:19:50,413 [INFO] 192.0.0.2 - - [02/May/2026 20:19:50] "GET /static/icon2/car.svg HTTP/1.1" 200 -
+2026-05-02 20:19:50,414 [INFO] 192.0.0.2 - - [02/May/2026 20:19:50] "GET /static/icon2/mail.svg HTTP/1.1" 200 -
+2026-05-02 20:19:50,416 [INFO] 192.0.0.2 - - [02/May/2026 20:19:50] "GET /static/images/top/pick.png HTTP/1.1" 200 -
+2026-05-02 20:19:50,416 [INFO] 192.0.0.2 - - [02/May/2026 20:19:50] "GET /static/images/top/couple.jpg HTTP/1.1" 200 -
+2026-05-02 20:19:50,419 [INFO] 192.0.0.2 - - [02/May/2026 20:19:50] "GET /static/images/top/yata.jpg HTTP/1.1" 200 -
+2026-05-02 20:19:54,290 [INFO] 192.0.0.2 - - [02/May/2026 20:19:54] "GET /static/icon/fav_ramen.svg HTTP/1.1" 200 -
+2026-05-02 20:19:54,472 [INFO] 192.0.0.2 - - [02/May/2026 20:19:54] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:19:54,475 [INFO] 192.0.0.2 - - [02/May/2026 20:19:54] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:19:54,474 [INFO] 192.0.0.2 - - [02/May/2026 20:19:54] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:19:54,474 [INFO] 192.0.0.2 - - [02/May/2026 20:19:54] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:19:54,473 [INFO] 192.0.0.2 - - [02/May/2026 20:19:54] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:19:54,477 [INFO] 192.0.0.2 - - [02/May/2026 20:19:54] "[36mGET /static/css/pages/top.css HTTP/1.1[0m" 304 -
+2026-05-02 20:19:57,769 [INFO] 192.0.0.2 - - [02/May/2026 20:19:57] "GET /spots HTTP/1.1" 200 -
+2026-05-02 20:19:57,785 [INFO] 192.0.0.2 - - [02/May/2026 20:19:57] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:19:57,794 [INFO] 192.0.0.2 - - [02/May/2026 20:19:57] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:19:57,795 [INFO] 192.0.0.2 - - [02/May/2026 20:19:57] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:19:57,797 [INFO] 192.0.0.2 - - [02/May/2026 20:19:57] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:19:57,798 [INFO] 192.0.0.2 - - [02/May/2026 20:19:57] "GET /static/css/pages/foods.css HTTP/1.1" 200 -
+2026-05-02 20:19:57,800 [INFO] 192.0.0.2 - - [02/May/2026 20:19:57] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:19:57,799 [INFO] 192.0.0.2 - - [02/May/2026 20:19:57] "[33mGET /static/css/weather.css HTTP/1.1[0m" 404 -
+2026-05-02 20:19:57,807 [INFO] 192.0.0.2 - - [02/May/2026 20:19:57] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:19:57,809 [INFO] 192.0.0.2 - - [02/May/2026 20:19:57] "GET /static/images/spot/kushdajinjya.jpg HTTP/1.1" 200 -
+2026-05-02 20:19:57,809 [INFO] 192.0.0.2 - - [02/May/2026 20:19:57] "GET /static/images/spot/maidurukouen.jpg HTTP/1.1" 200 -
+2026-05-02 20:19:57,808 [INFO] 192.0.0.2 - - [02/May/2026 20:19:57] "GET /static/images/spot/dontaku.jpg HTTP/1.1" 200 -
+2026-05-02 20:19:57,810 [INFO] 192.0.0.2 - - [02/May/2026 20:19:57] "GET /static/images/spot/jazz.jpg HTTP/1.1" 200 -
+2026-05-02 20:19:57,808 [INFO] 192.0.0.2 - - [02/May/2026 20:19:57] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:19:57,825 [INFO] 192.0.0.2 - - [02/May/2026 20:19:57] "GET /static/images/spot/marineworld.jpg HTTP/1.1" 200 -
+2026-05-02 20:19:57,826 [INFO] 192.0.0.2 - - [02/May/2026 20:19:57] "GET /static/js/food.js HTTP/1.1" 200 -
+2026-05-02 20:19:57,829 [INFO] 192.0.0.2 - - [02/May/2026 20:19:57] "GET /static/images/spot/nakasu.jpg HTTP/1.1" 200 -
+2026-05-02 20:19:57,832 [INFO] 192.0.0.2 - - [02/May/2026 20:19:57] "GET /static/images/spot/nemophila.jpg HTTP/1.1" 200 -
+2026-05-02 20:19:57,843 [INFO] 192.0.0.2 - - [02/May/2026 20:19:57] "GET /static/images/spot/nishinakasu.jpg HTTP/1.1" 200 -
+2026-05-02 20:19:57,843 [INFO] 192.0.0.2 - - [02/May/2026 20:19:57] "GET /static/images/spot/tenjinNishikouoen.jpg HTTP/1.1" 200 -
+2026-05-02 20:19:57,862 [INFO] 192.0.0.2 - - [02/May/2026 20:19:57] "GET /static/images/spot/momochihama.jpg HTTP/1.1" 200 -
+2026-05-02 20:19:57,862 [INFO] 192.0.0.2 - - [02/May/2026 20:19:57] "GET /static/images/spot/dazaifutenmangu.jpg HTTP/1.1" 200 -
+2026-05-02 20:19:57,864 [INFO] 192.0.0.2 - - [02/May/2026 20:19:57] "GET /static/images/spot/ohorikouen.jpg HTTP/1.1" 200 -
+2026-05-02 20:21:45,359 [INFO] 192.0.0.2 - - [02/May/2026 20:21:45] "GET /spots HTTP/1.1" 200 -
+2026-05-02 20:21:45,376 [INFO] 192.0.0.2 - - [02/May/2026 20:21:45] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:21:45,378 [INFO] 192.0.0.2 - - [02/May/2026 20:21:45] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:21:45,381 [INFO] 192.0.0.2 - - [02/May/2026 20:21:45] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:21:45,382 [INFO] 192.0.0.2 - - [02/May/2026 20:21:45] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:21:45,385 [INFO] 192.0.0.2 - - [02/May/2026 20:21:45] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:21:45,385 [INFO] 192.0.0.2 - - [02/May/2026 20:21:45] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 20:21:45,386 [INFO] 192.0.0.2 - - [02/May/2026 20:21:45] "GET /static/css/weather.css HTTP/1.1" 200 -
+2026-05-02 20:21:45,391 [INFO] 192.0.0.2 - - [02/May/2026 20:21:45] "[36mGET /static/images/spot/dontaku.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:21:45,392 [INFO] 192.0.0.2 - - [02/May/2026 20:21:45] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:21:45,393 [INFO] 192.0.0.2 - - [02/May/2026 20:21:45] "[36mGET /static/images/spot/jazz.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:21:45,395 [INFO] 192.0.0.2 - - [02/May/2026 20:21:45] "[36mGET /static/images/spot/kushdajinjya.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:21:45,395 [INFO] 192.0.0.2 - - [02/May/2026 20:21:45] "[36mGET /static/images/spot/maidurukouen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:21:45,397 [INFO] 192.0.0.2 - - [02/May/2026 20:21:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:21:45,400 [INFO] 192.0.0.2 - - [02/May/2026 20:21:45] "[36mGET /static/js/food.js HTTP/1.1[0m" 304 -
+2026-05-02 20:21:45,401 [INFO] 192.0.0.2 - - [02/May/2026 20:21:45] "[36mGET /static/images/spot/nemophila.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:21:45,402 [INFO] 192.0.0.2 - - [02/May/2026 20:21:45] "[36mGET /static/images/spot/marineworld.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:21:45,403 [INFO] 192.0.0.2 - - [02/May/2026 20:21:45] "[36mGET /static/images/spot/nishinakasu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:21:45,402 [INFO] 192.0.0.2 - - [02/May/2026 20:21:45] "[36mGET /static/images/spot/nakasu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:21:45,409 [INFO] 192.0.0.2 - - [02/May/2026 20:21:45] "[36mGET /static/images/spot/ohorikouen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:21:45,409 [INFO] 192.0.0.2 - - [02/May/2026 20:21:45] "[36mGET /static/images/spot/momochihama.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:21:45,410 [INFO] 192.0.0.2 - - [02/May/2026 20:21:45] "[36mGET /static/images/spot/dazaifutenmangu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:21:45,409 [INFO] 192.0.0.2 - - [02/May/2026 20:21:45] "[36mGET /static/images/spot/tenjinNishikouoen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:21:45,642 [INFO] 192.0.0.2 - - [02/May/2026 20:21:45] "[36mGET /static/icon/fav_ramen.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:21:53,457 [INFO] 192.0.0.2 - - [02/May/2026 20:21:53] "GET /spots HTTP/1.1" 200 -
+2026-05-02 20:21:53,469 [INFO] 192.0.0.2 - - [02/May/2026 20:21:53] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:21:53,470 [INFO] 192.0.0.2 - - [02/May/2026 20:21:53] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:21:53,474 [INFO] 192.0.0.2 - - [02/May/2026 20:21:53] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:21:53,474 [INFO] 192.0.0.2 - - [02/May/2026 20:21:53] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:21:53,476 [INFO] 192.0.0.2 - - [02/May/2026 20:21:53] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:21:53,478 [INFO] 192.0.0.2 - - [02/May/2026 20:21:53] "[36mGET /static/css/weather.css HTTP/1.1[0m" 304 -
+2026-05-02 20:21:53,478 [INFO] 192.0.0.2 - - [02/May/2026 20:21:53] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 20:21:53,481 [INFO] 192.0.0.2 - - [02/May/2026 20:21:53] "[36mGET /static/images/spot/ohorikouen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:21:53,482 [INFO] 192.0.0.2 - - [02/May/2026 20:21:53] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:21:53,484 [INFO] 192.0.0.2 - - [02/May/2026 20:21:53] "[36mGET /static/images/spot/dontaku.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:21:53,485 [INFO] 192.0.0.2 - - [02/May/2026 20:21:53] "[36mGET /static/images/spot/jazz.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:21:53,485 [INFO] 192.0.0.2 - - [02/May/2026 20:21:53] "[36mGET /static/images/spot/kushdajinjya.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:21:53,489 [INFO] 192.0.0.2 - - [02/May/2026 20:21:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:21:53,491 [INFO] 192.0.0.2 - - [02/May/2026 20:21:53] "[36mGET /static/js/food.js HTTP/1.1[0m" 304 -
+2026-05-02 20:21:53,492 [INFO] 192.0.0.2 - - [02/May/2026 20:21:53] "[36mGET /static/images/spot/maidurukouen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:21:53,494 [INFO] 192.0.0.2 - - [02/May/2026 20:21:53] "[36mGET /static/images/spot/marineworld.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:21:53,495 [INFO] 192.0.0.2 - - [02/May/2026 20:21:53] "[36mGET /static/images/spot/nakasu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:21:53,496 [INFO] 192.0.0.2 - - [02/May/2026 20:21:53] "[36mGET /static/images/spot/nemophila.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:21:53,499 [INFO] 192.0.0.2 - - [02/May/2026 20:21:53] "[36mGET /static/images/spot/nishinakasu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:21:53,500 [INFO] 192.0.0.2 - - [02/May/2026 20:21:53] "[36mGET /static/images/spot/tenjinNishikouoen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:21:53,501 [INFO] 192.0.0.2 - - [02/May/2026 20:21:53] "[36mGET /static/images/spot/momochihama.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:21:53,503 [INFO] 192.0.0.2 - - [02/May/2026 20:21:53] "[36mGET /static/images/spot/dazaifutenmangu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:21:53,734 [INFO] 192.0.0.2 - - [02/May/2026 20:21:53] "[36mGET /static/icon/fav_ramen.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:22:02,218 [INFO] 192.0.0.2 - - [02/May/2026 20:22:02] "GET /foods HTTP/1.1" 200 -
+2026-05-02 20:22:03,056 [INFO] 192.0.0.2 - - [02/May/2026 20:22:03] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:22:03,059 [INFO] 192.0.0.2 - - [02/May/2026 20:22:03] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:22:03,059 [INFO] 192.0.0.2 - - [02/May/2026 20:22:03] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:22:03,060 [INFO] 192.0.0.2 - - [02/May/2026 20:22:03] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:22:03,061 [INFO] 192.0.0.2 - - [02/May/2026 20:22:03] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:22:03,063 [INFO] 192.0.0.2 - - [02/May/2026 20:22:03] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 20:22:03,066 [INFO] 192.0.0.2 - - [02/May/2026 20:22:03] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:22:03,068 [INFO] 192.0.0.2 - - [02/May/2026 20:22:03] "GET /static/images/food/ramen03.jpg HTTP/1.1" 200 -
+2026-05-02 20:22:03,069 [INFO] 192.0.0.2 - - [02/May/2026 20:22:03] "GET /static/images/food/ramen02.jpg HTTP/1.1" 200 -
+2026-05-02 20:22:03,069 [INFO] 192.0.0.2 - - [02/May/2026 20:22:03] "GET /static/images/food/ramen5000yen.jpg HTTP/1.1" 200 -
+2026-05-02 20:22:03,069 [INFO] 192.0.0.2 - - [02/May/2026 20:22:03] "GET /static/images/food/motsunabe02.jpg HTTP/1.1" 200 -
+2026-05-02 20:22:03,074 [INFO] 192.0.0.2 - - [02/May/2026 20:22:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:22:03,075 [INFO] 192.0.0.2 - - [02/May/2026 20:22:03] "[36mGET /static/js/food.js HTTP/1.1[0m" 304 -
+2026-05-02 20:22:03,080 [INFO] 192.0.0.2 - - [02/May/2026 20:22:03] "GET /static/images/food/motsunabe04.jpg HTTP/1.1" 200 -
+2026-05-02 20:22:03,082 [INFO] 192.0.0.2 - - [02/May/2026 20:22:03] "GET /static/images/food/motsunabe03.jpg HTTP/1.1" 200 -
+2026-05-02 20:22:03,082 [INFO] 192.0.0.2 - - [02/May/2026 20:22:03] "GET /static/images/food/mentai02.jpg HTTP/1.1" 200 -
+2026-05-02 20:22:03,084 [INFO] 192.0.0.2 - - [02/May/2026 20:22:03] "GET /static/images/food/mentai04.jpg HTTP/1.1" 200 -
+2026-05-02 20:22:03,085 [INFO] 192.0.0.2 - - [02/May/2026 20:22:03] "GET /static/images/food/mentai03.jpg HTTP/1.1" 200 -
+2026-05-02 20:22:03,119 [INFO] 192.0.0.2 - - [02/May/2026 20:22:03] "GET /static/images/food/motsunabe01.jpg HTTP/1.1" 200 -
+2026-05-02 20:22:03,119 [INFO] 192.0.0.2 - - [02/May/2026 20:22:03] "GET /static/images/food/mentai01.jpg HTTP/1.1" 200 -
+2026-05-02 20:22:03,119 [INFO] 192.0.0.2 - - [02/May/2026 20:22:03] "GET /static/images/food/ramen01.jpg HTTP/1.1" 200 -
+2026-05-02 20:22:13,641 [INFO] 192.0.0.2 - - [02/May/2026 20:22:13] "GET /spots HTTP/1.1" 200 -
+2026-05-02 20:22:13,657 [INFO] 192.0.0.2 - - [02/May/2026 20:22:13] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:22:13,660 [INFO] 192.0.0.2 - - [02/May/2026 20:22:13] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:22:13,660 [INFO] 192.0.0.2 - - [02/May/2026 20:22:13] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:22:13,661 [INFO] 192.0.0.2 - - [02/May/2026 20:22:13] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:22:13,663 [INFO] 192.0.0.2 - - [02/May/2026 20:22:13] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:22:13,663 [INFO] 192.0.0.2 - - [02/May/2026 20:22:13] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 20:22:13,666 [INFO] 192.0.0.2 - - [02/May/2026 20:22:13] "[36mGET /static/css/weather.css HTTP/1.1[0m" 304 -
+2026-05-02 20:22:13,667 [INFO] 192.0.0.2 - - [02/May/2026 20:22:13] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:22:13,668 [INFO] 192.0.0.2 - - [02/May/2026 20:22:13] "[36mGET /static/images/spot/ohorikouen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:22:13,669 [INFO] 192.0.0.2 - - [02/May/2026 20:22:13] "[36mGET /static/images/spot/dontaku.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:22:13,671 [INFO] 192.0.0.2 - - [02/May/2026 20:22:13] "[36mGET /static/images/spot/dazaifutenmangu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:22:13,672 [INFO] 192.0.0.2 - - [02/May/2026 20:22:13] "[36mGET /static/images/spot/momochihama.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:22:13,673 [INFO] 192.0.0.2 - - [02/May/2026 20:22:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:22:13,675 [INFO] 192.0.0.2 - - [02/May/2026 20:22:13] "[36mGET /static/js/food.js HTTP/1.1[0m" 304 -
+2026-05-02 20:22:13,676 [INFO] 192.0.0.2 - - [02/May/2026 20:22:13] "[36mGET /static/images/spot/kushdajinjya.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:22:13,677 [INFO] 192.0.0.2 - - [02/May/2026 20:22:13] "[36mGET /static/images/spot/jazz.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:22:13,678 [INFO] 192.0.0.2 - - [02/May/2026 20:22:13] "[36mGET /static/images/spot/maidurukouen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:22:13,678 [INFO] 192.0.0.2 - - [02/May/2026 20:22:13] "[36mGET /static/images/spot/marineworld.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:22:13,680 [INFO] 192.0.0.2 - - [02/May/2026 20:22:13] "[36mGET /static/images/spot/nakasu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:22:13,681 [INFO] 192.0.0.2 - - [02/May/2026 20:22:13] "[36mGET /static/images/spot/nemophila.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:22:13,681 [INFO] 192.0.0.2 - - [02/May/2026 20:22:13] "[36mGET /static/images/spot/nishinakasu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:22:13,682 [INFO] 192.0.0.2 - - [02/May/2026 20:22:13] "[36mGET /static/images/spot/tenjinNishikouoen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:22:23,755 [INFO] 192.0.0.2 - - [02/May/2026 20:22:23] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:22:23,756 [INFO] 192.0.0.2 - - [02/May/2026 20:22:23] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:22:23,758 [INFO] 192.0.0.2 - - [02/May/2026 20:22:23] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:22:23,759 [INFO] 192.0.0.2 - - [02/May/2026 20:22:23] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:22:23,760 [INFO] 192.0.0.2 - - [02/May/2026 20:22:23] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:22:23,764 [INFO] 192.0.0.2 - - [02/May/2026 20:22:23] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 20:22:23,765 [INFO] 192.0.0.2 - - [02/May/2026 20:22:23] "[36mGET /static/css/weather.css HTTP/1.1[0m" 304 -
+2026-05-02 20:22:50,808 [INFO] 192.0.0.2 - - [02/May/2026 20:22:50] "GET /spots HTTP/1.1" 200 -
+2026-05-02 20:22:50,826 [INFO] 192.0.0.2 - - [02/May/2026 20:22:50] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:22:50,832 [INFO] 192.0.0.2 - - [02/May/2026 20:22:50] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:22:50,835 [INFO] 192.0.0.2 - - [02/May/2026 20:22:50] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:22:50,833 [INFO] 192.0.0.2 - - [02/May/2026 20:22:50] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:22:50,836 [INFO] 192.0.0.2 - - [02/May/2026 20:22:50] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:22:50,841 [INFO] 192.0.0.2 - - [02/May/2026 20:22:50] "[36mGET /static/css/weather.css HTTP/1.1[0m" 304 -
+2026-05-02 20:22:50,841 [INFO] 192.0.0.2 - - [02/May/2026 20:22:50] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 20:22:50,843 [INFO] 192.0.0.2 - - [02/May/2026 20:22:50] "[36mGET /static/images/spot/nakasu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:22:50,852 [INFO] 192.0.0.2 - - [02/May/2026 20:22:50] "[36mGET /static/images/spot/momochihama.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:22:50,857 [INFO] 192.0.0.2 - - [02/May/2026 20:22:50] "[36mGET /static/images/spot/nishinakasu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:22:50,858 [INFO] 192.0.0.2 - - [02/May/2026 20:22:50] "[36mGET /static/images/spot/ohorikouen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:22:50,860 [INFO] 192.0.0.2 - - [02/May/2026 20:22:50] "[36mGET /static/images/spot/marineworld.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:22:50,864 [INFO] 192.0.0.2 - - [02/May/2026 20:22:50] "[36mGET /static/images/spot/jazz.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:22:50,865 [INFO] 192.0.0.2 - - [02/May/2026 20:22:50] "[36mGET /static/images/spot/maidurukouen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:22:50,868 [INFO] 192.0.0.2 - - [02/May/2026 20:22:50] "[36mGET /static/images/spot/dontaku.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:22:50,869 [INFO] 192.0.0.2 - - [02/May/2026 20:22:50] "[36mGET /static/images/spot/nemophila.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:22:50,872 [INFO] 192.0.0.2 - - [02/May/2026 20:22:50] "[36mGET /static/images/spot/tenjinNishikouoen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:22:50,875 [INFO] 192.0.0.2 - - [02/May/2026 20:22:50] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:22:50,876 [INFO] 192.0.0.2 - - [02/May/2026 20:22:50] "[36mGET /static/images/spot/kushdajinjya.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:22:50,877 [INFO] 192.0.0.2 - - [02/May/2026 20:22:50] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:22:50,878 [INFO] 192.0.0.2 - - [02/May/2026 20:22:50] "[36mGET /static/images/spot/dazaifutenmangu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:22:50,880 [INFO] 192.0.0.2 - - [02/May/2026 20:22:50] "[36mGET /static/js/food.js HTTP/1.1[0m" 304 -
+2026-05-02 20:22:51,013 [INFO] 192.0.0.2 - - [02/May/2026 20:22:51] "[36mGET /static/icon/fav_ramen.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:23:00,756 [INFO] 192.0.0.2 - - [02/May/2026 20:23:00] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:23:00,757 [INFO] 192.0.0.2 - - [02/May/2026 20:23:00] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:23:00,758 [INFO] 192.0.0.2 - - [02/May/2026 20:23:00] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:23:00,759 [INFO] 192.0.0.2 - - [02/May/2026 20:23:00] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:23:00,761 [INFO] 192.0.0.2 - - [02/May/2026 20:23:00] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:23:00,763 [INFO] 192.0.0.2 - - [02/May/2026 20:23:00] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 20:23:00,766 [INFO] 192.0.0.2 - - [02/May/2026 20:23:00] "[36mGET /static/css/weather.css HTTP/1.1[0m" 304 -
+2026-05-02 20:23:12,254 [ERROR] Exception on /contact [GET]
+Traceback (most recent call last):
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/miraisato/Desktop/fukuoka-travel/app.py", line 207, in contact
+    form = UserInfoForm()
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/wtforms/form.py", line 209, in __call__
+    return type.__call__(cls, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask_wtf/form.py", line 73, in __init__
+    super().__init__(formdata=formdata, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/wtforms/form.py", line 287, in __init__
+    self.process(formdata, obj, data=data, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/wtforms/form.py", line 128, in process
+    field.process(formdata, data, extra_filters=field_extra_filters)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/wtforms/csrf/core.py", line 44, in process
+    self.current_token = self.csrf_impl.generate_csrf_token(self)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask_wtf/csrf.py", line 147, in generate_csrf_token
+    return generate_csrf(
+        secret_key=self.meta.csrf_secret, token_key=self.meta.csrf_field_name
+    )
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask_wtf/csrf.py", line 36, in generate_csrf
+    secret_key = _get_config(
+        secret_key,
+    ...<2 lines>...
+        message="A secret key is required to use CSRF.",
+    )
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask_wtf/csrf.py", line 136, in _get_config
+    raise RuntimeError(message)
+RuntimeError: A secret key is required to use CSRF.
+2026-05-02 20:23:12,259 [INFO] 192.0.0.2 - - [02/May/2026 20:23:12] "[35m[1mGET /contact HTTP/1.1[0m" 500 -
+2026-05-02 20:23:12,273 [INFO] 192.0.0.2 - - [02/May/2026 20:23:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-02 20:23:15,807 [INFO] 192.0.0.2 - - [02/May/2026 20:23:15] "GET /foods HTTP/1.1" 200 -
+2026-05-02 20:23:15,824 [INFO] 192.0.0.2 - - [02/May/2026 20:23:15] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:23:15,824 [INFO] 192.0.0.2 - - [02/May/2026 20:23:15] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:23:15,825 [INFO] 192.0.0.2 - - [02/May/2026 20:23:15] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:23:15,826 [INFO] 192.0.0.2 - - [02/May/2026 20:23:15] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:23:15,827 [INFO] 192.0.0.2 - - [02/May/2026 20:23:15] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:23:15,828 [INFO] 192.0.0.2 - - [02/May/2026 20:23:15] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 20:23:15,830 [INFO] 192.0.0.2 - - [02/May/2026 20:23:15] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:23:15,834 [INFO] 192.0.0.2 - - [02/May/2026 20:23:15] "[36mGET /static/images/food/ramen03.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:23:15,836 [INFO] 192.0.0.2 - - [02/May/2026 20:23:15] "[36mGET /static/images/food/ramen02.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:23:15,838 [INFO] 192.0.0.2 - - [02/May/2026 20:23:15] "[36mGET /static/images/food/ramen5000yen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:23:15,839 [INFO] 192.0.0.2 - - [02/May/2026 20:23:15] "[36mGET /static/images/food/motsunabe02.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:23:15,840 [INFO] 192.0.0.2 - - [02/May/2026 20:23:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:23:15,841 [INFO] 192.0.0.2 - - [02/May/2026 20:23:15] "[36mGET /static/js/food.js HTTP/1.1[0m" 304 -
+2026-05-02 20:23:15,842 [INFO] 192.0.0.2 - - [02/May/2026 20:23:15] "[36mGET /static/images/food/motsunabe03.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:23:15,843 [INFO] 192.0.0.2 - - [02/May/2026 20:23:15] "[36mGET /static/images/food/motsunabe04.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:23:15,845 [INFO] 192.0.0.2 - - [02/May/2026 20:23:15] "[36mGET /static/images/food/mentai02.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:23:15,847 [INFO] 192.0.0.2 - - [02/May/2026 20:23:15] "[36mGET /static/images/food/mentai03.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:23:15,848 [INFO] 192.0.0.2 - - [02/May/2026 20:23:15] "[36mGET /static/images/food/mentai04.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:23:15,849 [INFO] 192.0.0.2 - - [02/May/2026 20:23:15] "[36mGET /static/images/food/ramen01.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:23:15,849 [INFO] 192.0.0.2 - - [02/May/2026 20:23:15] "[36mGET /static/images/food/motsunabe01.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:23:15,850 [INFO] 192.0.0.2 - - [02/May/2026 20:23:15] "[36mGET /static/images/food/mentai01.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:24:21,347 [INFO] 192.0.0.2 - - [02/May/2026 20:24:21] "GET /course/ HTTP/1.1" 200 -
+2026-05-02 20:24:21,358 [INFO] 192.0.0.2 - - [02/May/2026 20:24:21] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:24:21,361 [INFO] 192.0.0.2 - - [02/May/2026 20:24:21] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:24:21,363 [INFO] 192.0.0.2 - - [02/May/2026 20:24:21] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:24:21,364 [INFO] 192.0.0.2 - - [02/May/2026 20:24:21] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:24:21,365 [INFO] 192.0.0.2 - - [02/May/2026 20:24:21] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:24:21,366 [INFO] 192.0.0.2 - - [02/May/2026 20:24:21] "GET /static/css/pages/course.css HTTP/1.1" 200 -
+2026-05-02 20:24:21,367 [INFO] 192.0.0.2 - - [02/May/2026 20:24:21] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:24:21,368 [INFO] 192.0.0.2 - - [02/May/2026 20:24:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:24:21,449 [INFO] 192.0.0.2 - - [02/May/2026 20:24:21] "GET /static/images/course/date1.png HTTP/1.1" 200 -
+2026-05-02 20:24:21,449 [INFO] 192.0.0.2 - - [02/May/2026 20:24:21] "GET /static/images/course/date2.png HTTP/1.1" 200 -
+2026-05-02 20:24:21,450 [INFO] 192.0.0.2 - - [02/May/2026 20:24:21] "GET /static/images/course/date3.png HTTP/1.1" 200 -
+2026-05-02 20:24:21,450 [INFO] 192.0.0.2 - - [02/May/2026 20:24:21] "GET /static/images/course/date4.png HTTP/1.1" 200 -
+2026-05-02 20:24:21,451 [INFO] 192.0.0.2 - - [02/May/2026 20:24:21] "GET /static/images/course/date5.png HTTP/1.1" 200 -
+2026-05-02 20:24:30,076 [INFO] 192.0.0.2 - - [02/May/2026 20:24:30] "GET /course/detail HTTP/1.1" 200 -
+2026-05-02 20:24:30,088 [INFO] 192.0.0.2 - - [02/May/2026 20:24:30] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:24:30,089 [INFO] 192.0.0.2 - - [02/May/2026 20:24:30] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:24:30,091 [INFO] 192.0.0.2 - - [02/May/2026 20:24:30] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:24:30,093 [INFO] 192.0.0.2 - - [02/May/2026 20:24:30] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:24:30,094 [INFO] 192.0.0.2 - - [02/May/2026 20:24:30] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:24:30,096 [INFO] 192.0.0.2 - - [02/May/2026 20:24:30] "GET /static/css/pages/course_detail.css HTTP/1.1" 200 -
+2026-05-02 20:24:30,099 [INFO] 192.0.0.2 - - [02/May/2026 20:24:30] "GET /static/js/map_course.js HTTP/1.1" 200 -
+2026-05-02 20:24:30,099 [INFO] 192.0.0.2 - - [02/May/2026 20:24:30] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:24:30,100 [INFO] 192.0.0.2 - - [02/May/2026 20:24:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:24:44,474 [ERROR] Exception on /contact [GET]
+Traceback (most recent call last):
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/miraisato/Desktop/fukuoka-travel/app.py", line 207, in contact
+    )
+    
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/wtforms/form.py", line 209, in __call__
+    return type.__call__(cls, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask_wtf/form.py", line 73, in __init__
+    super().__init__(formdata=formdata, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/wtforms/form.py", line 287, in __init__
+    self.process(formdata, obj, data=data, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/wtforms/form.py", line 128, in process
+    field.process(formdata, data, extra_filters=field_extra_filters)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/wtforms/csrf/core.py", line 44, in process
+    self.current_token = self.csrf_impl.generate_csrf_token(self)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask_wtf/csrf.py", line 147, in generate_csrf_token
+    return generate_csrf(
+        secret_key=self.meta.csrf_secret, token_key=self.meta.csrf_field_name
+    )
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask_wtf/csrf.py", line 36, in generate_csrf
+    secret_key = _get_config(
+        secret_key,
+    ...<2 lines>...
+        message="A secret key is required to use CSRF.",
+    )
+  File "/Applications/miniconda3/envs/flask-env/lib/python3.14/site-packages/flask_wtf/csrf.py", line 136, in _get_config
+    raise RuntimeError(message)
+RuntimeError: A secret key is required to use CSRF.
+2026-05-02 20:24:44,477 [INFO] 192.0.0.2 - - [02/May/2026 20:24:44] "[35m[1mGET /contact HTTP/1.1[0m" 500 -
+2026-05-02 20:24:47,700 [INFO] 192.0.0.2 - - [02/May/2026 20:24:47] "GET /access HTTP/1.1" 200 -
+2026-05-02 20:24:47,716 [INFO] 192.0.0.2 - - [02/May/2026 20:24:47] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:24:47,718 [INFO] 192.0.0.2 - - [02/May/2026 20:24:47] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:24:47,719 [INFO] 192.0.0.2 - - [02/May/2026 20:24:47] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:24:47,720 [INFO] 192.0.0.2 - - [02/May/2026 20:24:47] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:24:47,721 [INFO] 192.0.0.2 - - [02/May/2026 20:24:47] "GET /static/css/pages/access.css HTTP/1.1" 200 -
+2026-05-02 20:24:47,722 [INFO] 192.0.0.2 - - [02/May/2026 20:24:47] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:24:47,725 [INFO] 192.0.0.2 - - [02/May/2026 20:24:47] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:24:47,725 [INFO] 192.0.0.2 - - [02/May/2026 20:24:47] "GET /static/icon/airplane.svg HTTP/1.1" 200 -
+2026-05-02 20:24:47,727 [INFO] 192.0.0.2 - - [02/May/2026 20:24:47] "GET /static/icon/subway.svg HTTP/1.1" 200 -
+2026-05-02 20:24:47,728 [INFO] 192.0.0.2 - - [02/May/2026 20:24:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:24:47,727 [INFO] 192.0.0.2 - - [02/May/2026 20:24:47] "GET /static/icon/train.svg HTTP/1.1" 200 -
+2026-05-02 20:24:47,732 [INFO] 192.0.0.2 - - [02/May/2026 20:24:47] "GET /static/icon/car.svg HTTP/1.1" 200 -
+2026-05-02 20:24:47,733 [INFO] 192.0.0.2 - - [02/May/2026 20:24:47] "GET /static/icon/tower.svg HTTP/1.1" 200 -
+2026-05-02 20:24:47,732 [INFO] 192.0.0.2 - - [02/May/2026 20:24:47] "GET /static/icon/tori.svg HTTP/1.1" 200 -
+2026-05-02 20:24:47,734 [INFO] 192.0.0.2 - - [02/May/2026 20:24:47] "GET /static/icon/bus.svg HTTP/1.1" 200 -
+2026-05-02 20:24:47,734 [INFO] 192.0.0.2 - - [02/May/2026 20:24:47] "GET /static/icon/ramen.svg HTTP/1.1" 200 -
+2026-05-02 20:24:47,738 [INFO] 192.0.0.2 - - [02/May/2026 20:24:47] "GET /static/icon/cake.svg HTTP/1.1" 200 -
+2026-05-02 20:24:47,738 [INFO] 192.0.0.2 - - [02/May/2026 20:24:47] "GET /static/icon/nabe.svg HTTP/1.1" 200 -
+2026-05-02 20:24:47,739 [INFO] 192.0.0.2 - - [02/May/2026 20:24:47] "GET /static/icon/wine.svg HTTP/1.1" 200 -
+2026-05-02 20:24:47,740 [INFO] 192.0.0.2 - - [02/May/2026 20:24:47] "GET /static/icon/pasta.svg HTTP/1.1" 200 -
+2026-05-02 20:24:47,793 [INFO] 192.0.0.2 - - [02/May/2026 20:24:47] "GET /static/images/access/fukuoka.jpg HTTP/1.1" 200 -
+2026-05-02 20:24:53,239 [INFO] 192.0.0.2 - - [02/May/2026 20:24:53] "GET /course/ HTTP/1.1" 200 -
+2026-05-02 20:24:53,258 [INFO] 192.0.0.2 - - [02/May/2026 20:24:53] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:24:53,259 [INFO] 192.0.0.2 - - [02/May/2026 20:24:53] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:24:53,260 [INFO] 192.0.0.2 - - [02/May/2026 20:24:53] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:24:53,261 [INFO] 192.0.0.2 - - [02/May/2026 20:24:53] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:24:53,262 [INFO] 192.0.0.2 - - [02/May/2026 20:24:53] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:24:53,263 [INFO] 192.0.0.2 - - [02/May/2026 20:24:53] "[36mGET /static/css/pages/course.css HTTP/1.1[0m" 304 -
+2026-05-02 20:24:53,266 [INFO] 192.0.0.2 - - [02/May/2026 20:24:53] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:24:53,266 [INFO] 192.0.0.2 - - [02/May/2026 20:24:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:24:53,267 [INFO] 192.0.0.2 - - [02/May/2026 20:24:53] "[36mGET /static/images/course/date1.png HTTP/1.1[0m" 304 -
+2026-05-02 20:24:53,268 [INFO] 192.0.0.2 - - [02/May/2026 20:24:53] "[36mGET /static/images/course/date2.png HTTP/1.1[0m" 304 -
+2026-05-02 20:24:53,271 [INFO] 192.0.0.2 - - [02/May/2026 20:24:53] "[36mGET /static/images/course/date3.png HTTP/1.1[0m" 304 -
+2026-05-02 20:24:53,272 [INFO] 192.0.0.2 - - [02/May/2026 20:24:53] "[36mGET /static/images/course/date4.png HTTP/1.1[0m" 304 -
+2026-05-02 20:24:53,273 [INFO] 192.0.0.2 - - [02/May/2026 20:24:53] "[36mGET /static/images/course/date5.png HTTP/1.1[0m" 304 -
+2026-05-02 20:24:56,040 [INFO] 192.0.0.2 - - [02/May/2026 20:24:56] "GET /foods HTTP/1.1" 200 -
+2026-05-02 20:24:56,055 [INFO] 192.0.0.2 - - [02/May/2026 20:24:56] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:24:56,057 [INFO] 192.0.0.2 - - [02/May/2026 20:24:56] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:24:56,058 [INFO] 192.0.0.2 - - [02/May/2026 20:24:56] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:24:56,058 [INFO] 192.0.0.2 - - [02/May/2026 20:24:56] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:24:56,060 [INFO] 192.0.0.2 - - [02/May/2026 20:24:56] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:24:56,062 [INFO] 192.0.0.2 - - [02/May/2026 20:24:56] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:24:56,062 [INFO] 192.0.0.2 - - [02/May/2026 20:24:56] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 20:24:56,063 [INFO] 192.0.0.2 - - [02/May/2026 20:24:56] "[36mGET /static/images/food/ramen01.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:24:56,065 [INFO] 192.0.0.2 - - [02/May/2026 20:24:56] "[36mGET /static/images/food/ramen02.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:24:56,067 [INFO] 192.0.0.2 - - [02/May/2026 20:24:56] "[36mGET /static/images/food/ramen03.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:24:56,068 [INFO] 192.0.0.2 - - [02/May/2026 20:24:56] "[36mGET /static/images/food/ramen5000yen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:24:56,069 [INFO] 192.0.0.2 - - [02/May/2026 20:24:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:24:56,071 [INFO] 192.0.0.2 - - [02/May/2026 20:24:56] "[36mGET /static/images/food/motsunabe02.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:24:56,071 [INFO] 192.0.0.2 - - [02/May/2026 20:24:56] "[36mGET /static/js/food.js HTTP/1.1[0m" 304 -
+2026-05-02 20:24:56,071 [INFO] 192.0.0.2 - - [02/May/2026 20:24:56] "[36mGET /static/images/food/motsunabe03.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:24:56,074 [INFO] 192.0.0.2 - - [02/May/2026 20:24:56] "[36mGET /static/images/food/motsunabe04.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:24:56,074 [INFO] 192.0.0.2 - - [02/May/2026 20:24:56] "[36mGET /static/images/food/mentai02.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:24:56,076 [INFO] 192.0.0.2 - - [02/May/2026 20:24:56] "[36mGET /static/images/food/mentai03.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:24:56,076 [INFO] 192.0.0.2 - - [02/May/2026 20:24:56] "[36mGET /static/images/food/mentai04.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:24:56,077 [INFO] 192.0.0.2 - - [02/May/2026 20:24:56] "[36mGET /static/images/food/motsunabe01.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:24:56,077 [INFO] 192.0.0.2 - - [02/May/2026 20:24:56] "[36mGET /static/images/food/mentai01.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:25:04,473 [INFO] 192.0.0.2 - - [02/May/2026 20:25:04] "GET /spots HTTP/1.1" 200 -
+2026-05-02 20:25:04,490 [INFO] 192.0.0.2 - - [02/May/2026 20:25:04] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:25:04,493 [INFO] 192.0.0.2 - - [02/May/2026 20:25:04] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:25:04,494 [INFO] 192.0.0.2 - - [02/May/2026 20:25:04] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:25:04,496 [INFO] 192.0.0.2 - - [02/May/2026 20:25:04] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:25:04,497 [INFO] 192.0.0.2 - - [02/May/2026 20:25:04] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:25:04,499 [INFO] 192.0.0.2 - - [02/May/2026 20:25:04] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 20:25:04,500 [INFO] 192.0.0.2 - - [02/May/2026 20:25:04] "[36mGET /static/css/weather.css HTTP/1.1[0m" 304 -
+2026-05-02 20:25:04,501 [INFO] 192.0.0.2 - - [02/May/2026 20:25:04] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:25:04,503 [INFO] 192.0.0.2 - - [02/May/2026 20:25:04] "[36mGET /static/images/spot/ohorikouen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:25:04,504 [INFO] 192.0.0.2 - - [02/May/2026 20:25:04] "[36mGET /static/images/spot/momochihama.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:25:04,505 [INFO] 192.0.0.2 - - [02/May/2026 20:25:04] "[36mGET /static/images/spot/dazaifutenmangu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:25:04,506 [INFO] 192.0.0.2 - - [02/May/2026 20:25:04] "[36mGET /static/images/spot/dontaku.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:25:04,507 [INFO] 192.0.0.2 - - [02/May/2026 20:25:04] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:25:04,524 [INFO] 192.0.0.2 - - [02/May/2026 20:25:04] "[36mGET /static/js/food.js HTTP/1.1[0m" 304 -
+2026-05-02 20:25:04,526 [INFO] 192.0.0.2 - - [02/May/2026 20:25:04] "[36mGET /static/images/spot/jazz.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:25:04,532 [INFO] 192.0.0.2 - - [02/May/2026 20:25:04] "[36mGET /static/images/spot/kushdajinjya.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:25:04,538 [INFO] 192.0.0.2 - - [02/May/2026 20:25:04] "[36mGET /static/images/spot/maidurukouen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:25:04,540 [INFO] 192.0.0.2 - - [02/May/2026 20:25:04] "[36mGET /static/images/spot/marineworld.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:25:04,541 [INFO] 192.0.0.2 - - [02/May/2026 20:25:04] "[36mGET /static/images/spot/nemophila.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:25:04,542 [INFO] 192.0.0.2 - - [02/May/2026 20:25:04] "[36mGET /static/images/spot/nakasu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:25:04,543 [INFO] 192.0.0.2 - - [02/May/2026 20:25:04] "[36mGET /static/images/spot/nishinakasu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:25:04,544 [INFO] 192.0.0.2 - - [02/May/2026 20:25:04] "[36mGET /static/images/spot/tenjinNishikouoen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:03,522 [INFO] 192.0.0.2 - - [02/May/2026 20:29:03] "GET /spots HTTP/1.1" 200 -
+2026-05-02 20:29:03,536 [INFO] 192.0.0.2 - - [02/May/2026 20:29:03] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:29:03,537 [INFO] 192.0.0.2 - - [02/May/2026 20:29:03] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:29:03,538 [INFO] 192.0.0.2 - - [02/May/2026 20:29:03] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:29:03,540 [INFO] 192.0.0.2 - - [02/May/2026 20:29:03] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:29:03,541 [INFO] 192.0.0.2 - - [02/May/2026 20:29:03] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:29:03,543 [INFO] 192.0.0.2 - - [02/May/2026 20:29:03] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 20:29:03,544 [INFO] 192.0.0.2 - - [02/May/2026 20:29:03] "[36mGET /static/css/weather.css HTTP/1.1[0m" 304 -
+2026-05-02 20:29:03,546 [INFO] 192.0.0.2 - - [02/May/2026 20:29:03] "[36mGET /static/images/spot/ohorikouen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:03,547 [INFO] 192.0.0.2 - - [02/May/2026 20:29:03] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:29:03,547 [INFO] 192.0.0.2 - - [02/May/2026 20:29:03] "[36mGET /static/images/spot/momochihama.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:03,549 [INFO] 192.0.0.2 - - [02/May/2026 20:29:03] "[36mGET /static/images/spot/dontaku.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:03,549 [INFO] 192.0.0.2 - - [02/May/2026 20:29:03] "[36mGET /static/images/spot/dazaifutenmangu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:03,551 [INFO] 192.0.0.2 - - [02/May/2026 20:29:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:29:03,553 [INFO] 192.0.0.2 - - [02/May/2026 20:29:03] "[36mGET /static/js/food.js HTTP/1.1[0m" 304 -
+2026-05-02 20:29:03,555 [INFO] 192.0.0.2 - - [02/May/2026 20:29:03] "[36mGET /static/images/spot/jazz.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:03,555 [INFO] 192.0.0.2 - - [02/May/2026 20:29:03] "[36mGET /static/images/spot/kushdajinjya.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:03,557 [INFO] 192.0.0.2 - - [02/May/2026 20:29:03] "[36mGET /static/images/spot/maidurukouen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:03,558 [INFO] 192.0.0.2 - - [02/May/2026 20:29:03] "[36mGET /static/images/spot/marineworld.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:03,560 [INFO] 192.0.0.2 - - [02/May/2026 20:29:03] "[36mGET /static/images/spot/nemophila.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:03,561 [INFO] 192.0.0.2 - - [02/May/2026 20:29:03] "[36mGET /static/images/spot/nakasu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:03,563 [INFO] 192.0.0.2 - - [02/May/2026 20:29:03] "[36mGET /static/images/spot/nishinakasu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:03,564 [INFO] 192.0.0.2 - - [02/May/2026 20:29:03] "[36mGET /static/images/spot/tenjinNishikouoen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:03,673 [INFO] 192.0.0.2 - - [02/May/2026 20:29:03] "[36mGET /static/icon/fav_ramen.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:13,489 [INFO] 192.0.0.2 - - [02/May/2026 20:29:13] "GET /foods HTTP/1.1" 200 -
+2026-05-02 20:29:13,704 [INFO] 192.0.0.2 - - [02/May/2026 20:29:13] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:29:13,708 [INFO] 192.0.0.2 - - [02/May/2026 20:29:13] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:29:13,710 [INFO] 192.0.0.2 - - [02/May/2026 20:29:13] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:29:13,711 [INFO] 192.0.0.2 - - [02/May/2026 20:29:13] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:29:13,711 [INFO] 192.0.0.2 - - [02/May/2026 20:29:13] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:29:13,714 [INFO] 192.0.0.2 - - [02/May/2026 20:29:13] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 20:29:13,715 [INFO] 192.0.0.2 - - [02/May/2026 20:29:13] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:29:13,717 [INFO] 192.0.0.2 - - [02/May/2026 20:29:13] "[36mGET /static/images/food/ramen01.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:13,718 [INFO] 192.0.0.2 - - [02/May/2026 20:29:13] "[36mGET /static/images/food/ramen02.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:13,719 [INFO] 192.0.0.2 - - [02/May/2026 20:29:13] "[36mGET /static/images/food/ramen03.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:13,720 [INFO] 192.0.0.2 - - [02/May/2026 20:29:13] "[36mGET /static/images/food/ramen5000yen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:13,722 [INFO] 192.0.0.2 - - [02/May/2026 20:29:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:29:13,723 [INFO] 192.0.0.2 - - [02/May/2026 20:29:13] "[36mGET /static/js/food.js HTTP/1.1[0m" 304 -
+2026-05-02 20:29:13,724 [INFO] 192.0.0.2 - - [02/May/2026 20:29:13] "[36mGET /static/images/food/motsunabe02.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:13,725 [INFO] 192.0.0.2 - - [02/May/2026 20:29:13] "[36mGET /static/images/food/motsunabe03.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:13,726 [INFO] 192.0.0.2 - - [02/May/2026 20:29:13] "[36mGET /static/images/food/motsunabe04.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:13,727 [INFO] 192.0.0.2 - - [02/May/2026 20:29:13] "[36mGET /static/images/food/mentai02.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:13,727 [INFO] 192.0.0.2 - - [02/May/2026 20:29:13] "[36mGET /static/images/food/mentai03.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:13,728 [INFO] 192.0.0.2 - - [02/May/2026 20:29:13] "[36mGET /static/images/food/mentai04.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:13,730 [INFO] 192.0.0.2 - - [02/May/2026 20:29:13] "[36mGET /static/images/food/motsunabe01.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:13,730 [INFO] 192.0.0.2 - - [02/May/2026 20:29:13] "[36mGET /static/images/food/mentai01.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:20,472 [INFO] 192.0.0.2 - - [02/May/2026 20:29:20] "GET /spots HTTP/1.1" 200 -
+2026-05-02 20:29:20,490 [INFO] 192.0.0.2 - - [02/May/2026 20:29:20] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:29:20,493 [INFO] 192.0.0.2 - - [02/May/2026 20:29:20] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:29:20,494 [INFO] 192.0.0.2 - - [02/May/2026 20:29:20] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:29:20,495 [INFO] 192.0.0.2 - - [02/May/2026 20:29:20] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:29:20,494 [INFO] 192.0.0.2 - - [02/May/2026 20:29:20] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:29:20,496 [INFO] 192.0.0.2 - - [02/May/2026 20:29:20] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 20:29:20,498 [INFO] 192.0.0.2 - - [02/May/2026 20:29:20] "[36mGET /static/css/weather.css HTTP/1.1[0m" 304 -
+2026-05-02 20:29:20,500 [INFO] 192.0.0.2 - - [02/May/2026 20:29:20] "[36mGET /static/images/spot/ohorikouen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:20,500 [INFO] 192.0.0.2 - - [02/May/2026 20:29:20] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:29:20,502 [INFO] 192.0.0.2 - - [02/May/2026 20:29:20] "[36mGET /static/images/spot/momochihama.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:20,504 [INFO] 192.0.0.2 - - [02/May/2026 20:29:20] "[36mGET /static/images/spot/dazaifutenmangu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:20,505 [INFO] 192.0.0.2 - - [02/May/2026 20:29:20] "[36mGET /static/images/spot/dontaku.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:20,507 [INFO] 192.0.0.2 - - [02/May/2026 20:29:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:29:20,508 [INFO] 192.0.0.2 - - [02/May/2026 20:29:20] "[36mGET /static/js/food.js HTTP/1.1[0m" 304 -
+2026-05-02 20:29:20,508 [INFO] 192.0.0.2 - - [02/May/2026 20:29:20] "[36mGET /static/images/spot/jazz.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:20,510 [INFO] 192.0.0.2 - - [02/May/2026 20:29:20] "[36mGET /static/images/spot/marineworld.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:20,510 [INFO] 192.0.0.2 - - [02/May/2026 20:29:20] "[36mGET /static/images/spot/kushdajinjya.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:20,511 [INFO] 192.0.0.2 - - [02/May/2026 20:29:20] "[36mGET /static/images/spot/maidurukouen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:20,513 [INFO] 192.0.0.2 - - [02/May/2026 20:29:20] "[36mGET /static/images/spot/nakasu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:20,515 [INFO] 192.0.0.2 - - [02/May/2026 20:29:20] "[36mGET /static/images/spot/nemophila.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:20,516 [INFO] 192.0.0.2 - - [02/May/2026 20:29:20] "[36mGET /static/images/spot/nishinakasu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:20,517 [INFO] 192.0.0.2 - - [02/May/2026 20:29:20] "[36mGET /static/images/spot/tenjinNishikouoen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:29:31,788 [INFO] 192.0.0.2 - - [02/May/2026 20:29:31] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:29:31,789 [INFO] 192.0.0.2 - - [02/May/2026 20:29:31] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:29:31,789 [INFO] 192.0.0.2 - - [02/May/2026 20:29:31] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:29:31,790 [INFO] 192.0.0.2 - - [02/May/2026 20:29:31] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:29:31,792 [INFO] 192.0.0.2 - - [02/May/2026 20:29:31] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:29:31,793 [INFO] 192.0.0.2 - - [02/May/2026 20:29:31] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 20:29:31,796 [INFO] 192.0.0.2 - - [02/May/2026 20:29:31] "[36mGET /static/css/weather.css HTTP/1.1[0m" 304 -
+2026-05-02 20:31:47,689 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.2:5000
+2026-05-02 20:31:47,689 [INFO] [33mPress CTRL+C to quit[0m
+2026-05-02 20:31:53,635 [INFO] 192.0.0.2 - - [02/May/2026 20:31:53] "GET / HTTP/1.1" 200 -
+2026-05-02 20:31:53,654 [INFO] 192.0.0.2 - - [02/May/2026 20:31:53] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:31:53,654 [INFO] 192.0.0.2 - - [02/May/2026 20:31:53] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:31:53,656 [INFO] 192.0.0.2 - - [02/May/2026 20:31:53] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:31:53,657 [INFO] 192.0.0.2 - - [02/May/2026 20:31:53] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:31:53,658 [INFO] 192.0.0.2 - - [02/May/2026 20:31:53] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:31:53,660 [INFO] 192.0.0.2 - - [02/May/2026 20:31:53] "[36mGET /static/css/pages/top.css HTTP/1.1[0m" 304 -
+2026-05-02 20:31:53,662 [INFO] 192.0.0.2 - - [02/May/2026 20:31:53] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:31:53,662 [INFO] 192.0.0.2 - - [02/May/2026 20:31:53] "[36mGET /static/js/top.js HTTP/1.1[0m" 304 -
+2026-05-02 20:31:53,665 [INFO] 192.0.0.2 - - [02/May/2026 20:31:53] "[36mGET /static/images/top/fukuoka.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:31:53,668 [INFO] 192.0.0.2 - - [02/May/2026 20:31:53] "[36mGET /static/images/top/momochihama.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:31:53,670 [INFO] 192.0.0.2 - - [02/May/2026 20:31:53] "[36mGET /static/images/top/nakasu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:31:53,671 [INFO] 192.0.0.2 - - [02/May/2026 20:31:53] "[36mGET /static/images/top/maizuru_park.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:31:53,674 [INFO] 192.0.0.2 - - [02/May/2026 20:31:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:31:53,678 [INFO] 192.0.0.2 - - [02/May/2026 20:31:53] "[36mGET /static/images/top/dontaku.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:31:53,680 [INFO] 192.0.0.2 - - [02/May/2026 20:31:53] "[36mGET /static/images/logo/title_logo.png HTTP/1.1[0m" 304 -
+2026-05-02 20:31:53,681 [INFO] 192.0.0.2 - - [02/May/2026 20:31:53] "[36mGET /static/icon2/fukuoka.png HTTP/1.1[0m" 304 -
+2026-05-02 20:31:53,681 [INFO] 192.0.0.2 - - [02/May/2026 20:31:53] "[36mGET /static/icon/airplane_top.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:31:53,682 [INFO] 192.0.0.2 - - [02/May/2026 20:31:53] "[36mGET /static/icon2/folk.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:31:53,690 [INFO] 192.0.0.2 - - [02/May/2026 20:31:53] "[36mGET /static/icon2/car.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:31:53,691 [INFO] 192.0.0.2 - - [02/May/2026 20:31:53] "[36mGET /static/icon2/mail.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:31:53,692 [INFO] 192.0.0.2 - - [02/May/2026 20:31:53] "[36mGET /static/icon2/couple.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:31:53,695 [INFO] 192.0.0.2 - - [02/May/2026 20:31:53] "[36mGET /static/images/top/pick.png HTTP/1.1[0m" 304 -
+2026-05-02 20:31:53,704 [INFO] 192.0.0.2 - - [02/May/2026 20:31:53] "[36mGET /static/images/top/couple.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:31:53,706 [INFO] 192.0.0.2 - - [02/May/2026 20:31:53] "[36mGET /static/images/top/yata.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:31:56,963 [INFO] 192.0.0.2 - - [02/May/2026 20:31:56] "GET /spots HTTP/1.1" 200 -
+2026-05-02 20:31:56,977 [INFO] 192.0.0.2 - - [02/May/2026 20:31:56] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:31:56,980 [INFO] 192.0.0.2 - - [02/May/2026 20:31:56] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:31:56,983 [INFO] 192.0.0.2 - - [02/May/2026 20:31:56] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:31:56,985 [INFO] 192.0.0.2 - - [02/May/2026 20:31:56] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:31:56,987 [INFO] 192.0.0.2 - - [02/May/2026 20:31:56] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 20:31:56,987 [INFO] 192.0.0.2 - - [02/May/2026 20:31:56] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:31:56,990 [INFO] 192.0.0.2 - - [02/May/2026 20:31:56] "[36mGET /static/css/weather.css HTTP/1.1[0m" 304 -
+2026-05-02 20:31:56,991 [INFO] 192.0.0.2 - - [02/May/2026 20:31:56] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:31:56,991 [INFO] 192.0.0.2 - - [02/May/2026 20:31:56] "[36mGET /static/images/spot/ohorikouen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:31:56,993 [INFO] 192.0.0.2 - - [02/May/2026 20:31:56] "[36mGET /static/images/spot/momochihama.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:31:56,994 [INFO] 192.0.0.2 - - [02/May/2026 20:31:56] "[36mGET /static/images/spot/dazaifutenmangu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:31:56,995 [INFO] 192.0.0.2 - - [02/May/2026 20:31:56] "[36mGET /static/images/spot/dontaku.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:31:56,997 [INFO] 192.0.0.2 - - [02/May/2026 20:31:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:31:56,998 [INFO] 192.0.0.2 - - [02/May/2026 20:31:56] "[36mGET /static/js/food.js HTTP/1.1[0m" 304 -
+2026-05-02 20:31:57,003 [INFO] 192.0.0.2 - - [02/May/2026 20:31:57] "[36mGET /static/images/spot/jazz.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:31:57,004 [INFO] 192.0.0.2 - - [02/May/2026 20:31:57] "[36mGET /static/images/spot/kushdajinjya.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:31:57,005 [INFO] 192.0.0.2 - - [02/May/2026 20:31:57] "[36mGET /static/images/spot/maidurukouen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:31:57,007 [INFO] 192.0.0.2 - - [02/May/2026 20:31:57] "[36mGET /static/images/spot/nakasu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:31:57,008 [INFO] 192.0.0.2 - - [02/May/2026 20:31:57] "[36mGET /static/images/spot/marineworld.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:31:57,010 [INFO] 192.0.0.2 - - [02/May/2026 20:31:57] "[36mGET /static/images/spot/nemophila.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:31:57,012 [INFO] 192.0.0.2 - - [02/May/2026 20:31:57] "[36mGET /static/images/spot/nishinakasu.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:31:57,012 [INFO] 192.0.0.2 - - [02/May/2026 20:31:57] "[36mGET /static/images/spot/tenjinNishikouoen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:32:07,960 [INFO] 192.0.0.2 - - [02/May/2026 20:32:07] "GET /foods HTTP/1.1" 200 -
+2026-05-02 20:32:07,974 [INFO] 192.0.0.2 - - [02/May/2026 20:32:07] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:32:07,978 [INFO] 192.0.0.2 - - [02/May/2026 20:32:07] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:32:07,979 [INFO] 192.0.0.2 - - [02/May/2026 20:32:07] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:32:07,980 [INFO] 192.0.0.2 - - [02/May/2026 20:32:07] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:32:07,981 [INFO] 192.0.0.2 - - [02/May/2026 20:32:07] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:32:07,983 [INFO] 192.0.0.2 - - [02/May/2026 20:32:07] "[36mGET /static/css/pages/foods.css HTTP/1.1[0m" 304 -
+2026-05-02 20:32:07,984 [INFO] 192.0.0.2 - - [02/May/2026 20:32:07] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:32:07,985 [INFO] 192.0.0.2 - - [02/May/2026 20:32:07] "[36mGET /static/images/food/ramen01.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:32:07,986 [INFO] 192.0.0.2 - - [02/May/2026 20:32:07] "[36mGET /static/images/food/ramen02.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:32:07,987 [INFO] 192.0.0.2 - - [02/May/2026 20:32:07] "[36mGET /static/images/food/ramen03.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:32:07,989 [INFO] 192.0.0.2 - - [02/May/2026 20:32:07] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:32:07,989 [INFO] 192.0.0.2 - - [02/May/2026 20:32:07] "[36mGET /static/images/food/ramen5000yen.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:32:07,990 [INFO] 192.0.0.2 - - [02/May/2026 20:32:07] "[36mGET /static/js/food.js HTTP/1.1[0m" 304 -
+2026-05-02 20:32:07,991 [INFO] 192.0.0.2 - - [02/May/2026 20:32:07] "[36mGET /static/images/food/motsunabe02.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:32:07,993 [INFO] 192.0.0.2 - - [02/May/2026 20:32:07] "[36mGET /static/images/food/motsunabe03.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:32:07,995 [INFO] 192.0.0.2 - - [02/May/2026 20:32:07] "[36mGET /static/images/food/mentai02.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:32:07,996 [INFO] 192.0.0.2 - - [02/May/2026 20:32:07] "[36mGET /static/images/food/motsunabe04.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:32:07,997 [INFO] 192.0.0.2 - - [02/May/2026 20:32:07] "[36mGET /static/images/food/mentai03.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:32:07,999 [INFO] 192.0.0.2 - - [02/May/2026 20:32:07] "[36mGET /static/images/food/mentai04.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:32:08,048 [INFO] 192.0.0.2 - - [02/May/2026 20:32:08] "[36mGET /static/images/food/motsunabe01.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:32:08,048 [INFO] 192.0.0.2 - - [02/May/2026 20:32:08] "[36mGET /static/images/food/mentai01.jpg HTTP/1.1[0m" 304 -
+2026-05-02 20:32:16,299 [INFO] 192.0.0.2 - - [02/May/2026 20:32:16] "GET /access HTTP/1.1" 200 -
+2026-05-02 20:32:16,313 [INFO] 192.0.0.2 - - [02/May/2026 20:32:16] "[36mGET /static/css/base/reset.css HTTP/1.1[0m" 304 -
+2026-05-02 20:32:16,315 [INFO] 192.0.0.2 - - [02/May/2026 20:32:16] "[36mGET /static/css/base/variables.css HTTP/1.1[0m" 304 -
+2026-05-02 20:32:16,316 [INFO] 192.0.0.2 - - [02/May/2026 20:32:16] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-05-02 20:32:16,317 [INFO] 192.0.0.2 - - [02/May/2026 20:32:16] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-05-02 20:32:16,318 [INFO] 192.0.0.2 - - [02/May/2026 20:32:16] "[36mGET /static/css/base/style.css HTTP/1.1[0m" 304 -
+2026-05-02 20:32:16,319 [INFO] 192.0.0.2 - - [02/May/2026 20:32:16] "[36mGET /static/css/pages/access.css HTTP/1.1[0m" 304 -
+2026-05-02 20:32:16,320 [INFO] 192.0.0.2 - - [02/May/2026 20:32:16] "[36mGET /static/images/logo/logo-re.png HTTP/1.1[0m" 304 -
+2026-05-02 20:32:16,321 [INFO] 192.0.0.2 - - [02/May/2026 20:32:16] "[36mGET /static/icon/train.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:32:16,321 [INFO] 192.0.0.2 - - [02/May/2026 20:32:16] "[36mGET /static/icon/airplane.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:32:16,322 [INFO] 192.0.0.2 - - [02/May/2026 20:32:16] "[36mGET /static/icon/subway.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:32:16,324 [INFO] 192.0.0.2 - - [02/May/2026 20:32:16] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-02 20:32:16,325 [INFO] 192.0.0.2 - - [02/May/2026 20:32:16] "[36mGET /static/icon/bus.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:32:16,327 [INFO] 192.0.0.2 - - [02/May/2026 20:32:16] "[36mGET /static/icon/tower.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:32:16,327 [INFO] 192.0.0.2 - - [02/May/2026 20:32:16] "[36mGET /static/icon/car.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:32:16,327 [INFO] 192.0.0.2 - - [02/May/2026 20:32:16] "[36mGET /static/icon/tori.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:32:16,330 [INFO] 192.0.0.2 - - [02/May/2026 20:32:16] "[36mGET /static/icon/ramen.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:32:16,330 [INFO] 192.0.0.2 - - [02/May/2026 20:32:16] "[36mGET /static/icon/cake.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:32:16,332 [INFO] 192.0.0.2 - - [02/May/2026 20:32:16] "[36mGET /static/icon/nabe.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:32:16,332 [INFO] 192.0.0.2 - - [02/May/2026 20:32:16] "[36mGET /static/icon/pasta.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:32:16,334 [INFO] 192.0.0.2 - - [02/May/2026 20:32:16] "[36mGET /static/icon/wine.svg HTTP/1.1[0m" 304 -
+2026-05-02 20:32:16,382 [INFO] 192.0.0.2 - - [02/May/2026 20:32:16] "[36mGET /static/images/access/fukuoka.jpg HTTP/1.1[0m" 304 -

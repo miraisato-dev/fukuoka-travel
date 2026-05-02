@@ -1,0 +1,62 @@
+<!-- admin/contact.html -->
+{% extends "contact/base.html" %}
+
+{% set title = "管理画面" %}
+
+<!-- {% block page_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/pages/contact.css') }}">
+{% endblock %} -->
+
+{% block contact_content %}
+
+<div class="box01">
+    <h1>問い合わせ一覧</h1>
+</div>
+<div class="box03">
+    <table>
+{% for c in contacts %}
+<table class="detail-table">
+    <tr>
+        <th>問い合わせ番号</th>
+        <td>{{ c.id }}</td>
+    </tr>
+
+    <tr>
+        <th>日時</th>
+        <td>{{ c.created_at }}</td>
+    </tr>
+
+    <tr>
+        <th>名前</th>
+        <td>{{ c.name }}</td>
+    </tr>
+
+    <tr>
+        <th>件名</th>
+        <td>{{ c.title }}</td>
+    </tr>
+
+    <tr>
+        <th>メール</th>
+        <td>{{ c.email }}</td>
+    </tr>
+
+    <tr>
+        <th>内容</th>
+        <td>{{ c.note }}</td>
+    </tr>
+
+    <tr>
+        <th>操作</th>
+        <td>
+            <form action="/delete/{{ c.id }}" method="POST"
+                onsubmit="return confirm('削除しますか？');">
+                <button class="btn-delete">削除</button>
+            </form>
+        </td>
+    </tr>
+
+    </table>
+    {% endfor %}
+</div>
+{% endblock %}
