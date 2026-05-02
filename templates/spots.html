@@ -58,10 +58,17 @@
 </section>
 
 <!-- ギャラリー・観光 -->
+
 <section class="gallery">
     <div class="gallery-image">
+<<<<<<< HEAD
         <img id="main-image" class="spot-img">
         <div class="gallery-title" id="gallery-title"></div>
+=======
+            <img id="main-image"
+                class="spot-img">
+            <div class="gallery-title" id="gallery-title"></div>
+>>>>>>> 9789b4718f35efdbd8bb8ba7e48fe1c2b580dc8d
     </div>
 
     <div class="gallery-content wrapper">
@@ -70,7 +77,12 @@
         <ul class="gallery-thumbnails">
             {% for g in gallery %}
             <li>
+<<<<<<< HEAD
                 <img src="{{ url_for('static', filename=g.image) }}" alt="{{ g.alt }}" class="spot-img"
+=======
+                <img src="{{ url_for('static', filename=g.image) }}"
+                    class="spot-img"
+>>>>>>> 9789b4718f35efdbd8bb8ba7e48fe1c2b580dc8d
                     data-title="{{ g.title }}">
             </li>
             {% endfor %}
