@@ -143,9 +143,10 @@ textarea {
     resize: vertical;
 }
 
+/* 0502変更 */
 /* ボタン */
 .contact-container input[type="submit"],
-button[type="submit"] {
+.contact-container button[type="submit"] {
     /* margin-top: 30px; */
     padding: 12px;
     width: 200px;
