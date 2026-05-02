@@ -104,25 +104,18 @@ label {
     font-weight: bold;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-textarea {
-    border: 1px solid #bbb;
-    border-radius: 10px;
-    background: #fff;
-    padding: 10px 12px;
-    /* width: 100%; */
-    box-sizing: border-box;
-    outline: none;
-    margin-top: 5px;
-}
-
 .contact-container input[type="text"],
 .contact-container input[type="email"],
 .contact-container input[type="tel"],
 .contact-container textarea {
     width: 100%;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    background: #fff;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 5px;
 }
 
 select {
