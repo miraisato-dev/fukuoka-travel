@@ -28,8 +28,6 @@ Webフォントや少ない色使いに厳選することでまとまりを出�
 
 ## 🛠 技術スタック
 
-## 🛠 技術スタック
-
 | Category | Technology |
 |---|---|
 | Backend | Flask |
