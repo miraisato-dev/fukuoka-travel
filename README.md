@@ -27,14 +27,19 @@ https://kankou-project.onrender.com/
 Webフォントや少ない色使いに厳選することでまとまりを出しました
 
 ## 🛠 技術スタック
-Category	Technology
-Backend	Flask
-Database	PostgreSQL(本番環境)
-Frontend	HTML / CSS / JS
-Version Control	Git / GitHub
+
+## 🛠 技術スタック
+
+| Category | Technology |
+|---|---|
+| Backend | Flask |
+| Database | PostgreSQL |
+| Frontend | HTML / CSS / JavaScript |
+| Infrastructure | Render / AWS S3 |
+| Tools | Git / GitHub |
 
 ## フレームワーク
-<img width="907" height="447" alt="Screenshot 2026-05-08 at 9 09 01 PM" src="https://github.com/user-attachments/assets/5b66c651-bd10-4153-b71a-63dc725ed514" />
+![framework](./docs/framework.png)
 
 ## 🚀 セットアップ方法
 git clone https://github.com/miraisato-dev/fukuoka-travel.git
