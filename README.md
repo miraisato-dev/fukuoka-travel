@@ -1,6 +1,6 @@
 # fukuoka-travel
+<img width="1470" height="831" alt="Screenshot 2026-05-08 at 9 26 28 PM" src="https://github.com/user-attachments/assets/e4790e60-d05f-4d79-b523-fd10d8657191" />
 
-![top](./docs/top.png)
 グループワークで作成した福岡県の観光サイトです。
 
 ## 🔗 Live Demo
@@ -96,12 +96,27 @@ app.pyにすべてを入れ込んでいるため今後増える場合は関数�
 
 ## 📸 スクリーンショット
 トップページ 
-スポットページ 
+<img width="1470" height="831" alt="Screenshot 2026-05-08 at 9 26 28 PM" src="https://github.com/user-attachments/assets/d142a1c5-4342-4913-888a-2e15e9f97b00" />
+
+スポットページ/
+![Uploading Screenshot 2026-05-08 at 9.14.40 PM.png…]()
 グルメページ 
+![Uploading Screenshot 2026-05-08 at 9.14.27 PM.png…]()<img width="1470" height="956" alt="Screenshot 2026-05-08 at 9 14 54 PM" src="https://github.com/user-attachments/assets/5d3ae40f-a13c-4c1d-a45f-785d3d08a009" />
+
+
 アクセスページ 
+![Uploading Screenshot 2026-05-08 at 9.14.54 PM.png…]()
+
 モデルコースページ 
+<img width="1470" height="956" alt="Screenshot 2026-05-08 at 9 15 27 PM" src="https://github.com/user-attachments/assets/a63da297-d184-4270-91fe-d4a6f6d4adbc" />
+
 コース詳細ページ
+<img width="1470" height="956" alt="Screenshot 2026-05-08 at 9 15 55 PM" src="https://github.com/user-attachments/assets/20f1114e-e08d-4743-b6f8-9393dd0f7bdf" />
+
+
 お問い合わせページ 
+<img width="1470" height="956" alt="Screenshot 2026-05-08 at 9 15 06 PM" src="https://github.com/user-attachments/assets/ddbf9377-cf74-456a-ae56-b22891f001db" />
+
 
 ## 👨‍💻 作者
 miraisato-dev GitHub: https://github.com/miraisato-dev
